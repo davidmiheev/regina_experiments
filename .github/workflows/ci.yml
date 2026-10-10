@@ -1,0 +1,17 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Regina
+        run: scripts/install-regina-ubuntu.sh
+      - name: Environment
+        run: make env
+      - name: Unit tests + smoke experiment
+        run: make test

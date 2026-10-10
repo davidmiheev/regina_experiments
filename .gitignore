@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+# Run outputs are regenerated from code; commit curated summaries under data/ instead.
+results/*
+!results/.gitkeep
