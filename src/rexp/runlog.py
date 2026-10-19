@@ -43,14 +43,22 @@ def _git_sha() -> str | None:
         return None
 
 
+# Parameters that may change between an interrupted run and its resumption.
+VOLATILE_PARAMS = {"workers", "resume"}
+
+
+def _comparable(params: dict) -> dict:
+    return {k: v for k, v in params.items() if k not in VOLATILE_PARAMS}
+
+
 class Run:
+    """Log one run. Pass ``resume=<run dir>`` to append to an interrupted run;
+    ``run.existing`` then holds the records already written."""
+
     def __init__(self, experiment: str, params: dict | None = None,
-                 results_dir: Path | None = None):
+                 results_dir: Path | None = None, resume: Path | None = None):
         stamp = _dt.datetime.now(_dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-        self.dir = (results_dir or RESULTS_DIR) / experiment / stamp
-        self.meta = {
-            "experiment": experiment,
-            "params": params or {},
+        session = {
             "regina": regina.versionString(),
             "python": sys.version.split()[0],
             "host": platform.node(),
@@ -58,13 +66,45 @@ class Run:
             "argv": sys.argv,
             "started": stamp,
         }
-        self.n_records = 0
+        self.existing: list[dict] = []
+        if resume is not None:
+            self.dir = Path(resume)
+            self.meta = json.loads((self.dir / "meta.json").read_text())
+            if self.meta["experiment"] != experiment:
+                raise ValueError(f"{resume} is a run of {self.meta['experiment']}")
+            if params is not None and _comparable(self.meta["params"]) != _comparable(params):
+                raise ValueError(f"parameters differ from the run being resumed:\n"
+                                 f"  was {self.meta['params']}\n  now {params}")
+            self.existing = self._read_existing()
+            self.meta.setdefault("resumes", []).append(
+                {**session, "records_before": len(self.existing),
+                 "previous_status": self.meta.get("status", "interrupted")})
+        else:
+            self.dir = (results_dir or RESULTS_DIR) / experiment / stamp
+            self.meta = {"experiment": experiment, "params": params or {}, **session}
+        self.n_records = len(self.existing)
         self._fh = None
         self._t0 = 0.0
 
+    def _read_existing(self) -> list[dict]:
+        """Parse records.jsonl, dropping a trailing line cut off by a kill."""
+        path = self.dir / "records.jsonl"
+        good, records = 0, []
+        with open(path, "rb") as fh:
+            for line in fh:
+                try:
+                    records.append(json.loads(line))
+                except json.JSONDecodeError:
+                    break
+                good += len(line)
+        with open(path, "r+b") as fh:
+            fh.truncate(good)
+        return records
+
     def __enter__(self) -> "Run":
         self.dir.mkdir(parents=True, exist_ok=True)
-        self._fh = open(self.dir / "records.jsonl", "w")
+        # Line-buffered, so a killed run loses at most the record in flight.
+        self._fh = open(self.dir / "records.jsonl", "a" if self.existing else "w", buffering=1)
         self._t0 = time.perf_counter()
         self._write_meta()
         return self
@@ -72,13 +112,15 @@ class Run:
     def record(self, **fields: Any) -> None:
         self._fh.write(json.dumps(fields, default=str) + "\n")
         self.n_records += 1
-        if self.n_records % 500 == 0:
-            self._fh.flush()
 
     def __exit__(self, exc_type, exc, tb) -> None:
         self._fh.close()
         self.meta["records"] = self.n_records
-        self.meta["wall_seconds"] = round(time.perf_counter() - self._t0, 3)
+        secs = round(time.perf_counter() - self._t0, 3)
+        if self.meta.get("resumes"):
+            self.meta["resumes"][-1]["wall_seconds"] = secs
+        else:
+            self.meta["wall_seconds"] = secs
         self.meta["status"] = "ok" if exc_type is None else f"error: {exc_type.__name__}: {exc}"
         self._write_meta()
         print(f"[{self.meta['experiment']}] {self.n_records} records -> {self.dir}",

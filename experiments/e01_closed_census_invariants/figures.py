@@ -47,10 +47,10 @@ def separation(summary, out):
         ax.annotate(f"{ys[-1]}", (rs[-1], ys[-1]), xytext=(8, dy),
                     textcoords="offset points", va="center", color=INK, fontsize=8.5)
     ax.axhline(h1, color=MUTED, linewidth=1, linestyle=(0, (4, 3)), zorder=2)
-    ax.annotate(f"H₁ alone: {h1}", (rs[-1], h1), xytext=(0, 4), textcoords="offset points",
+    ax.annotate(f"H$_1$ alone: {h1}", (rs[-1], h1), xytext=(0, 4), textcoords="offset points",
                 ha="center", va="bottom", color=INK_2, fontsize=8.5)
     ax.set_xticks(rs)
-    ax.set_xlabel("R  (invariant = H₁ + TV₃ … TV_R)")
+    ax.set_xlabel(r"$R$   (invariant = H$_1$ + TV$_3$ … TV$_R$)")
     ax.set_ylabel(f"manifolds identified uniquely\n(of {total})")
     ax.set_ylim(0, None)
     ax.set_xlim(rs[0] - 0.3, rs[-1] + 1.4)
@@ -61,22 +61,27 @@ def separation(summary, out):
 
 
 def cost(summary, out):
-    secs = summary["secs"]
-    size = max(secs, key=int)
+    quant = summary["secs_quantiles"]
+    size = max(quant, key=int)
     rs = [int(r) for r in summary["levels"]]
-    ys = [secs[size][f"tv{r}"] * 1000 for r in rs]
-    fig, ax = plt.subplots(figsize=(6.2, 3.0))
-    ax.plot(rs, ys, color=SERIES[0], linewidth=2, marker="o", markersize=5,
-            markeredgecolor="white", markeredgewidth=1, zorder=3)
-    for r, y in zip(rs, ys):
-        ax.annotate(f"{y:.0f}" if y >= 10 else f"{y:.1f}", (r, y), xytext=(0, 7),
-                    textcoords="offset points", ha="center", color=INK_2, fontsize=8)
+    fig, ax = plt.subplots(figsize=(6.2, 3.2))
+    for colour, (key, label), dy in zip(SERIES, [("median", "median"), ("p99", "99th percentile")],
+                                        (-9, 7)):
+        ys = [quant[size][f"tv{r}"][key] * 1000 for r in rs]
+        ax.plot(rs, ys, color=colour, linewidth=2, marker="o", markersize=5,
+                markeredgecolor="white", markeredgewidth=1, label=label, zorder=3)
+        y = ys[-1]
+        ax.annotate(f"{y / 1000:.1f} s" if y >= 1000 else f"{y:.0f} ms", (rs[-1], y),
+                    xytext=(8, dy), textcoords="offset points", va="center",
+                    color=INK, fontsize=8.5)
     ax.set_yscale("log")
-    ax.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: f"{v:g}"))
+    ax.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(
+        lambda v, _: f"{v / 1000:g} s" if v >= 1000 else f"{v:g} ms"))
     ax.set_xticks(rs)
+    ax.set_xlim(rs[0] - 0.3, rs[-1] + 1.2)
     ax.set_xlabel("r")
-    ax.set_ylabel(f"ms per manifold\n({size}-tetrahedron triangulations)")
-    ax.margins(y=0.25)
+    ax.set_ylabel(f"time per manifold\n({size}-tetrahedron triangulations)")
+    ax.legend(loc="upper left", frameon=False, fontsize=8.5)
     fig.tight_layout()
     fig.savefig(out / "cost.svg")
     plt.close(fig)

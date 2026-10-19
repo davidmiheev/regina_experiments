@@ -96,8 +96,11 @@ def main() -> None:
                     help="TV levels <= this are also computed on non-representative "
                          "triangulations, for the consistency check (default 6)")
     ap.add_argument("--workers", type=int, default=os.cpu_count())
+    ap.add_argument("--resume", type=Path, metavar="RUN_DIR",
+                    help="finish an interrupted run (same parameters) in place")
     args = ap.parse_args()
     args.check_r = min(args.check_r, args.r_max)
+    params = {k: v for k, v in vars(args).items() if k != "resume"}
 
     seen = set()
     jobs = []
@@ -105,15 +108,17 @@ def main() -> None:
         manifold = label.split(" : #")[0]
         jobs.append((label, tri.isoSig(), manifold not in seen, args.r_max, args.check_r))
         seen.add(manifold)
-    print(f"{len(jobs)} triangulations of {len(seen)} manifolds, "
-          f"r = 3..{args.r_max}, {args.workers} workers", file=sys.stderr)
 
-    with Run(EXPERIMENT, params=vars(args)) as run, \
+    with Run(EXPERIMENT, params=params, resume=args.resume) as run, \
             ProcessPoolExecutor(max_workers=args.workers) as pool:
-        for i, rec in enumerate(pool.map(compute, jobs, chunksize=4), 1):
+        done = {r["label"] for r in run.existing}
+        todo = [j for j in jobs if j[0] not in done]
+        print(f"{len(jobs)} triangulations of {len(seen)} manifolds, r = 3..{args.r_max}; "
+              f"{len(todo)} to compute with {args.workers} workers", file=sys.stderr)
+        for i, rec in enumerate(pool.map(compute, todo, chunksize=4), 1):
             run.record(**rec)
             if i % 1000 == 0:
-                print(f"  {i}/{len(jobs)}", file=sys.stderr)
+                print(f"  {i}/{len(todo)}", file=sys.stderr)
 
 
 if __name__ == "__main__":

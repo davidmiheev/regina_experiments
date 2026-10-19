@@ -1,35 +1,42 @@
-# E01 — How much do cheap invariants separate the closed census?
+# E01 — Turaev–Viro invariants on the closed orientable census ✅
 
-**Question.** Among the distinct closed orientable prime 3-manifolds in Regina's
-census, how many are told apart by H₁, by Turaev–Viro invariants TV_r, and by
-their combination — and which pairs survive everything?
+**Full writeup:** [writeup.md](writeup.md) · [writeup.pdf](writeup.pdf)
 
-**Why.** Calibrates which invariants are worth computing in later sweeps, and
-exercises the whole pipeline (census iteration → invariants → JSONL → analysis).
+**Question.** Among the 4,979 manifolds in Regina's closed orientable census
+(≤ 10 tetrahedra), how many do H₁ and the Turaev–Viro invariants TV_r
+(r ≤ 10, at all roots of unity) tell apart, and which groups survive?
 
-**Method.** `run.py` iterates the `closed-or` census up to `--max-size`
-tetrahedra and records H₁, Regina's simplified π₁ presentation (plus
-`recogniseGroup()`), and `turaevViroApprox(r)` for r ∈ {3..7} at root 1.
-`analyze.py` groups manifolds by each invariant.
+**Method.** `run.py` computes, for each of the 14,720 triangulations: H₁,
+π₁, and the exact TV_r for r = 3..6 (both parities for odd r). For one
+triangulation per manifold it also computes r = 7..10. Each exact value is
+evaluated at every root w. `analyze.py` checks consistency and compares one
+root against all roots. It also reports drop-one tables, survivor groups
+classified by lens-space homotopy type, and cost. `figures.py` draws the
+charts from `data/e01/summary.json`.
 
-**Sanity checks.** `analyze.py` verifies that all triangulations of the same
-manifold give identical invariants. For lens spaces, L(p,q) ≅ L(p,q') iff
-q' ≡ ±q^{±1} (mod p), so lens-space clashes can be checked against the
-classification (and confirm the census names are pairwise distinct).
+**Results** (Regina 7.4.1, 2026-10-19, 8.1 CPU-hours):
+- All triangulations of each manifold agree (9,741 rechecked), and the
+  census lens-space names are pairwise distinct.
+- Roots of the same parity are Galois conjugates, so they add nothing beyond
+  w = 1; the data confirm it. The second parity at odd r does add
+  information: H₁ + TV₃..₁₀ identifies 4,052 manifolds uniquely vs 4,006 at
+  w = 1 alone (4,304 vs 4,273 classes).
+- The parities differ only when H₁(M; Z₂) ≠ 0 (1,187 of 2,904 such
+  manifolds; none of the other 2,075).
+- 927 manifolds in 252 groups survive. 229 groups are only lens spaces,
+  including 577 pairs that are not homotopy equivalent. 8 groups mix lens
+  spaces with Seifert fibred spaces whose π₁ is infinite.
+- Recommended set: H₁ + TV₄..₉, both parities (4,294 classes). TV₃ is
+  redundant, and TV₁₀ adds 10 classes at the highest cost (median 1.0 s,
+  maximum 182 s per manifold).
 
 **Run.**
 ```sh
-make e01 ARGS="--max-size 9" && make e01-analyze
+make e01 ARGS="--r-max 10"      # add --resume RUN_DIR to finish an interrupted run
+make e01-export ARGS="results/e01_closed_census_invariants/<run>"
+make writeups
 ```
 
-**Preliminary results** (Regina 7.4.1, 2026-10-10, ≤ 9 tetrahedra, ~5 s):
-4476 triangulations, 1901 manifolds. H₁ alone gives 272 classes; H₁ + TV_{3..7}
-(root 1) gives 1384 classes, with 255 groups still unseparated. The largest
-unseparated groups are lens spaces with the same p, e.g.
-L(61,8) | L(61,9) | L(61,11) | ….
-
-**Next.**
-- Add the other roots (`whichRoot` coprime to 2r) and larger r; measure the gain.
-- Run the full census (≤ 11 tetrahedra).
-- For non-lens survivors, try π₁ (finite-quotient / abelian-cover counts) and,
-  for hyperbolic ones, volume.
+**Next.** Understand exactly when the parities differ. Add invariants that
+separate lens spaces (the linking form, torsion). Try TV₁₁ and TV₁₂ on the
+survivors only.

@@ -49,6 +49,25 @@ class RunTest(unittest.TestCase):
             self.assertEqual(rec["h1"], "Z_5")
 
 
+    def test_resume_appends_and_drops_truncated_line(self):
+        with tempfile.TemporaryDirectory() as d:
+            with Run("unit", params={"x": 1, "workers": 2}, results_dir=Path(d)) as run:
+                run.record(label="a")
+                run.record(label="b")
+            with open(run.dir / "records.jsonl", "a") as fh:
+                fh.write('{"label": "c", "cut')          # simulate a kill mid-write
+            with Run("unit", params={"x": 1, "workers": 8}, resume=run.dir) as again:
+                self.assertEqual([r["label"] for r in again.existing], ["a", "b"])
+                again.record(label="c")
+            labels = [json.loads(l)["label"] for l in open(run.dir / "records.jsonl")]
+            self.assertEqual(labels, ["a", "b", "c"])
+            meta = json.loads((run.dir / "meta.json").read_text())
+            self.assertEqual(meta["records"], 3)
+            self.assertEqual(meta["resumes"][0]["records_before"], 2)
+            with self.assertRaises(ValueError):
+                Run("unit", params={"x": 2}, resume=run.dir)
+
+
 class SmokeTest(unittest.TestCase):
     def test_smoke_experiment_passes(self):
         proc = subprocess.run([sys.executable, str(ROOT / "experiments/e00_smoke/run.py")],

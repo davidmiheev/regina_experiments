@@ -3,7 +3,13 @@
 Computational experiments in low-dimensional topology with
 [Regina](https://regina-normal.github.io), driven from its Python bindings.
 
-The roadmap is in **[EXPERIMENTS.md](EXPERIMENTS.md)**.
+The roadmap is in **[EXPERIMENTS.md](EXPERIMENTS.md)**. Each finished
+experiment has a writeup in Markdown and PDF:
+
+| | writeup |
+|---|---|
+| E00 smoke test | [md](experiments/e00_smoke/writeup.md) · [pdf](experiments/e00_smoke/writeup.pdf) |
+| E01 Turaev–Viro invariants on the closed census | [md](experiments/e01_closed_census_invariants/writeup.md) · [pdf](experiments/e01_closed_census_invariants/writeup.pdf) |
 
 ## Setup (Ubuntu 24.04 / 25.04 / 25.10)
 
@@ -34,13 +40,14 @@ EXPERIMENTS.md            roadmap: what we run, in what order, and why
 experiments/
   _template/              copy to start a new experiment (run.py + README.md)
   e00_smoke/              known-answer checks of every Regina feature we use
-  e01_closed_census_invariants/
+  e01_closed_census_invariants/   run.py, analyze.py, figures.py, writeup.{md,pdf}
 src/rexp/                 shared helpers (on PYTHONPATH via the Makefile)
   census.py               iter_census("closed-or" | "cusped-hyp-or" | "knots" | ...)
   runlog.py               Run(...) context manager and timed()
 tests/                    unittest suite for rexp + smoke
-scripts/                  install + interpreter discovery
-data/                     small curated inputs and outputs worth committing
+scripts/                  install, interpreter discovery, writeup build
+docs/writeup.css          print stylesheet for the PDF writeups
+data/                     curated outputs worth committing (e.g. data/e01/)
 results/                  run outputs (git-ignored)
 ```
 
@@ -50,6 +57,17 @@ Each run writes `results/<experiment>/<UTC timestamp>/` containing:
 
 Results are reproducible from code, so they are not committed. Copy curated
 tables into `data/` when they are worth keeping.
+
+## Writeups
+
+```sh
+make install-writeup-deps   # pandoc + matplotlib (Chromium must already be present)
+make writeups               # experiments/*/writeup.md -> writeup.pdf
+```
+
+`scripts/build-writeup.sh` uses pandoc to turn the Markdown into HTML (math
+as MathML, figures embedded). Headless Chromium then prints the HTML to A4
+PDF.
 
 ## Bundled census data
 

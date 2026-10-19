@@ -11,7 +11,7 @@ Status: ✅ done · 🟡 started · ⬜ not started
 | ID  | Experiment | Status | Effort | Depends on |
 |-----|------------|--------|--------|------------|
 | E00 | Smoke test of every feature we rely on | ✅ | — | — |
-| E01 | How well cheap invariants separate the closed census | 🟡 | S | E00 |
+| E01 | How well cheap invariants separate the closed census | ✅ | S | E00 |
 | E02 | Regenerate the census with `tricensus` and diff it against the shipped data | ⬜ | S | E00 |
 | E03 | Scramble, then simplify: when does greedy simplification fail? | ⬜ | M | E00 |
 | E04 | Pachner-graph connectivity between minimal triangulations | ⬜ | M | E02 |
@@ -22,24 +22,28 @@ Status: ✅ done · 🟡 started · ⬜ not started
 | E09 | 4-manifolds: small census, invariants, simplification | ⬜ | M | E02 |
 | E10 | How Turaev–Viro runtime scales with treewidth | ⬜ | M | E01 |
 
-**Suggested first week:** finish E01, then E02 and E06 (all are quick and
-validate the tooling). Then E03 and E07, the first two that study algorithm
+**Suggested next:** E02 and E06 (both quick, and they validate the
+tooling). Then E03 and E07, the first two that study algorithm
 behaviour rather than reproduce known data.
 
 ---
 
 ## Tier 1: calibration (known answers, fast)
 
-### E01 · How well cheap invariants separate the closed census 🟡
-*How many distinct closed orientable census manifolds can H₁, π₁ and TV_r tell
+### E01 · How well cheap invariants separate the closed census ✅
+*How many distinct closed orientable census manifolds can H₁ and TV_r tell
 apart, and which groups survive all of them?*
-- **Have:** a sweep up to 9 tetrahedra (~5 s). H₁ + TV₃…₇ at root 1 separates
-  1129 of 1901 manifolds; the survivors are mostly lens spaces with the same p.
-- **Next:** all roots (`turaevViroApprox(r, whichRoot)`), larger r, and the
-  full ≤ 11-tetrahedron census (14,720 triangulations). Check the lens-space
-  survivors against the classification L(p,q) ≅ L(p,q′) ⇔ q′ ≡ ±q^{±1}.
-- **Output:** the cheapest set of invariants that maximises separation, and a
-  list of hard pairs to feed into later experiments.
+- **Done:** the full ≤ 10-tetrahedron census (4,979 manifolds), with exact
+  TV_r for r ≤ 10 at all roots. Writeup:
+  `experiments/e01_closed_census_invariants/writeup.pdf`.
+- **Headline:** H₁ + TV₃..₁₀ identifies 4,052 of 4,979 manifolds uniquely.
+  Roots of the same parity add nothing (Galois conjugates). The second
+  parity adds 46 manifolds, and differs from the first only when
+  H₁(M; Z₂) ≠ 0. 252 groups survive: mostly lens spaces, including 577
+  pairs that are not homotopy equivalent.
+- **Follow-ups:** characterise when the parities differ; add lens-space
+  invariants (the linking form, torsion); compute TV₁₁₊ on the survivors
+  only.
 
 ### E02 · Regenerate the census with `tricensus` ⬜
 *Can we reproduce Regina's closed orientable census for n ≤ 6 from scratch?*

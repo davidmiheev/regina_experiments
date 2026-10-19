@@ -27,7 +27,7 @@ tr { break-inside: avoid; }
 th, td { padding: .25em .6em; border-bottom: 1px solid var(--rule); vertical-align: top; }
 thead th { border-bottom: 1.5px solid var(--ink); text-align: left; }
 figure { margin: 1em 0; break-inside: avoid; text-align: center; }
-figure img { max-width: 100%; }
+figure img { max-width: 100%; width: 88%; }
 figcaption { font-size: 9pt; color: var(--ink-2); text-align: left; margin-top: .3em; }
 blockquote { margin: 1em 0; padding: .2em 1em; border-left: 3px solid var(--accent); color: var(--ink-2); }
 math { font-size: 1.05em; }

@@ -212,8 +212,30 @@ def main() -> None:
         summary["secs"][str(n)] = means
         out(f"{n:<6}{len(rs):>6}" + "".join(f"{means[k]:>9.4f}" for k in keys))
 
+    # Costs are heavy-tailed (a few triangulations take minutes), so also
+    # record quantiles.
+    def q(xs, p):
+        xs = sorted(xs)
+        return xs[min(len(xs) - 1, int(p * len(xs)))]
+
+    summary["secs_quantiles"] = {}
+    for n in sizes:
+        rs = [r for r in mfds if r["size"] == n]
+        summary["secs_quantiles"][str(n)] = {
+            k: {"median": q([r["secs"][k] for r in rs], 0.5),
+                "p90": q([r["secs"][k] for r in rs], 0.9),
+                "p99": q([r["secs"][k] for r in rs], 0.99),
+                "max": max(r["secs"][k] for r in rs)} for k in keys}
+    big = summary["secs_quantiles"][str(sizes[-1])]
+    out(f"\nsize {sizes[-1]} quantiles (seconds): " + "; ".join(
+        f"{k}: median {v['median']:.3g}, p99 {v['p99']:.3g}, max {v['max']:.3g}"
+        for k, v in big.items() if k.startswith("tv")))
+    cpu = sum(sum(r["secs"].values()) for r in recs)
+    out(f"total compute: {cpu / 3600:.2f} CPU-hours")
+    summary["cpu_hours"] = cpu / 3600
+
     summary["run"] = {"dir": str(run_dir), **{k: meta.get(k) for k in
-                      ("regina", "git", "params", "wall_seconds", "started")}}
+                      ("regina", "git", "params", "wall_seconds", "started", "resumes")}}
     (run_dir / "summary.json").write_text(json.dumps(summary, indent=2) + "\n")
     (run_dir / "report.txt").write_text("\n".join(out.lines) + "\n")
     if args.export:

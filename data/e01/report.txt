@@ -1,0 +1,89 @@
+run: results/e01_closed_census_invariants/20261019T213346Z  (Regina 7.4.1, git a3adb6b836a4aeab9fb9c8baf4fe3b428e224ba6-dirty, ? s)
+14720 triangulations, 4979 distinct manifolds, sizes 1..10, TV levels r = 3..10
+
+sanity: 9741 non-representative triangulations re-checked (H1, exact TV_r for r <= 6); disagreements: 0 []
+sanity: 1086 lens spaces in census; homeomorphic duplicate names: []
+parity: manifolds whose even-root TV_r values differ (as a multiset) from the odd-root ones: r=3: 1187, r=5: 1149, r=7: 1149, r=9: 1159
+
+single invariants (of 4979 manifolds)
+invariant                           classes  separated  largest
+H1                                      446         81       45
+pi1 recognised name                     251         81     4359
+TV_3 w=1                                  6          0     2075
+TV_3 all odd w                            6          0     2075
+TV_3 all w                                9          0     2075
+TV_4 w=1                                 35          2     2075
+TV_4 all odd w                           35          2     2075
+TV_5 w=1                                128         35     1324
+TV_5 all odd w                          128         35     1324
+TV_5 all w                              193         47      536
+TV_6 w=1                                 84         17     1346
+TV_6 all odd w                           84         17     1346
+TV_7 w=1                                407        183     1313
+TV_7 all odd w                          407        183     1313
+TV_7 all w                              634        285      274
+TV_8 w=1                                328         99      665
+TV_8 all odd w                          328         99      665
+TV_9 w=1                                646        327     1284
+TV_9 all odd w                          646        327     1284
+TV_9 all w                              951        505      219
+TV_10 w=1                               521        233      536
+TV_10 all odd w                         521        233      536
+
+cumulative: H1 + TV_3..TV_R   (classes / separated)
+R                        w=1             all odd w                 all w
+3                   480 / 94              480 / 94              480 / 94
+4                  724 / 198             724 / 198             724 / 198
+5                 1556 / 720            1556 / 720           1895 / 1038
+6                2054 / 1188           2054 / 1188           2289 / 1488
+7                3339 / 2617           3339 / 2617           3748 / 3184
+8                3948 / 3478           3948 / 3478           4095 / 3712
+9                4140 / 3789           4140 / 3789           4294 / 4033
+10               4273 / 4006           4273 / 4006           4304 / 4052
+
+drop-one: classes of H1 + TV_3..TV_R (all w) without TV_r (full set: 4304)
+  -TV_3: 4304, -TV_4: 4296, -TV_5: 4297, -TV_6: 4282, -TV_7: 4119, -TV_8: 4243, -TV_9: 4123, -TV_10: 4294
+  levels that are not implied by the others: [4, 5, 6, 7, 8, 9, 10]
+
+survivors: 252 groups (927 manifolds) not separated by H1 + TV_3..TV_10 at all roots w
+  all-lens-space groups: 229; lens pairs by relation: {'homotopy-equivalent': 1151, 'not homotopy-equivalent': 577}
+  groups containing a non-lens-space manifold: 23
+    L(145,44) [pi1: ?] | L(145,26) [pi1: Z_145] | L(145,34) [pi1: ?] | L(145,51) [pi1: ?] | L(145,59) [pi1: ?] | SFS [S2: (3,2) (7,4) (8,-3)] [pi1: ?]
+    L(55,21) [pi1: ?] | L(55,16) [pi1: Z_55] | L(55,19) [pi1: ?] | SFS [S2: (3,2) (7,2) (8,-5)] [pi1: ?]
+    L(65,19) [pi1: ?] | L(65,14) [pi1: Z_65] | L(65,9) [pi1: Z_65] | SFS [S2: (3,1) (7,3) (8,-3)] [pi1: ?]
+    L(63,13) [pi1: Z_63] | L(63,20) [pi1: Z_63] | SFS [S2: (3,1) (3,2) (19,-12)] [pi1: ?]
+    L(63,17) [pi1: ?] | L(63,10) [pi1: Z_63] | SFS [S2: (3,1) (3,2) (11,-4)] [pi1: ?]
+    SFS [S2: (2,1) (3,2) (6,-1)] [pi1: ?] | L(36,17) [pi1: Z_36] | SFS [S2: (2,1) (3,1) (6,1)] [pi1: ?]
+    L(35,6) [pi1: Z_35] | SFS [S2: (2,1) (3,2) (17,-14)] [pi1: ?]
+    L(45,19) [pi1: ?] | SFS [S2: (3,1) (3,2) (13,-8)] [pi1: ?]
+    SFS [S2: (2,1) (2,1) (13,5)] [pi1: ?] | SFS [S2: (2,1) (2,1) (43,-25)] [pi1: ?]
+    SFS [S2: (2,1) (2,1) (23,-5)] [pi1: ?] | SFS [S2: (2,1) (2,1) (47,-29)] [pi1: ?]
+    SFS [S2: (2,1) (3,1) (27,-10)] [pi1: ?] | SFS [S2: (2,1) (3,2) (27,-19)] [pi1: ?]
+    SFS [S2: (2,1) (3,1) (27,-8)] [pi1: ?] | SFS [S2: (2,1) (3,2) (27,-17)] [pi1: ?]
+    SFS [S2: (2,1) (3,2) (19,-7)] [pi1: ?] | SFS [S2: (2,1) (5,2) (19,-8)] [pi1: ?]
+    SFS [S2: (2,1) (3,2) (3,2) (3,-1)] [pi1: ?] | SFS [S2: (2,1) (3,1) (3,1) (3,1)] [pi1: ?]
+    SFS [S2: (2,1) (3,2) (31,-18)] [pi1: ?] | SFS [S2: (3,1) (5,3) (11,-3)] [pi1: ?]
+    SFS [S2: (2,1) (3,2) (6,5)] [pi1: ?] | SFS [S2: (2,1) (3,1) (6,7)] [pi1: ?]
+    SFS [S2: (3,1) (3,1) (6,-1)] [pi1: ?] | SFS [S2: (3,2) (3,2) (6,-5)] [pi1: ?]
+    SFS [S2: (3,1) (3,1) (6,5)] [pi1: ?] | SFS [S2: (3,2) (3,2) (6,1)] [pi1: ?]
+    SFS [S2: (3,1) (4,1) (9,-7)] [pi1: ?] | SFS [S2: (3,1) (5,3) (9,-7)] [pi1: ?]
+    SFS [S2: (3,1) (4,3) (5,8)] [pi1: ?] | SFS [S2: (3,2) (4,3) (13,-5)] [pi1: ?]
+    SFS [S2: (3,2) (3,2) (3,-1)] [pi1: ?] | SFS [S2: (3,1) (3,1) (3,1)] [pi1: ?]
+    SFS [S2: (3,2) (3,2) (3,5)] [pi1: ?] | SFS [S2: (3,1) (3,1) (3,7)] [pi1: ?]
+    SFS [S2: (3,2) (3,2) (3,8)] [pi1: ?] | SFS [S2: (3,1) (3,1) (3,10)] [pi1: ?]
+
+mean seconds per invariant on representatives, by size
+size       n       h1      pi1      tv3      tv4      tv5      tv6      tv7      tv8      tv9     tv10
+1          3   0.0001   0.0000   0.0003   0.0003   0.0010   0.0007   0.0049   0.0042   0.0087   0.0084
+2          7   0.0002   0.0001   0.0005   0.0007   0.0040   0.0029   0.0246   0.0251   0.0568   0.0532
+3          7   0.0001   0.0000   0.0003   0.0007   0.0035   0.0021   0.0256   0.0247   0.0690   0.0661
+4         14   0.0001   0.0001   0.0004   0.0010   0.0062   0.0043   0.0521   0.0546   0.1458   0.1627
+5         31   0.0001   0.0001   0.0004   0.0012   0.0079   0.0062   0.0780   0.0877   0.2724   0.2968
+6         74   0.0003   0.0001   0.0006   0.0019   0.0139   0.0122   0.1822   0.2305   0.7998   1.0057
+7        175   0.0002   0.0001   0.0006   0.0020   0.0146   0.0132   0.2049   0.2434   0.8708   1.0898
+8        436   0.0003   0.0001   0.0006   0.0020   0.0161   0.0149   0.2438   0.3257   1.3004   1.7037
+9       1154   0.0003   0.0001   0.0007   0.0022   0.0184   0.0172   0.3076   0.4319   1.8619   2.6126
+10      3078   0.0004   0.0001   0.0007   0.0025   0.0214   0.0206   0.3721   0.5271   2.3394   3.3060
+
+size 10 quantiles (seconds): tv3: median 0.000649, p99 0.00168, max 0.00851; tv4: median 0.00198, p99 0.00788, max 0.0329; tv5: median 0.0166, p99 0.083, max 0.255; tv6: median 0.014, p99 0.111, max 0.392; tv7: median 0.208, p99 2.83, max 10.2; tv8: median 0.245, p99 4.76, max 19.1; tv9: median 0.867, p99 26.5, max 105; tv10: median 1.02, p99 43.6, max 182
+total compute: 8.11 CPU-hours
