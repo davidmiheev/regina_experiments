@@ -1,0 +1,35 @@
+/* Print stylesheet for experiment writeups (scripts/build-writeup.sh). */
+@page { size: A4; margin: 20mm 18mm 22mm; }
+:root {
+  --ink: #1b1b1a; --ink-2: #52514e; --rule: #d9d8d3; --tint: #f5f4f0; --accent: #2a78d6;
+}
+html { background: #fff; color: var(--ink); }
+body {
+  font-family: "Charter", "Bitstream Charter", "Georgia", "DejaVu Serif", serif;
+  font-size: 10.5pt; line-height: 1.45; max-width: none; margin: 0;
+}
+header#title-block-header { margin-bottom: 1.4em; border-bottom: 1px solid var(--rule); padding-bottom: .8em; }
+h1.title { font-size: 19pt; line-height: 1.2; margin: 0 0 .3em; }
+p.subtitle { font-size: 12pt; color: var(--ink-2); margin: 0 0 .4em; }
+p.author, p.date { color: var(--ink-2); margin: .1em 0; font-size: 9.5pt; }
+h1, h2, h3 { font-family: "Inter", "Helvetica Neue", "DejaVu Sans", Arial, sans-serif; break-after: avoid; }
+h2 { font-size: 13pt; margin: 1.5em 0 .5em; }
+h3 { font-size: 11pt; margin: 1.2em 0 .4em; }
+p, li { orphans: 3; widows: 3; }
+a { color: var(--accent); text-decoration: none; }
+code { font-family: "DejaVu Sans Mono", Menlo, monospace; font-size: 8.8pt; }
+pre { background: var(--tint); padding: .6em .8em; border-radius: 4px; overflow-x: auto;
+      font-size: 8.5pt; line-height: 1.35; break-inside: avoid; }
+pre code { font-size: inherit; }
+table { border-collapse: collapse; margin: .8em 0 1em; font-size: 9pt; width: 100%;
+        font-variant-numeric: tabular-nums; }
+tr { break-inside: avoid; }
+th, td { padding: .25em .6em; border-bottom: 1px solid var(--rule); vertical-align: top; }
+thead th { border-bottom: 1.5px solid var(--ink); text-align: left; }
+figure { margin: 1em 0; break-inside: avoid; text-align: center; }
+figure img { max-width: 100%; }
+figcaption { font-size: 9pt; color: var(--ink-2); text-align: left; margin-top: .3em; }
+blockquote { margin: 1em 0; padding: .2em 1em; border-left: 3px solid var(--accent); color: var(--ink-2); }
+math { font-size: 1.05em; }
+/* pandoc's print rule hangs wrapped code lines by 5em; keep code flush left. */
+pre > code.sourceCode > span { text-indent: 0 !important; padding-left: 0 !important; }
