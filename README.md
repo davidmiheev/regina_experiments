@@ -58,7 +58,7 @@ tables into `data/` when they are worth keeping.
 
 | name | contents | objects |
 |------|----------|--------:|
-| `closed-or` | closed orientable prime minimal, ≤ 11 tet | 14,720 |
+| `closed-or` | closed orientable prime minimal, ≤ 10 tet (4,979 manifolds) | 14,720 |
 | `closed-nor` | closed non-orientable P²-irreducible minimal | 4,672 |
 | `closed-hyp` | Hodgson–Weeks closed hyperbolic | 3,018 |
 | `cusped-hyp-or` | cusped hyperbolic orientable, ≤ 9 tet | 9,596 |

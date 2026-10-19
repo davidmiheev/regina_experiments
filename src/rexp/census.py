@@ -13,7 +13,7 @@ EXAMPLES_DIR = Path(os.environ.get("REGINA_EXAMPLES_DIR", "/usr/share/regina-nor
 # Short name -> (file, packet type, description)
 CENSUSES = {
     "closed-or": ("closed-or-census.rga", regina.PacketOfTriangulation3,
-                  "Closed orientable prime minimal triangulations, <= 11 tetrahedra (Burton)"),
+                  "Closed orientable prime minimal triangulations, <= 10 tetrahedra (Burton)"),
     "closed-nor": ("closed-nor-census.rga", regina.PacketOfTriangulation3,
                    "Closed non-orientable P2-irreducible minimal triangulations"),
     "closed-hyp": ("closed-hyp-census.rga", regina.PacketOfTriangulation3,
