@@ -3,7 +3,7 @@ PY := $(shell scripts/find-python.sh 2>/dev/null || echo python3)
 export PYTHONPATH := $(CURDIR)/src
 ARGS ?=
 
-.PHONY: help install install-writeup-deps env smoke test e01 e01-analyze e01-export writeups clean-results
+.PHONY: help install install-writeup-deps env smoke test e01 e01-analyze e01-export e02 e02-retry e02-export writeups clean-results
 
 help:
 	@echo "make install       install Regina from the official Ubuntu apt repo (needs sudo)"
@@ -14,6 +14,9 @@ help:
 	@echo "make e01 ARGS=...  E01: closed-census invariant sweep (e.g. ARGS='--max-size 8')"
 	@echo "make e01-analyze   summarise the latest E01 run"
 	@echo "make e01-export    copy the latest E01 summary to data/e01 and redraw its figures"
+	@echo "make e02 ARGS=...  E02: regenerate the closed census with tricensus (ARGS='--max-n 10')"
+	@echo "make e02-retry ARGS=RUN_DIR  E02b: simplify() reliability on E02's non-minimal triangulations"
+	@echo "make e02-export ARGS=RUN_DIR copy the E02 summary to data/e02 and redraw its figures"
 	@echo "make writeups      render experiments/*/writeup.md to writeup.pdf"
 	@echo "make clean-results delete everything under results/"
 
@@ -42,6 +45,16 @@ e01-analyze:
 e01-export:
 	$(PY) experiments/e01_closed_census_invariants/analyze.py $(ARGS) --export data/e01
 	$(PY) experiments/e01_closed_census_invariants/figures.py
+
+e02:
+	$(PY) experiments/e02_tricensus_regeneration/run.py $(ARGS)
+
+e02-retry:
+	$(PY) experiments/e02_tricensus_regeneration/retry.py --trials 50 $(ARGS)
+
+e02-export:
+	$(PY) experiments/e02_tricensus_regeneration/analyze.py $(ARGS) --export data/e02
+	$(PY) experiments/e02_tricensus_regeneration/figures.py
 
 writeups:
 	scripts/build-writeup.sh $(dir $(wildcard experiments/e*/writeup.md))
