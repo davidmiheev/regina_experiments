@@ -10,6 +10,7 @@ experiment has a writeup in Markdown and PDF:
 |---|---|
 | E00 smoke test | [md](experiments/e00_smoke/writeup.md) · [pdf](experiments/e00_smoke/writeup.pdf) |
 | E01 Turaev–Viro invariants on the closed census | [md](experiments/e01_closed_census_invariants/writeup.md) · [pdf](experiments/e01_closed_census_invariants/writeup.pdf) |
+| E02 Regenerating the closed census with tricensus | [md](experiments/e02_tricensus_regeneration/writeup.md) · [pdf](experiments/e02_tricensus_regeneration/writeup.pdf) |
 
 ## Setup (Ubuntu 24.04 / 25.04 / 25.10)
 
@@ -41,6 +42,7 @@ experiments/
   _template/              copy to start a new experiment (run.py + README.md)
   e00_smoke/              known-answer checks of every Regina feature we use
   e01_closed_census_invariants/   run.py, analyze.py, figures.py, writeup.{md,pdf}
+  e02_tricensus_regeneration/     run.py, retry.py, analyze.py, figures.py, writeup.{md,pdf}
 src/rexp/                 shared helpers (on PYTHONPATH via the Makefile)
   census.py               iter_census("closed-or" | "cusped-hyp-or" | "knots" | ...)
   runlog.py               Run(...) context manager and timed()

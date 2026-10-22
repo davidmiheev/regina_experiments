@@ -66,6 +66,7 @@ def main() -> None:
         census_count = c["census"] + miss
         rows[n] = {"pairings": gen[n]["pairings"], "generated": len(by_n[n]),
                    "gen_secs": gen[n]["secs"], "census_size": census_count,
+                   "chunks": gen[n].get("chunks"), "thread_secs": gen[n].get("thread_secs"),
                    "missing": miss, **{s: c[s] for s in statuses}}
         out(f"{n:>3}{gen[n]['pairings']:>10}{len(by_n[n]):>11}{gen[n]['secs']:>9.1f}"
             f"{c['census']:>8}" + "".join(f"{c[s]:>11}" for s in statuses[1:]) + f"{miss:>9}")

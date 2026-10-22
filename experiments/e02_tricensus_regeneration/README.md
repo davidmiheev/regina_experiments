@@ -1,4 +1,6 @@
-# E02 — Regenerate the closed census with `tricensus` 🟡
+# E02 — Regenerate the closed census with `tricensus` ✅
+
+**Full writeup:** [writeup.md](writeup.md) · [writeup.pdf](writeup.pdf)
 
 **Question.** Does Regina's own generator, run from scratch, reproduce the
 shipped closed orientable census? That is: is every census triangulation
@@ -21,12 +23,26 @@ or non-prime?
 
 **Run.**
 ```sh
-make e02 ARGS="--max-n 10"                     # n = 10 takes ~1.5 h on 4 threads
+make e02 ARGS="--max-n 10"   # n = 10: 10.8 thread-hours, chunked and resumable
 make e02-retry ARGS=results/e02_tricensus_regeneration/<run>
 make e02-export ARGS=results/e02_tricensus_regeneration/<run>
 make writeups
 ```
 
-**Results.** In progress. Up to n = 8 the census is reproduced exactly: all
-1,445 census triangulations are generated, and the other 1,756 are all
-certified non-minimal.
+**Results** (Regina 7.4.1, 2026-10-22):
+- The census is reproduced exactly for n ≤ 10. `tricensus` generated
+  66,439 triangulations, including all 14,720 census triangulations (0
+  missing). The other 51,719 are each certified non-minimal or non-prime
+  (0 unresolved).
+- One `simplify()` call settles 97.1% of the non-minimal triangulations.
+  The other 1,494 need `simplifyExhaustive` at height 1 (567), 2 (926)
+  or 3 (1). There are also two 3-spheres and two copies of
+  L(5,1) # L(5,1).
+- The `simplify()` reliability test (50 calls each) shows:
+  - one call fails with probability 2.7% at n = 10;
+  - triangulations that need height ≥ 2 are never reduced;
+  - `simplifyToLocalMinimum()` reduces nothing, because the `tricensus -M`
+    filter already removes what it would catch.
+- Generation grows about 25× per tetrahedron. At n = 10, 3 of 97 chunks
+  took 62% of the thread time.
+- Hard benchmark set for E03: `data/e02/hard_nonminimal.tsv`.

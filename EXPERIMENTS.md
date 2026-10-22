@@ -12,8 +12,8 @@ Status: ✅ done · 🟡 started · ⬜ not started
 |-----|------------|--------|--------|------------|
 | E00 | Smoke test of every feature we rely on | ✅ | — | — |
 | E01 | How well cheap invariants separate the closed census | ✅ | S | E00 |
-| E02 | Regenerate the census with `tricensus` and diff it against the shipped data | ⬜ | S | E00 |
-| E03 | Scramble, then simplify: when does greedy simplification fail? | ⬜ | M | E00 |
+| E02 | Regenerate the census with `tricensus` and diff it against the shipped data | ✅ | S | E00 |
+| E03 | Scramble, then simplify: when does greedy simplification fail? | ⬜ | M | E00, E02 |
 | E04 | Pachner-graph connectivity between minimal triangulations | ⬜ | M | E02 |
 | E05 | Normal-surface statistics across the census | ⬜ | M | E01 |
 | E06 | Cusped hyperbolic census: angle structures vs geometry | ⬜ | S | E00 |
@@ -22,8 +22,7 @@ Status: ✅ done · 🟡 started · ⬜ not started
 | E09 | 4-manifolds: small census, invariants, simplification | ⬜ | M | E02 |
 | E10 | How Turaev–Viro runtime scales with treewidth | ⬜ | M | E01 |
 
-**Suggested next:** E02 and E06 (both quick, and they validate the
-tooling). Then E03 and E07, the first two that study algorithm
+**Suggested next:** E06 (quick, and it validates the tooling). Then E03 and E07, the first two that study algorithm
 behaviour rather than reproduce known data.
 
 ---
@@ -45,16 +44,18 @@ apart, and which groups survive all of them?*
   invariants (the linking form, torsion); compute TV₁₁₊ on the survivors
   only.
 
-### E02 · Regenerate the census with `tricensus` ⬜
-*Can we reproduce Regina's closed orientable census for n ≤ 6 from scratch?*
-- **Method:** `tricensus -t n -i -o -M -s --threads k` gives isomorphism
-  signatures. Filter out non-minimal triangulations: run `simplifyExhaustive`
-  and identify each manifold with `Census.lookup`. Compare with
-  `iter_census("closed-or")` by isoSig.
-- **Sanity:** the counts must match the shipped census exactly.
-- **Why:** gives us a working generator for spaces the shipped census does not
-  cover (bounded, ideal and non-minimal triangulations, and 4-D). It also
-  benchmarks generation time against n.
+### E02 · Regenerate the census with `tricensus` ✅
+*Can we reproduce Regina's closed orientable census from scratch?*
+- **Done** for n ≤ 10. Writeup:
+  `experiments/e02_tricensus_regeneration/writeup.pdf`.
+- **Headline:** the census is reproduced exactly (14,720 of 14,720). All
+  51,719 other generated triangulations are certified non-minimal or
+  non-prime. A single `simplify()` call fails on 2.7% of non-minimal
+  10-tetrahedron triangulations, and on every one that needs exhaustive
+  height ≥ 2.
+- **Follow-ups:** cost-aware ordering of face pairings; bounded, ideal and
+  4-D censuses with the same pipeline. The hard set
+  (`data/e02/hard_nonminimal.tsv`) feeds E03.
 
 ### E06 · Cusped hyperbolic census: angle structures vs geometry ⬜
 *For every triangulation in the cusped census (≤ 9 tetrahedra), does it admit a

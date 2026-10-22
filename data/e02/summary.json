@@ -1,0 +1,494 @@
+{
+  "sizes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "rows": {
+    "1": {
+      "pairings": 1,
+      "generated": 4,
+      "gen_secs": 0.006849844000043959,
+      "census_size": 4,
+      "chunks": null,
+      "thread_secs": null,
+      "missing": 0,
+      "census": 4,
+      "simplify": 0,
+      "exhaustive:1": 0,
+      "exhaustive:2": 0,
+      "exhaustive:3": 0,
+      "S3": 0,
+      "nonprime": 0,
+      "unresolved": 0
+    },
+    "2": {
+      "pairings": 2,
+      "generated": 11,
+      "gen_secs": 0.010486989000014546,
+      "census_size": 10,
+      "chunks": null,
+      "thread_secs": null,
+      "missing": 0,
+      "census": 10,
+      "simplify": 1,
+      "exhaustive:1": 0,
+      "exhaustive:2": 0,
+      "exhaustive:3": 0,
+      "S3": 0,
+      "nonprime": 0,
+      "unresolved": 0
+    },
+    "3": {
+      "pairings": 4,
+      "generated": 7,
+      "gen_secs": 0.005505420000019967,
+      "census_size": 7,
+      "chunks": null,
+      "thread_secs": null,
+      "missing": 0,
+      "census": 7,
+      "simplify": 0,
+      "exhaustive:1": 0,
+      "exhaustive:2": 0,
+      "exhaustive:3": 0,
+      "S3": 0,
+      "nonprime": 0,
+      "unresolved": 0
+    },
+    "4": {
+      "pairings": 10,
+      "generated": 17,
+      "gen_secs": 0.014806232000012187,
+      "census_size": 15,
+      "chunks": null,
+      "thread_secs": null,
+      "missing": 0,
+      "census": 15,
+      "simplify": 2,
+      "exhaustive:1": 0,
+      "exhaustive:2": 0,
+      "exhaustive:3": 0,
+      "S3": 0,
+      "nonprime": 0,
+      "unresolved": 0
+    },
+    "5": {
+      "pairings": 28,
+      "generated": 50,
+      "gen_secs": 0.02971537600001284,
+      "census_size": 40,
+      "chunks": null,
+      "thread_secs": null,
+      "missing": 0,
+      "census": 40,
+      "simplify": 9,
+      "exhaustive:1": 0,
+      "exhaustive:2": 1,
+      "exhaustive:3": 0,
+      "S3": 0,
+      "nonprime": 0,
+      "unresolved": 0
+    },
+    "6": {
+      "pairings": 97,
+      "generated": 168,
+      "gen_secs": 0.13291436399998702,
+      "census_size": 115,
+      "chunks": null,
+      "thread_secs": null,
+      "missing": 0,
+      "census": 115,
+      "simplify": 50,
+      "exhaustive:1": 0,
+      "exhaustive:2": 3,
+      "exhaustive:3": 0,
+      "S3": 0,
+      "nonprime": 0,
+      "unresolved": 0
+    },
+    "7": {
+      "pairings": 359,
+      "generated": 564,
+      "gen_secs": 1.3710204920000137,
+      "census_size": 309,
+      "chunks": null,
+      "thread_secs": null,
+      "missing": 0,
+      "census": 309,
+      "simplify": 241,
+      "exhaustive:1": 3,
+      "exhaustive:2": 11,
+      "exhaustive:3": 0,
+      "S3": 0,
+      "nonprime": 0,
+      "unresolved": 0
+    },
+    "8": {
+      "pairings": 1635,
+      "generated": 2380,
+      "gen_secs": 19.129719858000044,
+      "census_size": 945,
+      "chunks": null,
+      "thread_secs": null,
+      "missing": 0,
+      "census": 945,
+      "simplify": 1378,
+      "exhaustive:1": 15,
+      "exhaustive:2": 42,
+      "exhaustive:3": 0,
+      "S3": 0,
+      "nonprime": 0,
+      "unresolved": 0
+    },
+    "9": {
+      "pairings": 8296,
+      "generated": 10763,
+      "gen_secs": 381.57793207399993,
+      "census_size": 3031,
+      "chunks": null,
+      "thread_secs": null,
+      "missing": 0,
+      "census": 3031,
+      "simplify": 7461,
+      "exhaustive:1": 88,
+      "exhaustive:2": 182,
+      "exhaustive:3": 0,
+      "S3": 1,
+      "nonprime": 0,
+      "unresolved": 0
+    },
+    "10": {
+      "pairings": 48432,
+      "generated": 52475,
+      "gen_secs": 9780.869579982,
+      "census_size": 10244,
+      "chunks": 97,
+      "thread_secs": 39055.102515975,
+      "missing": 0,
+      "census": 10244,
+      "simplify": 41079,
+      "exhaustive:1": 461,
+      "exhaustive:2": 687,
+      "exhaustive:3": 1,
+      "S3": 1,
+      "nonprime": 2,
+      "unresolved": 0
+    }
+  },
+  "totals": {
+    "generated": 66439,
+    "census_size": 14720,
+    "missing": 0,
+    "census": 14720,
+    "simplify": 50221,
+    "exhaustive:1": 567,
+    "exhaustive:2": 926,
+    "exhaustive:3": 1,
+    "S3": 2,
+    "nonprime": 2,
+    "unresolved": 0
+  },
+  "reproduced_exactly": true,
+  "growth": {
+    "4": {
+      "gen_secs": 2.6893919083300615,
+      "generated": 2.4285714285714284,
+      "census": 2.142857142857143
+    },
+    "5": {
+      "gen_secs": 2.0069505867521444,
+      "generated": 2.9411764705882355,
+      "census": 2.6666666666666665
+    },
+    "6": {
+      "gen_secs": 4.472915436100475,
+      "generated": 3.36,
+      "census": 2.875
+    },
+    "7": {
+      "gen_secs": 10.315066413741013,
+      "generated": 3.357142857142857,
+      "census": 2.6869565217391305
+    },
+    "8": {
+      "gen_secs": 13.952905860724256,
+      "generated": 4.219858156028369,
+      "census": 3.058252427184466
+    },
+    "9": {
+      "gen_secs": 19.9468646120515,
+      "generated": 4.522268907563025,
+      "census": 3.2074074074074073
+    },
+    "10": {
+      "gen_secs": 25.632691929587747,
+      "generated": 4.87549939607916,
+      "census": 3.379742659188387
+    }
+  },
+  "top_nonminimal_manifolds": [
+    [
+      "SFS [S2: (2,1) (3,2) (5,-3)]",
+      420
+    ],
+    [
+      "SFS [S2: (2,1) (3,1) (3,-1)]",
+      405
+    ],
+    [
+      "L(19,7)",
+      380
+    ],
+    [
+      "SFS [S2: (2,1) (3,1) (3,2)]",
+      380
+    ],
+    [
+      "L(18,5)",
+      372
+    ],
+    [
+      "L(11,3)",
+      324
+    ],
+    [
+      "SFS [S2: (2,1) (3,2) (3,-1)]",
+      320
+    ],
+    [
+      "L(7,2)",
+      317
+    ],
+    [
+      "S3",
+      316
+    ],
+    [
+      "SFS [S2: (2,1) (3,2) (5,-2)]",
+      315
+    ],
+    [
+      "SFS [RP2/n2: (2,1) (3,-2)]",
+      312
+    ],
+    [
+      "RP3",
+      303
+    ],
+    [
+      "L(31,12)",
+      297
+    ],
+    [
+      "SFS [S2: (3,1) (3,2) (3,-1)]",
+      292
+    ],
+    [
+      "SFS [S2: (2,1) (3,1) (5,-3)]",
+      291
+    ],
+    [
+      "L(5,1)",
+      287
+    ],
+    [
+      "SFS [S2: (2,1) (3,1) (7,-5)]",
+      264
+    ],
+    [
+      "L(17,5)",
+      261
+    ],
+    [
+      "SFS [S2: (2,1) (3,2) (7,-5)]",
+      258
+    ],
+    [
+      "SFS [S2: (2,1) (3,1) (5,-2)]",
+      253
+    ],
+    [
+      "SFS [S2: (2,1) (3,2) (4,-1)]",
+      251
+    ],
+    [
+      "SFS [S2: (2,1) (3,2) (3,2)]",
+      251
+    ],
+    [
+      "L(25,9)",
+      248
+    ],
+    [
+      "L(13,5)",
+      247
+    ],
+    [
+      "L(27,8)",
+      242
+    ]
+  ],
+  "nonminimal_unnamed": 3209,
+  "classify_ms": {
+    "1": {
+      "lookup": 2.597083250009291
+    },
+    "2": {
+      "lookup": 1.9353000909063667,
+      "simplify": 0.015879999998767082
+    },
+    "3": {
+      "lookup": 1.812769999982525
+    },
+    "4": {
+      "lookup": 2.086026823529691,
+      "simplify": 0.011558764704071056
+    },
+    "5": {
+      "exhaustive1": 0.006462040000769775,
+      "exhaustive2": 0.0328239600003144,
+      "lookup": 1.890798019999238,
+      "simplify": 0.012177019998489413
+    },
+    "6": {
+      "exhaustive1": 0.008670690476381401,
+      "exhaustive2": 0.0575187738099154,
+      "lookup": 2.164729279764104,
+      "simplify": 0.022711422619046233
+    },
+    "7": {
+      "exhaustive1": 0.021876799645408465,
+      "exhaustive2": 0.10006840425545462,
+      "lookup": 2.1876815514172043,
+      "simplify": 0.041099473404282987
+    },
+    "8": {
+      "exhaustive1": 0.04503911470596866,
+      "exhaustive2": 0.1694427403360366,
+      "lookup": 2.3091646478986747,
+      "simplify": 0.07239393025196203
+    },
+    "9": {
+      "exhaustive1": 0.09602203381960307,
+      "exhaustive2": 0.3675469065315643,
+      "lookup": 2.315196255040064,
+      "simplify": 0.10346286202721977
+    },
+    "10": {
+      "exhaustive1": 0.11987162957565917,
+      "exhaustive2": 0.43790552724168635,
+      "exhaustive3": 0.007362729852305374,
+      "lookup": 2.464737171144591,
+      "simplify": 0.15161825035024262
+    }
+  },
+  "missing": [],
+  "retry": {
+    "dir": "/home/user/regina_experiments/results/e02_tricensus_regeneration_retry/20261022T131708Z",
+    "rows": {
+      "2": {
+        "nonminimal": 1,
+        "local": 0,
+        "always": 1,
+        "never": 0,
+        "p_fail": 0.0,
+        "sometimes": 0
+      },
+      "4": {
+        "nonminimal": 2,
+        "local": 0,
+        "always": 2,
+        "never": 0,
+        "p_fail": 0.0,
+        "sometimes": 0
+      },
+      "5": {
+        "nonminimal": 10,
+        "local": 0,
+        "always": 9,
+        "never": 1,
+        "p_fail": 0.1,
+        "sometimes": 0
+      },
+      "6": {
+        "nonminimal": 53,
+        "local": 0,
+        "always": 46,
+        "never": 3,
+        "p_fail": 0.05886792452830189,
+        "sometimes": 4
+      },
+      "7": {
+        "nonminimal": 255,
+        "local": 0,
+        "always": 231,
+        "never": 11,
+        "p_fail": 0.048392156862745096,
+        "sometimes": 13
+      },
+      "8": {
+        "nonminimal": 1435,
+        "local": 0,
+        "always": 1285,
+        "never": 47,
+        "p_fail": 0.040613240418118465,
+        "sometimes": 103
+      },
+      "9": {
+        "nonminimal": 7732,
+        "local": 0,
+        "always": 7055,
+        "never": 211,
+        "p_fail": 0.03493792033109157,
+        "sometimes": 466
+      },
+      "10": {
+        "nonminimal": 42231,
+        "local": 0,
+        "always": 39095,
+        "never": 809,
+        "p_fail": 0.026521749425777272,
+        "sometimes": 2327
+      }
+    }
+  },
+  "run": {
+    "dir": "results/e02_tricensus_regeneration/20261020T084518Z",
+    "regina": "7.4.1",
+    "git": "21e61de52f684c73ec141f4c915ed66117818c5f",
+    "params": {
+      "max_n": 10,
+      "max_height": 3,
+      "workers": 4
+    },
+    "wall_seconds": null,
+    "started": "20261020T084518Z",
+    "resumes": [
+      {
+        "regina": "7.4.1",
+        "python": "3.12.3",
+        "host": "vm",
+        "git": "b4183f3ff865bf3b19481f883aeffab193d11ac1-dirty",
+        "argv": [
+          "experiments/e02_tricensus_regeneration/run.py",
+          "--max-n",
+          "10",
+          "--resume",
+          "results/e02_tricensus_regeneration/20261020T084518Z"
+        ],
+        "started": "20261022T091716Z",
+        "records_before": 13973,
+        "previous_status": "interrupted",
+        "wall_seconds": 14375.54
+      }
+    ]
+  }
+}

@@ -1,0 +1,1495 @@
+n	height	isosig	reduced_size	reduced_name	simplify_success_rate
+5	2	fLLQcaceeednkuxkn	4	SFS [S2: (2,1) (3,1) (3,-2)] : #1	0.00
+6	2	gLLAQbcedfeftsqsxsr	5	SFS [S2: (2,1) (3,1) (4,-3)] : #1	0.00
+6	2	gLLAQccedffflnxkxvc	4	L(14,3) : #1	0.00
+6	2	gLLAQccedfffhwxrxvc	4	L(13,3) : #1	0.00
+7	1	hLAMzkbccdefggemkiqqqn	6	SFS [S2: (2,1) (2,1) (6,-5)] : #1	0.78
+7	2	hLALAkcbbeffggqqnnmxkk	5	SFS [S2: (2,1) (3,1) (5,-4)] : #1	0.00
+7	2	hLLAAkcdecefgghsmnqjhn	6	SFS [S2: (2,1) (4,1) (4,-3)] : #2	0.00
+7	1	hLLAAkbcdeefggxkrllcxj	6	SFS [S2: (2,1) (2,1) (6,-5)] : #1	0.88
+7	2	hLLAMkacdefgggnkxxxxvc	6	SFS [S2: (2,1) (2,1) (4,1)] : #1	0.00
+7	2	hLLAMkacdefgggnbxxxxvc	5	L(22,5) : #1	0.00
+7	2	hLLLQkbedgfffghhnxagbj	5	L(19,4) : #1	0.00
+7	2	hLLLQkbedgfffghhnxagbk	5	L(23,5) : #1	0.00
+7	2	hLLAMkacdefgggjkxxxxvc	5	L(22,5) : #1	0.00
+7	2	hLLAMkacdefgggjbxxxxvc	5	L(17,4) : #1	0.00
+7	2	hLLAMkccedfggglnxkxxxa	5	L(17,3) : #1	0.00
+7	2	hLLAMkccedfggghwxrxxxa	5	L(16,3) : #1	0.00
+7	2	hLLLQkbefgffggxxhaqxvc	6	SFS [S2: (2,1) (2,1) (5,-1)] : #2	0.00
+7	1	hLLzQkcdfgefgghsilhobf	6	SFS [S2: (3,1) (3,1) (3,-1)] : #1	0.92
+8	1	iLAMLPcbcbdeghhhxxjxxjiqi	7	SFS [S2: (2,1) (2,1) (7,-6)] : #1	0.60
+8	2	iLAwLQccbbdfgghhhhkhjlqss	6	SFS [S2: (2,1) (3,1) (6,-5)] : #1	0.00
+8	2	iLALAMccbbeffghhqqnnmxkqw	7	SFS [S2: (2,1) (4,1) (5,-4)] : #1	0.00
+8	1	iLALLQccbbegghhhqqnnanfon	7	SFS [S2: (2,1) (2,1) (7,-6)] : #1	0.74
+8	2	iLLLQMcbedgfffhhhhwhagbhr	7	SFS [S2: (2,1) (2,1) (4,5)] : #3	0.00
+8	2	iLLLQMcbedgfffhhhhnhagbhr	6	L(30,7) : #1	0.00
+8	2	iLLLQMcbedgfffhhhhwhagbhk	6	L(30,7) : #1	0.00
+8	2	iLLLQMcbedgfffhhhhnxagbqj	6	L(37,8) : #1	0.00
+8	2	iLLLQMcbedgfffhhhhnhagbhk	6	L(21,4) : #1	0.00
+8	2	iLLLQMcbedgfffhhhhnxagbxk	6	L(33,7) : #1	0.00
+8	2	iLLLQMcbedgfffhhhhwhagbqj	7	SFS [S2: (2,1) (3,2) (4,1)] : #3	0.00
+8	2	iLLLQMcbedgfffhhhhnhagbqj	6	L(35,8) : #1	0.00
+8	2	iLLLQMcbedgfffhhhhnxagbqw	6	L(32,7) : #1	0.00
+8	2	iLLLQMcbedgfffhhhhnxagbxr	6	L(24,5) : #1	0.00
+8	2	iLLLQMcbedgfffhhhhwhagbqn	7	SFS [S2: (2,1) (3,1) (4,1)] : #3	0.00
+8	2	iLLLQMcbedgfffhhhhnhagbqn	6	L(31,7) : #1	0.00
+8	1	iLLMMPcacdefghghjkankqqjw	7	L(28,13) : #1	0.92
+8	2	iLLAMPcacdefghhhnkxxxxxxa	7	SFS [S2: (2,1) (2,1) (5,1)] : #1	0.00
+8	2	iLLAMPcacdefghhhnbxxxxxxa	6	L(27,5) : #1	0.00
+8	2	iLLLAQcbedgfhfhhxxwahxjxa	6	L(23,4) : #1	0.00
+8	2	iLLLAQcbedgfhfhhxxwahxwxa	6	L(28,5) : #1	0.00
+8	2	iLLAMPcacdefghhhjkxxxxxxa	6	L(27,5) : #1	0.00
+8	2	iLLAMPcacdefghhhjkaaxxxxa	5	L(23,5) : #1	0.00
+8	2	iLLAMPcacdefghhhjbxxxxxxa	6	L(21,4) : #1	0.00
+8	1	iLLLAQcbegfggfhhxxmmmvorj	7	SFS [S2: (3,1) (3,1) (4,-1)] : #1	0.86
+8	2	iLLvQQcbeghfffghhhxxagbjk	7	SFS [S2: (3,1) (3,2) (4,-3)] : #1	0.00
+8	2	iLLvQQcbeghfffghhhhxagbwk	7	SFS [S2: (2,1) (3,2) (4,1)] : #1	0.00
+8	2	iLLvQQcbeghfffghhhhhagbww	7	SFS [S2: (2,1) (2,1) (4,5)] : #1	0.00
+8	2	iLLvQQcbeghfffghhhhxagbsk	6	L(35,8) : #1	0.00
+8	2	iLLvQQcbeghfffghhhhxagbwj	7	SFS [S2: (2,1) (3,1) (4,1)] : #1	0.00
+8	2	iLLvQQcbeghfffghhhhhagbsw	6	L(30,7) : #1	0.00
+8	2	iLLvQQcbeghfffghhhhxagbsj	6	L(31,7) : #1	0.00
+8	2	iLLvQQcbeghfffghhhxxagbkk	7	SFS [S2: (3,2) (3,2) (4,-3)] : #1	0.00
+8	2	iLLvQQcbeghfffghhhhhagbsj	6	L(21,4) : #1	0.00
+8	1	iLLzPQccdeghfgghhsaqjjojj	7	SFS [S2: (3,1) (3,1) (5,-2)] : #1	0.84
+8	2	iLLAMPcccedfghhhlnxkxxxvc	6	L(20,3) : #1	0.00
+8	2	iLLAMPcccedfghhhhwxrxxxvc	6	L(19,3) : #1	0.00
+8	2	iLLLQPcbefgffhhhxxhaqxxxa	7	SFS [S2: (2,1) (2,1) (6,-1)] : #2	0.00
+8	2	iLLLMQcbefghgghhxxqaqvcfo	6	SFS [S2: (2,1) (3,1) (3,1)] : #2	0.00
+8	2	iLLLMQcbefghgghhhhqaqwrfo	7	SFS [S2: (2,1) (3,1) (5,-1)] : #2	0.00
+8	2	iLLPMPcccdfeghhhqjsqqqqof	7	SFS [S2: (2,1) (2,1) (9,-5)] : #3	0.00
+8	2	iLLAMPcbdedfghhhdwxsmxxvc	5	L(23,5) : #1	0.00
+8	2	iLLLQPcbefgfghhhhhihiihau	7	SFS [S2: (3,1) (3,2) (4,-3)] : #1	0.00
+8	2	iLLLQPcbefgfghhhhhmhiihau	7	SFS [S2: (3,2) (3,2) (4,-3)] : #1	0.00
+8	2	iLLLAQccegfehhghhqhdxnnrb	7	SFS [S2: (3,1) (3,2) (4,-3)] : #1	0.00
+8	2	iLLLMQcbedgfhghhxxnxrwbww	7	SFS [S2: (3,1) (3,2) (4,-3)] : #1	0.00
+8	1	iLLLAQcbceggfhhhtspaqsaml	7	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 0,1 | 1,1 ] : #1	0.00
+8	1	iLLLMQcbcefghghhtsudbjbwo	7	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 0,1 | 1,1 ] : #1	0.00
+8	1	iLLLMQcbdfffghhhdwmigrcgj	7	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,1)], m = [ 0,1 | 1,1 ] : #1	0.00
+8	1	iLLLMQcbdfffghhhdwiigrcgj	7	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 0,1 | 1,1 ] : #1	0.00
+8	1	iLLLMQcbcgffhghhtsmigjnjj	7	SFS [S2: (3,1) (3,1) (5,-3)] : #1	0.54
+8	1	iLLvQQccdfhgghhghsdhgfvvn	7	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 0,1 | 1,1 ] : #1	0.80
+8	1	iLvLQQcbdhggfhhghwhhgrgbb	7	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 0,1 | 1,1 ] : #1	0.78
+8	1	iLLvQQccdfeghghhhsqaggrgn	7	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 0,1 | 1,1 ] : #1	0.00
+8	1	iLvLQQccehegfhghlhhhxvkkn	7	SFS [RP2/n2: (2,1) (3,-2)] : #2	1.00
+8	1	iLvAAQcbefgehhghedepqfjsc	7	SFS [S2: (3,1) (3,1) (5,-3)] : #1	0.66
+8	2	ivLMMQccdfehgghhnwpkiagwb	7	SFS [S2: (3,1) (3,1) (4,-3)] : #2	0.00
+9	1	jLAMzLQbcbdefhiiihhjhhhkiix	8	SFS [S2: (2,1) (2,1) (8,-7)] : #1	0.34
+9	1	jLAMzLQbcbdefhiiihhjhhhkeex	8	L(32,15) : #1	0.76
+9	2	jLAMLLQbcbdeghhiixxnxxjqisj	8	SFS [S2: (2,1) (3,1) (11,-9)] : #1	0.00
+9	2	jLAMLLQbcbdeghhiixxjxxjqisj	7	SFS [S2: (2,1) (3,1) (7,-6)] : #1	0.00
+9	1	jLAMLLQbcbdeghiiixxjxxjxajo	8	SFS [S2: (2,1) (2,1) (8,-7)] : #1	0.40
+9	2	jLAwLQPcbbdfgghiihhkhjlqshk	8	SFS [S2: (2,1) (4,1) (6,-5)] : #1	0.00
+9	1	jLAwLMQcbbdfhiihihhkhjabgjj	8	SFS [S2: (2,1) (2,1) (8,-7)] : #1	0.56
+9	2	jLALAMPcbbeffghiiqqnnmxkqqn	8	SFS [S2: (2,1) (5,1) (5,-4)] : #1	0.00
+9	1	jLALAMPbcbeffghiihhjsuughxj	8	L(41,13) : #1	0.88
+9	2	jLALPzQbcbefghiiixxnnxxxxvc	8	SFS [S2: (2,1) (2,1) (4,9)] : #5	0.00
+9	2	jLALPzQbcbefghiiixxngxxxxvc	7	L(38,9) : #1	0.00
+9	2	jLALPzQcbbegfhiiihhrkxxqqof	7	L(55,12) : #1	0.00
+9	2	jLALPzQcbbegfhiiihhrwhhqqfo	7	L(43,9) : #1	0.00
+9	2	jLALPzQbcbegfhiiihhwsqqqqof	8	SFS [S2: (2,1) (4,1) (5,2)] : #2	0.00
+9	2	jLALPzQbcbegfhiiihhwcqqqqof	7	L(53,12) : #1	0.00
+9	2	jLALPzQbcbefghiiihxwnxxxxvc	8	SFS [S2: (2,1) (3,2) (4,5)] : #6	0.00
+9	2	jLALPzQbcbefghiiihxwgxxxxvc	7	L(47,11) : #1	0.00
+9	2	jLALPzQbcbefghiiixxjnxxxxvc	7	L(38,9) : #1	0.00
+9	2	jLALPzQcbbegfhiiihqjkxxqqof	7	L(60,13) : #1	0.00
+9	2	jLALPzQcbbegfhiiihqjwhhqqfo	7	L(52,11) : #1	0.00
+9	2	jLALPzQbcbefghiiixxjgxxxxvc	7	L(25,4) : #1	0.00
+9	2	jLALPzQbcbegfhiiixhnsqqqqof	8	SFS [S2: (2,1) (4,1) (5,3)] : #2	0.00
+9	2	jLALPzQbcbegfhiiixhncqqqqof	7	L(57,13) : #1	0.00
+9	2	jLALPzQcbbegfhiiihhkkxxqqof	7	L(41,9) : #1	0.00
+9	2	jLALPzQcbbegfhiiihhkwhhqqfo	7	L(29,5) : #1	0.00
+9	2	jLALPzQbcbegfhiiihhjsqqqqof	8	SFS [S2: (2,1) (4,1) (4,1)] : #2	0.00
+9	2	jLALPzQbcbegfhiiihhjcqqqqof	7	L(40,9) : #1	0.00
+9	2	jLALPzQbcbefghiiihxjnxxxxvc	8	SFS [S2: (2,1) (3,1) (4,5)] : #6	0.00
+9	2	jLALPzQbcbefghiiihxjgxxxxvc	7	L(43,10) : #1	0.00
+9	2	jLALPzQcbbegfhiiihqnkxxqqof	7	L(51,11) : #1	0.00
+9	2	jLALPzQcbbegfhiiihqnwhhqqfo	7	L(47,10) : #1	0.00
+9	2	jLALPzQbcbegfhiiixhjsqqqqof	8	SFS [S2: (2,1) (4,1) (4,3)] : #3	0.00
+9	2	jLALPzQbcbegfhiiixhjcqqqqof	7	L(48,11) : #1	0.00
+9	1	jLALLMQcbbeggihhiqqjnanqkrw	8	L(43,15) : #1	0.88
+9	1	jLALLMQcbbeggihhiqqjnanqnjw	8	L(32,15) : #1	0.90
+9	1	jLALLMQcbbeggihhiqqjnanxnnk	8	L(43,15) : #1	0.92
+9	1	jLALLMQcbbeggihhiqqnnanxnjr	8	L(41,13) : #1	0.86
+9	1	jLALLMQcbbeggihhiqqjnanqknw	8	L(41,13) : #1	0.92
+9	1	jLALLMQcbbeggihiiqqnnanqnqa	8	SFS [S2: (2,1) (2,1) (8,-7)] : #1	0.58
+9	2	jLLLAMQbedgfhihhixxnaxxxxak	8	SFS [S2: (2,1) (2,1) (5,6)] : #3	0.00
+9	2	jLLLAMQbedgfhihhixxnaaxxxan	7	SFS [S2: (2,1) (2,1) (5,4)] : #1	0.00
+9	2	jLLLAMQbedgfhihhixxwaxxxxak	7	L(37,7) : #1	0.00
+9	2	jLLLAMQbedgfhihhixxnaxxxxar	7	L(37,7) : #1	0.00
+9	2	jLLLAMQbedgfhihhixxwahxqxaj	7	L(45,8) : #1	0.00
+9	2	jLLLAMQbedgfhihhixxnaaxxxaj	6	L(33,7) : #1	0.00
+9	2	jLLLAMQbedgfhihhixxwahxhxar	7	L(40,7) : #1	0.00
+9	2	jLLLAMQbedgfhihhixxwaxxxxar	7	L(26,5) : #1	0.00
+9	2	jLLLAMQbedgfhihhixxnaxxqxas	8	SFS [S2: (2,1) (3,2) (5,1)] : #3	0.00
+9	2	jLLLAMQbedgfhihhixxnaaxhxaw	7	SFS [S2: (2,1) (3,2) (5,-1)] : #1	0.00
+9	2	jLLLAMQbedgfhihhixxwaxxqxas	7	L(43,8) : #1	0.00
+9	2	jLLLAMQbedgfhihhixxwahxqxan	7	L(39,7) : #1	0.00
+9	2	jLLLAMQbedgfhihhixxwahxhxan	7	L(29,5) : #1	0.00
+9	2	jLLLAMQbedgfhihhixxnaxxqxaw	8	SFS [S2: (2,1) (3,1) (5,1)] : #3	0.00
+9	2	jLLLAMQbedgfhihhixxwaxxqxaw	7	L(38,7) : #1	0.00
+9	1	jLLPLAQcdcffhgihihsnashsqrn	8	L(41,13) : #1	0.82
+9	1	jLLPLAQcdcffhgihihsnashshrr	8	L(32,15) : #1	0.70
+9	1	jLLPLAQcdcffhgihihsnasqsqjj	8	L(57,20) : #1	0.94
+9	1	jLLPLPQcdcffghiiiqsjassptjr	8	SFS [S2: (2,1) (3,2) (11,-8)] : #1	0.96
+9	1	jLLPLAQcdcffghhiiqsjasnpqvr	8	SFS [S2: (2,1) (5,2) (8,-5)] : #1	0.98
+9	1	jLLLAQPbdeffgghiixniqxvjiqj	8	SFS [S2: (2,1) (3,1) (11,-9)] : #1	0.92
+9	1	jLLLMQPcdefggghiihslagocshr	8	SFS [S2: (2,1) (3,2) (9,-7)] : #1	0.68
+9	1	jLLLAQPbegfggfhiixxmmmvobhr	8	SFS [S2: (3,1) (3,1) (7,-5)] : #1	0.70
+9	2	jLLvQAQbeghfffihihhhxagbhkr	8	SFS [S2: (2,1) (3,2) (4,5)] : #3	0.00
+9	2	jLLvQAQbeghfffihihhhhagbhwr	8	SFS [S2: (2,1) (2,1) (4,9)] : #3	0.00
+9	2	jLLvQAQbeghfffihihhxxagbqkj	8	SFS [S2: (3,2) (4,1) (5,-2)] : #1	0.00
+9	2	jLLvQAQbeghfffihihhxxagbxjk	8	SFS [S2: (3,1) (4,1) (5,-3)] : #1	0.00
+9	2	jLLvQAQbeghfffihihhxhagbqwj	8	SFS [S2: (2,1) (4,1) (5,3)] : #1	0.00
+9	2	jLLvQAQbeghfffihihhxhagbxwk	8	SFS [S2: (2,1) (4,1) (5,2)] : #1	0.00
+9	2	jLLvQAQbeghfffihihhhxagbhkk	7	L(47,11) : #1	0.00
+9	2	jLLvQAQbeghfffihihhhhagbhwk	7	L(38,9) : #1	0.00
+9	2	jLLvQAQbeghfffihihhhxagbqkj	8	SFS [S2: (3,2) (3,2) (4,1)] : #2	0.00
+9	2	jLLvQAQbeghfffihihhhhagbqwj	8	SFS [S2: (2,1) (3,2) (4,5)] : #2	0.00
+9	2	jLLvQAQbeghfffihihhxxagbqkw	8	SFS [S2: (3,2) (4,1) (4,-1)] : #1	0.00
+9	2	jLLvQAQbeghfffihihhxxagbxjr	8	SFS [S2: (3,1) (4,1) (4,-3)] : #1	0.00
+9	2	jLLvQAQbeghfffihihhxhagbqww	8	SFS [S2: (2,1) (4,1) (4,3)] : #1	0.00
+9	2	jLLvQAQbeghfffihihhxhagbxwr	8	SFS [S2: (2,1) (4,1) (4,1)] : #1	0.00
+9	2	jLLvQAQbeghfffihihhhxagbqkn	8	SFS [S2: (3,1) (3,2) (4,1)] : #2	0.00
+9	2	jLLvQAQbeghfffihihhhhagbqwn	8	SFS [S2: (2,1) (3,1) (4,5)] : #2	0.00
+9	2	jLLvQAQbeghfffihihhhxagbhjr	8	SFS [S2: (2,1) (3,1) (4,5)] : #3	0.00
+9	2	jLLvQAQbeghfffihihhhhagbhjr	7	L(38,9) : #1	0.00
+9	2	jLLvQAQbeghfffihihhxxagbqjj	8	SFS [S2: (3,1) (4,1) (5,-2)] : #1	0.00
+9	2	jLLvQAQbeghfffihihhxxagbxkk	8	SFS [S2: (3,2) (4,1) (5,-3)] : #1	0.00
+9	2	jLLvQAQbeghfffihihhxhagbqjj	7	L(57,13) : #1	0.00
+9	2	jLLvQAQbeghfffihihhxhagbxjk	7	L(53,12) : #1	0.00
+9	2	jLLvQAQbeghfffihihhhxagbqjj	8	SFS [S2: (3,1) (3,2) (4,1)] : #3	0.00
+9	2	jLLvQAQbeghfffihihhhxagbhjk	7	L(43,10) : #1	0.00
+9	2	jLLvQAQbeghfffihihhhhagbqjj	7	L(47,11) : #1	0.00
+9	2	jLLvQAQbeghfffihihhhhagbhjk	7	L(25,4) : #1	0.00
+9	2	jLLvQAQbeghfffihihhxxagbqjw	8	SFS [S2: (3,1) (4,1) (4,-1)] : #1	0.00
+9	2	jLLvQAQbeghfffihihhxxagbxkr	8	SFS [S2: (3,2) (4,1) (4,-3)] : #1	0.00
+9	2	jLLvQAQbeghfffihihhxhagbqjw	7	L(48,11) : #1	0.00
+9	2	jLLvQAQbeghfffihihhxhagbxjr	7	L(40,9) : #1	0.00
+9	2	jLLvQAQbeghfffihihhhxagbqjn	8	SFS [S2: (3,1) (3,1) (4,1)] : #2	0.00
+9	2	jLLvQAQbeghfffihihhhhagbqjn	7	L(43,10) : #1	0.00
+9	1	jLLzQMPcdfgefghiihsilhobtqn	8	SFS [S2: (3,1) (3,1) (7,-3)] : #1	0.76
+9	1	jLLzPAQcdeghhgihihsxhosfhfr	8	SFS [S2: (3,1) (3,1) (8,-3)] : #1	0.84
+9	2	jLLAMzQacdefghiiinkxxxxxxvc	8	SFS [S2: (2,1) (2,1) (6,1)] : #1	0.00
+9	2	jLLLAAQbedgfhfiiixxwahxjxvc	7	L(27,4) : #1	0.00
+9	2	jLLLAAQbedgfhfiiixxwahxwxvc	7	L(33,5) : #1	0.00
+9	2	jLLAMzQacdefghiiinbxxxxxxvc	7	L(32,5) : #1	0.00
+9	2	jLLAMzQacdefghiiijkxxxxxxvc	7	L(32,5) : #1	0.00
+9	2	jLLAMzQacdefghiiijkaaxxxxvc	6	L(28,5) : #1	0.00
+9	2	jLLAMzQacdefghiiijbxxxxxxvc	7	L(25,4) : #1	0.00
+9	1	jLLALAQbcedhghihitsajxvmqlj	8	SFS [S2: (2,1) (5,2) (7,-5)] : #1	0.64
+9	1	jLLALAQacdehghiiinkqxhwnaup	8	SFS [S2: (2,1) (4,3) (7,-5)] : #1	0.84
+9	1	jLLALMQbcedhghhiitsajxsqxqj	8	SFS [S2: (2,1) (4,3) (7,-5)] : #1	0.84
+9	1	jLLALMQcecdghghiithcnnxkxkj	8	SFS [S2: (2,1) (3,2) (9,-7)] : #1	0.66
+9	2	jLLLMAQcdgfghghiihshegbbsej	7	SFS [S2: (2,1) (3,2) (5,-1)] : #1	0.00
+9	2	jLLLMAQcdgfghghiihshegbbstn	6	L(33,7) : #1	0.00
+9	2	jLLLMAQcdgfghghiihshegbbstr	7	SFS [S2: (2,1) (2,1) (5,4)] : #1	0.00
+9	1	jLLLMQPcddffghhiipkrekslajj	8	SFS [S2: (2,1) (5,2) (7,-4)] : #1	0.92
+9	1	jLLALAQbeddghghiihhnkwmfdbw	8	SFS [S2: (2,1) (3,1) (11,-9)] : #1	0.94
+9	1	jLLALAQbeddfghhiixxrosnmmfr	8	SFS [S2: (2,1) (3,2) (9,-7)] : #1	0.60
+9	1	jLLLMPQcdefgghihihslagcsdwr	8	SFS [S2: (2,1) (5,2) (7,-5)] : #1	0.68
+9	1	jLLLMPQcdefgghihihslagcsuwk	8	SFS [S2: (2,1) (4,3) (7,-5)] : #1	0.84
+9	1	jLLLAPQcdgffghhiihshatsqasw	8	SFS [S2: (2,1) (5,3) (7,-5)] : #1	0.90
+9	1	jLLLAAQbceggfhhiitspaqsaljj	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ 0,1 | 1,1 ] : #2	0.00
+9	1	jLLLPAQbcgeffhhiitsmijswfuw	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,1)], m = [ -1,1 | 0,1 ] : #5	0.56
+9	1	jLLLAAQbcgegfhhiitsmiusadjj	8	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (3,2)], m = [ 0,1 | 1,1 ] : #2	0.00
+9	1	jLLLAAQbceggfhhiitspaqsaljw	8	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (3,2)], m = [ 0,1 | 1,1 ] : #2	0.00
+9	1	jLLLPAQbcgeffhhiitsmijswfuj	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ -1,1 | 0,1 ] : #3	0.38
+9	1	jLLLAAQbcgegfhhiitsmiusadjw	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ 0,1 | 1,1 ] : #1	0.00
+9	1	jLLzwQQacefhgiihinkxvhaavjn	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,1)], m = [ -1,1 | 0,1 ] : #5	0.52
+9	1	jLLzwQQacefhgihiinkxflaefgn	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ 0,1 | 1,1 ] : #2	0.00
+9	1	jLLzwQQacefhigihinkxvhxirwn	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,1)], m = [ -1,1 | 0,1 ] : #6	0.98
+9	1	jLLzwQQacefhgiihijkxvhaavjn	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ -1,1 | 0,1 ] : #3	0.58
+9	1	jLLzwQQacefhgihiijkxflaefgn	8	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (3,2)], m = [ 0,1 | 1,1 ] : #1	0.00
+9	1	jLLLAPQbdffggiihidwmiigepwj	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #2	0.96
+9	1	jLLLMAQbdfffghhiidwmigrcjpj	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #2	0.00
+9	1	jLLLLQQcefggfhhiitpxlgrgcws	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #1	0.00
+9	1	jLLLMAQbdfffghhiidwmigrcjik	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,1)], m = [ 0,1 | 1,1 ] : #1	0.00
+9	1	jLLLMAQbdfffghhiidwiigrcjik	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ 0,1 | 1,1 ] : #1	0.00
+9	1	jLLLLQQcefggfhhiilpxlgrgcrr	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ 0,1 | 1,1 ] : #1	0.00
+9	1	jLLLLQQcefggfhhiitpxlgrgcrr	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,1)], m = [ 0,1 | 1,1 ] : #2	0.00
+9	1	jLLLMAQbdfffhghiidwmigwokir	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ -1,1 | 0,1 ] : #3	0.50
+9	1	jLLLMAQbdfffghhiidwmigrcjir	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ -1,1 | 1,0 ] : #1	0.00
+9	1	jLLLMAQbdfffghhiidwiigrcjir	8	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (3,2)], m = [ 0,1 | 1,1 ] : #1	0.00
+9	1	jLLLMMQcedegghhiiplrxgwnrxr	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ -1,1 | 0,1 ] : #3	0.60
+9	1	jLLLLQQcefggfhhiilpxlgrgcrn	8	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (3,2)], m = [ 0,1 | 1,1 ] : #1	0.00
+9	1	jLLLLQQcefggfhhiitpxlgrgcrn	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ -1,1 | 1,0 ] : #2	0.00
+9	1	jLLLLQQccffgghhiilnajnknsnk	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ 0,1 | 1,1 ] : #2	0.86
+9	1	jLLLLQQccfgfghhiilnagsbnjnk	8	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (3,2)], m = [ 0,1 | 1,1 ] : #2	0.86
+9	1	jLLzLQQaceihghiihnkxupadpfw	8	SFS [S2: (3,1) (3,1) (7,-4)] : #1	0.60
+9	1	jLLzLQQaceihghiihjkxupadpfw	8	SFS [S2: (3,1) (3,1) (8,-5)] : #1	0.48
+9	1	jLLLPPQacfegiihhijkgvwtlleg	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #2	0.96
+9	2	jLLLAAQacfggghiiinkgokohqkv	8	SFS [S2: (3,1) (4,1) (4,-3)] : #1	0.00
+9	2	jLLLAAQacfggghiiinkgwkohqkv	8	SFS [S2: (3,2) (4,1) (4,-3)] : #1	0.00
+9	2	jLLLAPQbegfgihiihxximmxrixj	8	SFS [S2: (3,2) (4,1) (4,-1)] : #1	0.00
+9	2	jLLLAPQbegfgihiihxxmmmxrixj	8	SFS [S2: (3,1) (4,1) (4,-1)] : #1	0.00
+9	2	jLLLAAQacfggghiiijkgokohqkv	8	SFS [S2: (3,1) (4,1) (5,-3)] : #1	0.00
+9	2	jLLLAAQacfggghiiijkgwkohqkv	8	SFS [S2: (3,2) (4,1) (5,-3)] : #1	0.00
+9	2	jLLLAPQbegfgihiihxximmxrixk	8	SFS [S2: (3,2) (4,1) (5,-2)] : #1	0.00
+9	2	jLLLAPQbegfgihiihxxmmmxrixk	8	SFS [S2: (3,1) (4,1) (5,-2)] : #1	0.00
+9	1	jLLLPAQacfghhfihijkgbdakhlr	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #1	0.96
+9	1	jLLvMQQacfgfhhiiinkfjfuadmk	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ 0,1 | 1,1 ] : #2	0.74
+9	1	jLLvMQQacgghfihiinkwjlkdemn	8	SFS [S2: (3,1) (3,1) (7,-4)] : #1	0.56
+9	1	jLLLPMQbcgfhfihhitsmmobqbfw	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,1)], m = [ 0,1 | 1,1 ] : #1	0.00
+9	1	jLLLLQQacfighhhiinkganiuqxm	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+9	1	jLLLPMQbcgfhfihhitsmmobqbfj	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,2)], m = [ 0,1 | 1,1 ] : #1	0.00
+9	1	jLLLLQQacfighhhiijkganiuqxm	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+9	2	jLLvQPQbeghfifiihxxahxxnxaw	8	SFS [S2: (2,1) (3,2) (5,1)] : #1	0.00
+9	2	jLLvQPQbeghfifiihxxaahxjxan	7	SFS [S2: (2,1) (3,2) (5,-1)] : #1	0.00
+9	2	jLLvQPQbeghfifiihxxaxxxnxak	8	SFS [S2: (2,1) (2,1) (5,6)] : #1	0.00
+9	2	jLLvQPQbeghfifiihxxaaaxkxan	7	SFS [S2: (2,1) (2,1) (5,4)] : #1	0.00
+9	2	jLLvQPQbeghfifiihxxaaxxnxan	5	SFS [S2: (2,1) (2,1) (5,-4)] : #1	0.00
+9	2	jLLvQPQbeghfifiihxxahxxjxaw	7	L(43,8) : #1	0.00
+9	2	jLLvQPQbeghfifiihxxaahxjxar	6	L(37,8) : #1	0.00
+9	2	jLLvQPQbeghfifiihxxahhxjxaw	8	SFS [S2: (3,1) (3,2) (5,-4)] : #1	0.00
+9	2	jLLvQPQbeghfifiihxxahxxnxaj	8	SFS [S2: (2,1) (3,1) (5,1)] : #1	0.00
+9	2	jLLvQPQbeghfifiihxxaahxwxan	7	SFS [S2: (2,1) (3,1) (5,-1)] : #1	0.00
+9	2	jLLvQPQbeghfifiihxxaxxxjxak	7	L(37,7) : #1	0.00
+9	2	jLLvQPQbeghfifiihxxahhxwxaw	8	SFS [S2: (3,2) (3,2) (5,-4)] : #1	0.00
+9	2	jLLvQPQbeghfifiihxxaaaxkxar	6	L(33,7) : #1	0.00
+9	2	jLLvQPQbeghfifiihxxaaxxnxar	4	L(13,3) : #1	0.00
+9	2	jLLvQPQbeghfifiihxxahxxjxaj	7	L(38,7) : #1	0.00
+9	2	jLLvQPQbeghfifiihxxaahxwxar	6	L(32,7) : #1	0.00
+9	2	jLLvQPQbeghfifiihxxaaxxjxan	5	L(17,3) : #1	0.00
+9	2	jLLvQPQbeghfifiihxxaxxxjxaj	7	L(26,5) : #1	0.00
+9	2	jLLvQPQbeghfifiihxxaaaxrxar	6	L(24,5) : #1	0.00
+9	1	jLLvQQPcdfeghghiihsqaggrghw	8	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (3,2)], m = [ 0,1 | 1,1 ] : #2	0.00
+9	1	jLLvQQPcdfeghghiihsqaggrghj	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ 0,1 | 1,1 ] : #2	0.00
+9	1	jLLLMAQbcefghghiitsudbjbomj	8	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (3,2)], m = [ 0,1 | 1,1 ] : #1	0.00
+9	1	jLLLMAQbcfehgghiitshhjjfoaw	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,1)], m = [ -1,1 | 0,1 ] : #6	0.46
+9	1	jLLLMAQbcefghghiitsudbjbomw	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ 0,1 | 1,1 ] : #1	0.00
+9	2	jLLLPMQcdgefhghiihshhosofqn	8	SFS [S2: (3,1) (4,1) (5,-3)] : #1	0.00
+9	2	jLLLPMQcdgefhghiihshhosofaj	8	SFS [S2: (3,1) (4,1) (4,-1)] : #1	0.00
+9	2	jLLLPMQcdgefhghiihshhosofqj	8	SFS [S2: (3,1) (4,1) (4,-3)] : #1	0.00
+9	2	jLLLPMQcdgefhghiihshhosofaw	8	SFS [S2: (3,1) (4,1) (5,-2)] : #1	0.00
+9	1	jLLvAQQbehgghifiixxqqvnrnbg	8	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (3,2)], m = [ 0,1 | 1,1 ] : #2	0.78
+9	2	jLvPAPQafegfhihiijqxgvlxtas	8		0.00
+9	1	jLLvPQQcdhgghihgihshgfvkvnj	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ 0,1 | 1,1 ] : #2	0.88
+9	1	jLvLAQQcfeghfghiipuuugjjroj	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,1)], m = [ -1,1 | 0,1 ] : #6	0.62
+9	2	jLLLLQQcdgghfiiihhshgjjfswj	8	SFS [S2: (3,1) (4,1) (5,-2)] : #1	0.00
+9	2	jLLLLQQcdgghfiiihhshgfjfswr	8	SFS [S2: (3,1) (4,1) (4,-3)] : #1	0.00
+9	2	jLLLLQQcdgghfiiihhshgjjfsww	8	SFS [S2: (3,1) (4,1) (4,-1)] : #1	0.00
+9	2	jLLLLQQcdgghfiiihhshgfjfswk	8	SFS [S2: (3,1) (4,1) (5,-3)] : #1	0.00
+9	1	jLvAAAQbeffghghiidademswjtn	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,1)], m = [ -1,1 | 0,1 ] : #5	0.94
+9	2	jLALPzQbccegfhiiiemkbiiqqfo	8	SFS [RP2/n2: (2,1) (4,1)] : #1	0.00
+9	2	jLALPzQbccegfhiiiemkbttqqof	8	SFS [RP2/n2: (2,1) (4,-3)] : #4	0.00
+9	2	jLALPzQbccegfhiiiemkviiqqfo	7	SFS [S2: (2,1) (2,1) (9,-5)] : #1	0.00
+9	2	jLALPzQbccegfhiiiemkottqqof	6	SFS [S2: (2,1) (2,1) (5,-1)] : #1	0.00
+9	2	jLALPzQbccefghiiilpkkumhxsf	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+9	2	jLALPzQbccefghiiilpkkuuqqfo	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+9	2	jLALPzQbccefghiiilpkkmlhxsf	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,1)], m = [ 0,1 | 1,0 ] : #1	0.00
+9	2	jLALPzQbccefghiiilpkkllqqof	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,1)], m = [ 0,1 | 1,0 ] : #1	0.00
+9	2	jLALPzQbccefghiiilpkfuuqqfo	7	SFS [S2: (2,1) (2,1) (5,4)] : #1	0.00
+9	2	jLALPzQbccefghiiilpkrllqqof	7	SFS [S2: (2,1) (2,1) (9,-4)] : #1	0.00
+9	2	jLAvQzQbccefghiiilpksuuhhgb	8	SFS [S2: (2,1) (2,1) (2,1) (4,-3)] : #1	0.00
+9	2	jLAvQzQbccefghiiilpksmmhhgb	8	SFS [S2: (2,1) (2,1) (2,1) (4,-7)] : #3	0.00
+9	2	jLAvQzQbccefghiiilpkcuuhhgb	7	SFS [S2: (2,1) (2,1) (4,5)] : #3	0.00
+9	2	jLAvQzQbccefghiiilpkrmmhhgb	6	SFS [S2: (2,1) (2,1) (4,1)] : #1	0.00
+9	2	jLLAMzQccedfghiiilnxkxxxxxa	7	L(23,3) : #1	0.00
+9	2	jLLAMzQccedfghiiihwxrxxxxxa	7	L(22,3) : #1	0.00
+9	2	jLLLQzQbefgffhiiixxhaqxxxvc	8	SFS [S2: (2,1) (2,1) (7,-1)] : #2	0.00
+9	2	jLLLMAQbefghggiiixxqaqvcqqa	8		0.00
+9	2	jLLLMAQbefghggiiihhqaqwrqqa	8	SFS [S2: (2,1) (3,1) (6,-1)] : #2	0.00
+9	2	jLLLMAQbefghggiiixxhahvchxq	8	SFS [S2: (2,1) (4,1) (5,-1)] : #2	0.00
+9	2	jLLPMzQccdfeghiiiqjsqqqqqqa	8	SFS [S2: (2,1) (2,1) (11,-6)] : #3	0.00
+9	2	jLLPMzQccdfeghiiiqjsaaqqqqa	7	SFS [S2: (2,1) (2,1) (9,-4)] : #2	0.00
+9	2	jLLAMzQbdedfghiiidwxsmxxxxa	6	L(28,5) : #1	0.00
+9	2	jLLLQzQbefgfghiiihhihiihugb	8	SFS [S2: (3,1) (3,2) (5,-4)] : #1	0.00
+9	2	jLLLQzQbefgfghiiihhmhiihugb	8	SFS [S2: (3,2) (3,2) (5,-4)] : #1	0.00
+9	2	jLLvQAQbeghfffiiihhhhagbhqx	8	SFS [S2: (2,1) (2,1) (13,-9)] : #4	0.00
+9	2	jLLAPzQbcdegfhiiitsohoohhgb	8	SFS [RP2/n2: (2,1) (4,1)] : #2	0.00
+9	2	jLLAPzQbcdegfhiiitsohsshhgb	8	SFS [RP2/n2: (2,1) (4,-3)] : #6	0.00
+9	2	jLLAPzQbcedgfhiiitsajooxxvc	7	SFS [S2: (2,1) (3,2) (5,-1)] : #1	0.00
+9	2	jLLAPzQbcedgfhiiitoaojjxxvc	7	SFS [S2: (2,1) (3,1) (5,-1)] : #1	0.00
+9	2	jLLAPzQbcedgfhiiiloaojjxxvc	7	SFS [S2: (2,1) (3,2) (5,-1)] : #1	0.00
+9	2	jLLAPzQcdcegfhiiihsrpjjqqfo	8	SFS [S2: (2,1) (3,1) (9,-5)] : #3	0.00
+9	2	jLLLLQQcdggighhiihshgbbkcsj	7	SFS [S2: (2,1) (2,1) (9,-4)] : #1	0.00
+9	2	jLLLLQQbeffggihiixxhxvckvsn	7	SFS [S2: (2,1) (3,2) (5,-1)] : #1	0.00
+9	2	jLLAMzQcdeefghiiilkhaxcxxvc	7	SFS [S2: (2,1) (3,2) (5,-1)] : #1	0.00
+9	2	jLLAMzQcdeefghiiitkhaxcxxvc	7	SFS [S2: (2,1) (3,1) (5,-1)] : #2	0.00
+9	1	jLLALMQbeddhghiiixxroxnpdag	8	SFS [S2: (2,1) (3,2) (9,-7)] : #1	0.58
+9	2	jLLLAAQcegfehhiiihqhdxnnqxx	8	SFS [S2: (3,1) (3,2) (5,-4)] : #1	0.00
+9	2	jLLLPAQcdgefhhiiihshhosvipq	8	SFS [S2: (3,1) (3,2) (5,-4)] : #1	0.00
+9	2	jLLvQPQbefhgiihihhhqaqhajxs	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+9	2	jLLvQPQbefhgiihihhhqaqhasxj	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,1)], m = [ 0,1 | 1,0 ] : #1	0.00
+9	1	jLLALMQbcedhggiiitsajxvjqgw	8	SFS [S2: (2,1) (3,2) (9,-7)] : #1	0.56
+9	1	jLLALAQbcedhggiiitsajxsrhnk	8	SFS [S2: (2,1) (3,2) (9,-7)] : #1	0.56
+9	2	jLLLMMQcdgegfihiihshmgjhwdl	8	SFS [S2: (3,2) (4,1) (4,-3)] : #1	0.00
+9	2	jLLLMMQcdgegfihiihshqgjhwdl	8	SFS [S2: (3,1) (4,1) (4,-3)] : #1	0.00
+9	2	jLLLLQQcdggihighihshgkkwwcw	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,1)], m = [ 0,1 | 1,0 ] : #1	0.00
+9	2	jLLLMPQcdgfgfihiihshigrxbtm	8	SFS [RP2/n2: (2,1) (4,-3)] : #6	0.00
+9	2	jLLLLQQbdfgighhiidwqwwvfork	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+9	2	jLLLLQQbdfggihhiidwqwscfock	8	SFS [RP2/n2: (2,1) (4,-3)] : #2	0.00
+9	2	jLLLLQQcdgfhighiihshnsjkjbw	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,1)], m = [ 0,1 | 1,0 ] : #1	0.00
+9	2	jLLLLQQcdggfhihiihshgwkncbw	8	SFS [S2: (2,1) (2,1) (2,1) (4,-7)] : #1	0.00
+9	2	jLLLAPQbefgfhiihihhmhibaprl	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+9	2	jLLLAPQcdgfehihiihshhhqqahf	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,1)], m = [ 0,1 | 1,0 ] : #1	0.00
+9	2	jLLLAPQcdgfehihiihshqaqaaaj	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+9	2	jLLLAPQbedgfhiihihhwhhahhaw	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+9	2	jLLLLQQbeffgighiixxexvorbns	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+9	2	jLLLLQQbeffghgiiixxexvcrssn	8	SFS [RP2/n2: (2,1) (4,-3)] : #2	0.00
+9	2	jLLvMQQbegfihhihixxxxnkkkkk	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,1)], m = [ 0,1 | 1,0 ] : #1	0.00
+9	1	jLLAMLQbcedfgihiitsajhxsskn	8	SFS [S2: (2,1) (3,1) (11,-9)] : #1	0.88
+9	1	jLLAwPQbdedfhhiiidwqsuxwjbb	8	SFS [S2: (2,1) (5,2) (7,-5)] : #1	0.56
+9	1	jLLALMQbdedhgiihidwqsqbuimj	8	SFS [S2: (2,1) (5,2) (7,-5)] : #1	0.56
+9	1	jLLLPMQcedgfhhiiiptrpnwwdma	8	SFS [S2: (2,1) (5,2) (7,-5)] : #1	0.58
+9	1	jLLLAPQbdffehihiidwmidatxxn	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #1	0.00
+9	1	jLLLLQQcddfhgiihipkrknwhaop	8	SFS [S2: (3,1) (3,1) (7,-5)] : #1	0.30
+9	1	jLLLLQQbcgffiihhitsmgjwbbfk	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #2	0.00
+9	1	jLLLLQQbcgiffihhitsmkbkkbfk	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #2	0.00
+9	1	jLLLLQQbdgfhiighidwmggccwwf	7	SFS [RP2/n2: (2,1) (3,-2)] : #6	0.00
+9	2	jLLPLMQcdefghhiiihsaxfjsxaq	8	SFS [S2: (3,1) (4,1) (4,-3)] : #1	0.00
+9	2	jLLLMPQcdfgghhiiihsxqgjwpth	8	SFS [S2: (3,1) (4,1) (4,-3)] : #1	0.00
+9	2	jLLLPMQcdefghiihihsdmgsxtka	8	SFS [S2: (3,1) (4,1) (4,-3)] : #1	0.00
+9	2	jLLLLQQcdfihhigihhsxbskwnbn	8	SFS [S2: (3,1) (4,1) (5,-3)] : #1	0.00
+9	2	jLLLLQQcdfihhigihhsxbsbwnbn	8	SFS [S2: (3,1) (4,1) (4,-3)] : #1	0.00
+9	2	jvLMMPQcdfehgihiinwpkigoofb	7	SFS [S2: (2,1) (2,1) (2,1) (3,-5)] : #3	0.00
+10	1	kLAMzMzkbccdefghijjemkiqqqqqqw	9	SFS [S2: (2,1) (2,1) (9,-8)] : #1	0.28
+10	1	kLAMzMzkbccdefghijjemkexxxxxxr	9	L(36,17) : #1	0.44
+10	1	kLAMzLAkbcbdefhiijjhhjhhhkeerj	9	L(49,17) : #1	0.66
+10	1	kLAMzLAkbcbdefhiijjhhjhhhkeegr	9	L(36,17) : #1	0.50
+10	2	kLAMzLMkbcbdefhiijjhhwhhhkixnn	9	SFS [S2: (2,1) (3,1) (13,-11)] : #1	0.00
+10	2	kLAMzLMkbcbdefhiijjxhnhhhkixnn	9	SFS [S2: (2,1) (3,1) (17,-14)] : #1	0.00
+10	2	kLAMzLMkbcbdefhiijjhhjhhhkixnn	8	SFS [S2: (2,1) (3,1) (8,-7)] : #2	0.00
+10	2	kLAMzLMkbcbdefhiijjxhjhhhkixnn	9	SFS [S2: (2,1) (3,1) (16,-13)] : #1	0.00
+10	1	kLAMzLPkbcbdefhjijjhhjhhhkahck	9	SFS [S2: (2,1) (2,1) (9,-8)] : #1	0.28
+10	1	kLAMLLAkbcbdegiiijjxxjxxjdajxk	9	L(36,17) : #1	0.60
+10	1	kLAMLLAkbcbdegiiijjxxjxxjdajqs	9	L(49,17) : #1	0.66
+10	1	kLAMLLAkbcbdegiiijjxxnxxjdajxr	9	L(36,17) : #1	0.80
+10	1	kLAMLLAkcbbdegiiijjhhrxxrearxj	9	L(69,28) : #1	0.92
+10	1	kLAMLLAkcbbdeghhijjhqjhhrapwxj	9	L(105,38) : #1	1.00
+10	1	kLAMLLAkbcbdegiiijjhxwxxjdajxr	9	L(49,17) : #1	0.88
+10	1	kLAMLLAkcbbdegiiijjhqjhqjdajxr	9	L(115,42) : #1	1.00
+10	2	kLAMLLAkbcbdeghhijjxxjxxjqisxr	9	SFS [S2: (2,1) (4,1) (7,-6)] : #1	0.00
+10	1	kLAMLLMkbcbdegiiijjxxjxxjdasqn	9	L(58,15) : #1	0.82
+10	1	kLAMLLAkbcbdegiiijjhxjxxjdajxr	9	L(47,15) : #1	0.88
+10	1	kLAMLvQkbcbdegihijjxxjxxjawssw	9	L(66,23) : #1	0.78
+10	1	kLAMLvQkbcbdegiihjjxxjxxjajnjn	9	L(36,17) : #1	0.42
+10	1	kLAMLvQkbcbdegihijjxxjxxjassjn	9	L(47,15) : #1	0.60
+10	1	kLAMLvQkbcbdegiijjjxxjxxjajvcj	9	SFS [S2: (2,1) (2,1) (9,-8)] : #1	0.34
+10	1	kLALAMzkbcbeffghijjxxnnmxnhhhs	9	L(87,37) : #1	0.96
+10	2	kLALAMzkcbbeffghijjqqnnmxkqqqw	9	SFS [S2: (2,1) (5,1) (6,-5)] : #1	0.00
+10	1	kLALMMzkbcbeffghijjhxjnddoqqqw	9	L(58,15) : #1	0.86
+10	1	kLALAMzkbcbeffghijjhhjsuugqxxj	9	L(63,13) : #1	1.00
+10	1	kLALAMzkbcbeffghijjhhjsuughhqn	9	L(47,15) : #1	0.74
+10	2	kLAwwAMkbcbdfghijjjhhwhrhhhhgb	9	SFS [S2: (2,1) (2,1) (4,13)] : #8	0.00
+10	2	kLAwwAMkbcbdfghijjjhhwhohhhhgb	8	L(46,11) : #1	0.00
+10	2	kLAwLAMkbcbdfhgijjjhhwhnxxqqof	8	L(73,16) : #1	0.00
+10	2	kLAwLAMkbcbdfhgijjjhhwhwhhqqfo	8	L(53,11) : #1	0.00
+10	2	kLAwLAMkcbbdfhgijjjhhrhjqqqqof	9	SFS [S2: (2,1) (4,1) (7,2)] : #2	0.00
+10	2	kLAwLAMkcbbdfhgijjjhhrhvqqqqof	8	L(71,16) : #1	0.00
+10	2	kLAwwAMkbcbdfghijjjhhwqjqqqqfo	9	SFS [S2: (2,1) (4,1) (5,7)] : #4	0.00
+10	2	kLAwwAMkbcbdfghijjjhhwqgqqqqfo	8	L(73,17) : #1	0.00
+10	2	kLAwLAMkbcbdfhgijjjhhwqkxxhhgb	8	L(88,19) : #1	0.00
+10	2	kLAwLAMkbcbdfhgijjjhhwqsqqhhgb	8	L(80,17) : #1	0.00
+10	2	kLAwwAMkbcbdfhgijjjxxnqwhhhhgb	9	SFS [S2: (2,1) (4,1) (7,5)] : #2	0.00
+10	2	kLAwwAMkbcbdfhgijjjxxnqchhhhgb	8	L(83,19) : #1	0.00
+10	2	kLAwwAMkbcbdfghijjjxhnhrhhhhgb	9	SFS [S2: (2,1) (3,2) (4,9)] : #7	0.00
+10	2	kLAwwAMkbcbdfghijjjxhnhohhhhgb	8	L(59,14) : #1	0.00
+10	2	kLAwLAMkbcbdfhgijjjhxwxwhhqqfo	8	L(87,19) : #1	0.00
+10	2	kLAwLAMkbcbdfhgijjjhxwxnxxqqof	8	L(67,14) : #1	0.00
+10	2	kLAwLAMkcbbdfhgijjjhqjhjqqqqof	9	SFS [S2: (2,1) (4,1) (8,3)] : #2	0.00
+10	2	kLAwLAMkcbbdfhgijjjhqjhvqqqqof	8	L(84,19) : #1	0.00
+10	2	kLAwwAMkbcbdfghijjjxhnqjqqqqfo	9	SFS [S2: (2,1) (4,1) (5,8)] : #4	0.00
+10	2	kLAwwAMkbcbdfghijjjxhnqgqqqqfo	8	L(77,18) : #1	0.00
+10	2	kLAwLAMkbcbdfhgijjjhxwqrhhxxvc	8	L(97,21) : #1	0.00
+10	2	kLAwLAMkbcbdfhgijjjhxwqjqqxxvc	8	L(85,18) : #1	0.00
+10	2	kLAwwAMkbcbdfhgijjjhxwqwhhhhgb	9	SFS [S2: (2,1) (4,1) (8,5)] : #2	0.00
+10	2	kLAwwAMkbcbdfhgijjjhxwqchhhhgb	8	L(92,21) : #1	0.00
+10	2	kLAwwAMkbcbdfghijjjhhjhrhhhhgb	8	L(46,11) : #1	0.00
+10	2	kLAwwAMkbcbdfghijjjhhjhohhhhgb	8	L(29,4) : #1	0.00
+10	2	kLAwLAMkbcbdfhgijjjhhjhnxxqqof	8	L(50,9) : #1	0.00
+10	2	kLAwLAMkbcbdfhgijjjhhjhwhhqqfo	8	L(34,5) : #1	0.00
+10	2	kLAwLAMkcbbdfhgijjjhhkhjqqqqof	9	SFS [S2: (2,1) (4,1) (5,1)] : #2	0.00
+10	2	kLAwLAMkcbbdfhgijjjhhkhvqqqqof	8	L(49,9) : #1	0.00
+10	2	kLAwwAMkbcbdfghijjjhhjqjqqqqfo	9	SFS [S2: (2,1) (4,1) (4,5)] : #4	0.00
+10	2	kLAwwAMkbcbdfghijjjhhjqgqqqqfo	8	L(56,13) : #1	0.00
+10	2	kLAwLAMkbcbdfhgijjjhhjqkxxhhgb	8	L(65,14) : #1	0.00
+10	2	kLAwLAMkbcbdfhgijjjhhjqsqqhhgb	8	L(61,13) : #1	0.00
+10	2	kLAwwAMkbcbdfhgijjjxxjqwhhhhgb	9	SFS [S2: (2,1) (4,1) (5,4)] : #2	0.00
+10	2	kLAwwAMkbcbdfhgijjjxxjqchhhhgb	8	L(61,13) : #1	0.00
+10	2	kLAwwAMkbcbdfghijjjxhjhrhhhhgb	9	SFS [S2: (2,1) (3,1) (4,9)] : #8	0.00
+10	2	kLAwwAMkbcbdfghijjjxhjhohhhhgb	8	L(55,13) : #1	0.00
+10	2	kLAwLAMkbcbdfhgijjjhxjxwhhqqfo	8	L(78,17) : #1	0.00
+10	2	kLAwLAMkbcbdfhgijjjhxjxnxxqqof	8	L(62,13) : #1	0.00
+10	2	kLAwLAMkcbbdfhgijjjhqnhjqqqqof	9	SFS [S2: (2,1) (4,1) (7,3)] : #2	0.00
+10	2	kLAwLAMkcbbdfhgijjjhqnhvqqqqof	8	L(75,17) : #1	0.00
+10	2	kLAwwAMkbcbdfghijjjxhjqjqqqqfo	9	SFS [S2: (2,1) (4,1) (4,7)] : #4	0.00
+10	2	kLAwwAMkbcbdfghijjjxhjqgqqqqfo	8	L(64,15) : #1	0.00
+10	2	kLAwLAMkbcbdfhgijjjhxjqrhhxxvc	8	L(83,18) : #1	0.00
+10	2	kLAwLAMkbcbdfhgijjjhxjqjqqxxvc	8	L(71,15) : #1	0.00
+10	2	kLAwwAMkbcbdfhgijjjhxjqwhhhhgb	9	SFS [S2: (2,1) (4,1) (7,4)] : #2	0.00
+10	2	kLAwwAMkbcbdfhgijjjhxjqchhhhgb	8	L(79,18) : #1	0.00
+10	1	kLAwLMAkcbbdfhhgijjhhkhjasnjhr	9	L(49,17) : #1	0.76
+10	1	kLAwLMAkcbbdfhghijjhqjhjawjjhn	9	L(49,17) : #1	0.84
+10	1	kLAwLMAkcbbdfhghijjhhkhjawjjqn	9	L(47,15) : #1	0.64
+10	1	kLAwwPAkbcbdfhhgijjxhjhrarkrxj	9	L(83,24) : #1	1.00
+10	1	kLAwwMAkbcbdfhghijjhxjqwaswwqn	9	L(58,15) : #1	0.90
+10	1	kLAwwPAkbcbdfhhgijjxhjqjajnjxr	9	L(85,24) : #1	0.90
+10	1	kLAwLMAkcbbdfhhgijjhhkhjasjjhr	9	L(47,15) : #1	0.72
+10	1	kLAwLMAkcbbdfhhgijjhhrhjasjjhn	9	L(47,15) : #1	0.90
+10	1	kLAwLwQkcbbdfhjhijjhhkhjahjjha	9	SFS [S2: (2,1) (2,1) (9,-8)] : #1	0.28
+10	1	kLAwLLQkcbbdfijijijhhrhjfgjkcj	9	SFS [S2: (2,1) (3,2) (11,-9)] : #1	1.00
+10	1	kLAwvQPkbcbdhigjjjihhwhhahqqan	9	SFS [S2: (3,1) (3,1) (9,-7)] : #1	0.90
+10	1	kLAwvQPkbcbdhgijjjixhnqqqahahk	9	SFS [S2: (3,1) (3,1) (13,-8)] : #1	0.96
+10	2	kLALPzMkbcbefghijjjxxnnxxxxxxa	9	SFS [S2: (2,1) (2,1) (5,11)] : #5	0.00
+10	2	kLALPzMkbcbefghijjjxxnnaaxxxxa	8	SFS [S2: (2,1) (2,1) (5,9)] : #4	0.00
+10	2	kLALPzMkbcbefghijjjxxngxxxxxxa	8	L(47,9) : #1	0.00
+10	2	kLALPzMkcbbegfhijjjhhrkxxqqqqa	8	L(67,12) : #1	0.00
+10	2	kLALPzMkcbbegfhijjjhhrwhhqqqqa	8	L(52,9) : #1	0.00
+10	2	kLALPzMkbcbegfhijjjhhwsqqqqqqa	9	SFS [S2: (2,1) (5,1) (5,2)] : #3	0.00
+10	2	kLALPzMkbcbegfhijjjhhwsaaqqqqa	8	SFS [S2: (2,1) (5,2) (5,-1)] : #1	0.00
+10	2	kLALPzMkbcbegfhijjjhhwcqqqqqqa	8	L(65,12) : #1	0.00
+10	2	kLALPzMkbcbefghijjjhxwnxxxxxxa	9	SFS [S2: (2,1) (3,2) (5,6)] : #6	0.00
+10	2	kLALPzMkbcbefghijjjhxwnaaxxxxa	8	SFS [S2: (2,1) (3,2) (5,4)] : #3	0.00
+10	2	kLALPzMkbcbefghijjjhxwgxxxxxxa	8	L(58,11) : #1	0.00
+10	2	kLALPzMkcbbegfhijjjhqjkxxqqqqa	8	L(73,13) : #1	0.00
+10	2	kLALPzMkcbbegfhijjjhqjwhhqqqqa	8	L(63,11) : #1	0.00
+10	2	kLALPzMkbcbegfhijjjxhnsqqqqqqa	9	SFS [S2: (2,1) (5,1) (5,3)] : #3	0.00
+10	2	kLALPzMkbcbegfhijjjxhnsaaqqqqa	8	SFS [S2: (2,1) (5,3) (5,-1)] : #1	0.00
+10	2	kLALPzMkbcbegfhijjjxhncqqqqqqa	8	L(70,13) : #1	0.00
+10	2	kLALPzMkbcbefghijjjxxjnxxxxxxa	8	L(47,9) : #1	0.00
+10	2	kLALPzMkbcbefghijjjxxjnaaxxxxa	7	L(43,9) : #1	0.00
+10	2	kLALPzMkbcbefghijjjxxjgxxxxxxa	8	L(31,5) : #1	0.00
+10	2	kLALPzMkcbbegfhijjjhhkkxxqqqqa	8	L(50,9) : #1	0.00
+10	2	kLALPzMkcbbegfhijjjhhkwhhqqqqa	8	L(35,6) : #1	0.00
+10	2	kLALPzMkbcbegfhijjjhhjsqqqqqqa	9	SFS [S2: (2,1) (4,1) (5,1)] : #3	0.00
+10	2	kLALPzMkbcbegfhijjjhhjcqqqqqqa	8	L(49,9) : #1	0.00
+10	2	kLALPzMkbcbefghijjjhxjnxxxxxxa	9	SFS [S2: (2,1) (3,1) (5,6)] : #6	0.00
+10	2	kLALPzMkbcbefghijjjhxjnaaxxxxa	8	SFS [S2: (2,1) (3,1) (5,4)] : #1	0.00
+10	2	kLALPzMkbcbefghijjjhxjgxxxxxxa	8	L(53,10) : #1	0.00
+10	2	kLALPzMkcbbegfhijjjhqnkxxqqqqa	8	L(62,11) : #1	0.00
+10	2	kLALPzMkcbbegfhijjjhqnwhhqqqqa	8	L(57,10) : #1	0.00
+10	2	kLALPzMkbcbegfhijjjxhjsqqqqqqa	9	SFS [S2: (2,1) (4,3) (5,1)] : #3	0.00
+10	2	kLALPzMkbcbegfhijjjxhjsaaqqqqa	8	SFS [S2: (2,1) (4,3) (5,-1)] : #1	0.00
+10	2	kLALPzMkbcbegfhijjjxhjcqqqqqqa	8	L(59,11) : #1	0.00
+10	1	kLALPLPkbcbegfiijjjxhnsahprcoc	9	SFS [S2: (2,1) (5,2) (11,-8)] : #1	0.62
+10	1	kLALLMAkcbbeggihhjjqqjnanqkrqn	9	L(49,17) : #1	0.78
+10	1	kLALLMAkbcbeggihhjjxxnnanqkrqn	9	L(91,32) : #1	0.98
+10	1	kLALLPAkcbbeggihhjjqqnnakxnjxr	9	L(63,13) : #1	0.98
+10	1	kLALLMMkcbbeggihjijqqnnanqnqss	9	L(36,17) : #1	0.76
+10	1	kLALLMMkcbbeggihjijqqnnanxnxkk	9	L(66,23) : #1	0.88
+10	1	kLALLMMkbcbeggihjijxxnnanqnqsw	9	L(69,28) : #1	0.94
+10	1	kLALLMMkbcbeggihjijhxwnanqnqsw	9	L(71,28) : #1	0.90
+10	1	kLALLMMkcbbeggihjijqhknanqnqsw	9	L(47,15) : #1	0.78
+10	1	kLALLMMkcbbeggihjijqqnnanqnxsr	9	L(47,15) : #1	0.80
+10	1	kLALLMMkcbbeggihjjjqqnnanqnqfo	9	SFS [S2: (2,1) (2,1) (9,-8)] : #1	0.60
+10	1	kLALLwQkcbbegghijjjqqjnanndugn	9	SFS [S2: (2,1) (3,2) (11,-9)] : #1	0.64
+10	1	kLALLwQkcbbegghjijjqhrnannaakn	9	SFS [S2: (2,1) (3,1) (17,-14)] : #1	0.82
+10	1	kLALLwQkcbbegghijjjqhknanndugn	9	SFS [S2: (2,1) (3,2) (13,-10)] : #1	0.76
+10	1	kLALLMMkcbbegghiijjqqjnanrexbs	9	SFS [S2: (2,1) (5,2) (9,-7)] : #1	0.82
+10	1	kLALLMMkbcbegghiijjxxnnanrexbs	9	SFS [S2: (2,1) (5,2) (12,-7)] : #1	0.94
+10	1	kLALLLQkcbbeghjhjijqhrnakxnxrn	9	SFS [S2: (2,1) (5,2) (11,-8)] : #1	0.88
+10	1	kLALLMMkbcbefghiijjxhnshovlufr	9	SFS [S2: (2,1) (5,2) (11,-8)] : #1	0.88
+10	1	kLALLMMkcbbegghiijjqhknanrexgk	9	SFS [S2: (2,1) (5,3) (10,-7)] : #1	0.98
+10	1	kLALLLQkcbbegiihjjjqqjnaimnhxj	7	L(37,13) : #1	0.92
+10	1	kLALLLQkcbbegjjhiijqhrnaminlmb	9	SFS [S2: (2,1) (3,2) (14,-11)] : #1	0.72
+10	1	kLALLLQkcbbeghiijjjqqjnakeiuxn	9	SFS [S2: (2,1) (5,2) (9,-7)] : #1	0.50
+10	1	kLALLPPkbcbefihijjjhhwshxvpmhg	9	SFS [S2: (2,1) (5,2) (9,-7)] : #1	0.84
+10	1	kLALLPPkbcbefihijjjxhnshxvpmhg	9	SFS [S2: (2,1) (5,2) (11,-8)] : #1	0.78
+10	1	kLALvPQkbcbejhhhijjxxnnhoonbei	9	SFS [S2: (3,1) (3,1) (12,-7)] : #1	0.70
+10	1	kLALvPQkbcbehjhhijjhxwnjhrnrei	9	SFS [S2: (3,1) (3,1) (13,-5)] : #1	0.82
+10	1	kLALvMQkbcbeijhiijjhhjswxnnspi	9	SFS [S2: (3,1) (3,1) (6,-1)] : #1	0.74
+10	1	kLALvPQkbcbehjhhijjhxjnjhrnrei	9	SFS [S2: (3,1) (3,1) (11,-4)] : #1	0.90
+10	1	kLALvPQkbcbejihiijjxhjsxgvgsip	9	SFS [S2: (3,1) (3,1) (10,-7)] : #1	0.68
+10	2	kLAvPAMkbcbhgffijjjhhwhhqnhhgb	9	SFS [S2: (2,1) (3,2) (4,9)] : #6	0.00
+10	2	kLAvPAMkbcbhgffijjjhhwhhawhhgb	9	SFS [S2: (2,1) (2,1) (4,13)] : #6	0.00
+10	2	kLAvPMMkcbbghfigjjjhhraxxqkqof	9	SFS [S2: (3,2) (4,1) (7,-2)] : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhhrahhqkqfo	9	SFS [S2: (3,1) (4,1) (7,-5)] : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhhrhxxqsqof	9	SFS [S2: (2,1) (4,1) (7,5)] : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhhrxhhqjqfo	9	SFS [S2: (2,1) (4,1) (7,2)] : #1	0.00
+10	2	kLAvPAMkbcbgfhfijjjxxnqxqrqqfo	9	SFS [S2: (3,2) (4,1) (5,2)] : #1	0.00
+10	2	kLAvPAMkbcbgfhfijjjxxnqaqjqqfo	9	SFS [S2: (2,1) (4,1) (5,7)] : #1	0.00
+10	2	kLAvPAMkbcbhgffijjjxhnhhqnhhgb	9	SFS [S2: (3,2) (3,2) (4,5)] : #4	0.00
+10	2	kLAvPAMkbcbhgffijjjxhnhhawhhgb	9	SFS [S2: (2,1) (3,2) (4,9)] : #3	0.00
+10	2	kLAvPMMkcbbghfigjjjhqjaxxqkqof	9	SFS [S2: (3,2) (4,1) (8,-3)] : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhqjahhqkqfo	9	SFS [S2: (3,1) (4,1) (8,-5)] : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhqjhxxqsqof	9	SFS [S2: (2,1) (4,1) (8,5)] : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhqjxhhqjqfo	9	SFS [S2: (2,1) (4,1) (8,3)] : #1	0.00
+10	2	kLAvPAMkbcbgfhfijjjhxwqxqrqqfo	9	SFS [S2: (3,2) (4,1) (5,3)] : #1	0.00
+10	2	kLAvPAMkbcbgfhfijjjhxwqaqjqqfo	9	SFS [S2: (2,1) (4,1) (5,8)] : #1	0.00
+10	2	kLAvPAMkbcbhgffijjjhhjhhqnhhgb	8	L(59,14) : #1	0.00
+10	2	kLAvPAMkbcbhgffijjjhhjhhawhhgb	8	L(46,11) : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhhkaxxqkqof	9	SFS [S2: (3,2) (4,1) (5,-1)] : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhhkahhqkqfo	9	SFS [S2: (3,1) (4,1) (5,-4)] : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhhkhxxqsqof	9	SFS [S2: (2,1) (4,1) (5,4)] : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhhkxhhqjqfo	9	SFS [S2: (2,1) (4,1) (5,1)] : #1	0.00
+10	2	kLAvPAMkbcbgfhfijjjxxjqxqrqqfo	9	SFS [S2: (3,2) (4,1) (4,1)] : #1	0.00
+10	2	kLAvPAMkbcbgfhfijjjxxjqaqjqqfo	9	SFS [S2: (2,1) (4,1) (4,5)] : #1	0.00
+10	2	kLAvPAMkbcbhgffijjjxhjhhqnhhgb	9	SFS [S2: (3,1) (3,2) (4,5)] : #5	0.00
+10	2	kLAvPAMkbcbhgffijjjxhjhhawhhgb	9	SFS [S2: (2,1) (3,1) (4,9)] : #3	0.00
+10	2	kLAvPMMkcbbghfigjjjhqnaxxqkqof	9	SFS [S2: (3,2) (4,1) (7,-3)] : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhqnahhqkqfo	9	SFS [S2: (3,1) (4,1) (7,-4)] : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhqnhxxqsqof	9	SFS [S2: (2,1) (4,1) (7,4)] : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhqnxhhqjqfo	9	SFS [S2: (2,1) (4,1) (7,3)] : #1	0.00
+10	2	kLAvPAMkbcbgfhfijjjhxjqxqrqqfo	9	SFS [S2: (3,2) (4,1) (4,3)] : #2	0.00
+10	2	kLAvPAMkbcbgfhfijjjhxjqaqjqqfo	9	SFS [S2: (2,1) (4,1) (4,7)] : #2	0.00
+10	2	kLAvPAMkbcbhgffijjjhhwhhqjhhgb	9	SFS [S2: (2,1) (3,1) (4,9)] : #6	0.00
+10	2	kLAvPAMkbcbhgffijjjhhwhhashhgb	8	L(46,11) : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhhraxxqrqof	9	SFS [S2: (3,1) (4,1) (7,-2)] : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhhrahhqrqfo	9	SFS [S2: (3,2) (4,1) (7,-5)] : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhhrhxxqwqof	8	L(83,19) : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhhrxhhqkqfo	8	L(71,16) : #1	0.00
+10	2	kLAvPAMkbcbgfhfijjjxxnqxqkqqfo	9	SFS [S2: (3,1) (4,1) (5,2)] : #1	0.00
+10	2	kLAvPAMkbcbgfhfijjjxxnqaqnqqfo	8	L(73,17) : #1	0.00
+10	2	kLAvPAMkbcbhgffijjjxhnhhqjhhgb	9	SFS [S2: (3,1) (3,2) (4,5)] : #6	0.00
+10	2	kLAvPAMkbcbhgffijjjxhnhhashhgb	8	L(59,14) : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhqjaxxqrqof	9	SFS [S2: (3,1) (4,1) (8,-3)] : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhqjahhqrqfo	9	SFS [S2: (3,2) (4,1) (8,-5)] : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhqjhxxqwqof	8	L(92,21) : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhqjxhhqkqfo	8	L(84,19) : #1	0.00
+10	2	kLAvPAMkbcbgfhfijjjhxwqxqkqqfo	9	SFS [S2: (3,1) (4,1) (5,3)] : #1	0.00
+10	2	kLAvPAMkbcbgfhfijjjhxwqaqnqqfo	8	L(77,18) : #1	0.00
+10	2	kLAvPAMkbcbhgffijjjhhjhhqjhhgb	8	L(55,13) : #1	0.00
+10	2	kLAvPAMkbcbhgffijjjhhjhhashhgb	8	L(29,4) : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhhkaxxqrqof	9	SFS [S2: (3,1) (4,1) (5,-1)] : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhhkahhqrqfo	9	SFS [S2: (3,2) (4,1) (5,-4)] : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhhkhxxqwqof	8	L(61,13) : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhhkxhhqkqfo	8	L(49,9) : #1	0.00
+10	2	kLAvPAMkbcbgfhfijjjxxjqxqkqqfo	9	SFS [S2: (3,1) (4,1) (4,1)] : #1	0.00
+10	2	kLAvPAMkbcbgfhfijjjxxjqaqnqqfo	8	L(56,13) : #1	0.00
+10	2	kLAvPAMkbcbhgffijjjxhjhhqjhhgb	9	SFS [S2: (3,1) (3,1) (4,5)] : #4	0.00
+10	2	kLAvPAMkbcbhgffijjjxhjhhashhgb	8	L(55,13) : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhqnaxxqrqof	9	SFS [S2: (3,1) (4,1) (7,-3)] : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhqnahhqrqfo	9	SFS [S2: (3,2) (4,1) (7,-4)] : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhqnhxxqwqof	8	L(79,18) : #1	0.00
+10	2	kLAvPMMkcbbghfigjjjhqnxhhqkqfo	8	L(75,17) : #1	0.00
+10	2	kLAvPAMkbcbgfhfijjjhxjqxqkqqfo	9	SFS [S2: (3,1) (4,1) (4,3)] : #2	0.00
+10	2	kLAvPAMkbcbgfhfijjjhxjqaqnqqfo	8	L(64,15) : #1	0.00
+10	1	kLAvLQMkcbbfhigijjjqqjxajojumq	9	SFS [S2: (3,1) (3,1) (12,-7)] : #1	0.72
+10	1	kLAvLQMkbcbfhigijjjhxwxajojumq	9	SFS [S2: (3,1) (3,1) (11,-8)] : #1	0.62
+10	1	kLAvLQPkbcbgfhijjijxhnhqgwxmwm	9	SFS [S2: (3,1) (3,1) (13,-5)] : #1	0.86
+10	1	kLAvLQPkbcbgfhijjijhhjhqgwxmwm	9	SFS [S2: (3,1) (3,1) (9,-4)] : #1	0.80
+10	1	kLAvLQMkcbbfhigijjjqqnxajojumq	9	SFS [S2: (3,1) (3,1) (9,-5)] : #1	0.66
+10	1	kLAvLQPkbcbgfhijjijxhjhqgwxmwm	9	SFS [S2: (3,1) (3,1) (11,-4)] : #1	0.88
+10	1	kLAvLPQkcbbfgijjiijqhrxwggrgwb	9	SFS [S2: (3,1) (3,1) (13,-8)] : #1	0.60
+10	1	kLAvLPQkbcbfjhjijiihxjxkkknvkc	9	SFS [S2: (3,1) (3,1) (10,-3)] : #1	0.80
+10	1	kLAvLPQkcbbfjhjijiiqhkxkkknvkc	9	SFS [S2: (3,1) (3,1) (11,-4)] : #1	0.84
+10	1	kLAvLPQkbcbfgijjiijhxjxwggrgwb	9	SFS [S2: (3,1) (3,1) (10,-7)] : #1	0.56
+10	1	kLLALwQkbcedhgjihjjtsajxwhqrrg	9	SFS [S2: (2,1) (2,1) (20,-9)] : #2	0.98
+10	1	kLLAMLAkbedeeghhijjhhntendanxr	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,1)], m = [ -1,1 | 1,0 ] : #1	0.86
+10	2	kLLLAMPkbedgfhijiijhhwhahhhgbr	9	SFS [S2: (2,1) (2,1) (6,7)] : #3	0.00
+10	2	kLLLAMPkbedgfhijiijhhwaahhhgbw	8	SFS [S2: (2,1) (2,1) (6,5)] : #1	0.00
+10	2	kLLLAMPkbedgfhijiijhhnhahhhgbr	8	L(44,7) : #1	0.00
+10	2	kLLLAMPkbedgfhijiijhhnxahhqgbj	8	L(53,8) : #1	0.00
+10	2	kLLLAMPkbedgfhijiijhhnxahhxgbk	8	L(47,7) : #1	0.00
+10	2	kLLLAMPkbedgfhijiijhhwhahhqgbj	9	SFS [S2: (2,1) (3,2) (6,1)] : #3	0.00
+10	2	kLLLAMPkbedgfhijiijhhwaahhxgbn	8	SFS [S2: (2,1) (3,2) (6,-1)] : #1	0.00
+10	2	kLLLAMPkbedgfhijiijhhnhahhqgbj	8	L(51,8) : #1	0.00
+10	2	kLLLAMPkbedgfhijiijhhwhahhhgbk	8	L(44,7) : #1	0.00
+10	2	kLLLAMPkbedgfhijiijhhwaahhhgbs	7	L(40,7) : #1	0.00
+10	2	kLLLAMPkbedgfhijiijhhnhahhhgbk	8	L(31,5) : #1	0.00
+10	2	kLLLAMPkbedgfhijiijhhnxahhqgbw	8	L(46,7) : #1	0.00
+10	2	kLLLAMPkbedgfhijiijhhnxahhxgbr	8	L(34,5) : #1	0.00
+10	2	kLLLAMPkbedgfhijiijhhwhahhqgbn	9	SFS [S2: (2,1) (3,1) (6,1)] : #3	0.00
+10	2	kLLLAMPkbedgfhijiijhhnhahhqgbn	8	L(45,7) : #1	0.00
+10	1	kLLALAAkbcedhghihjjtsajxvmqlqj	9	SFS [S2: (2,1) (7,2) (7,-5)] : #1	0.36
+10	1	kLLALMAkbcedhghhijjtsajxsqxaqj	9	SFS [S2: (2,1) (7,2) (8,-5)] : #1	0.52
+10	1	kLLALAAkbcedhghihjjtsajxvmqlxk	9	SFS [S2: (2,1) (7,2) (8,-5)] : #1	0.62
+10	1	kLLALAAkbcedhghihjjtsajxvmqlxr	9	SFS [S2: (2,1) (7,2) (7,-4)] : #1	0.70
+10	1	kLLMwAAkacdefghhijjjkanktinaqs	9	SFS [S2: (2,1) (7,2) (7,-5)] : #1	0.44
+10	1	kLLALAAkccedfghhijjlnhccwllkqj	9	SFS [S2: (2,1) (3,2) (11,-9)] : #1	0.26
+10	1	kLLALMAkcecdghghijjthcnnxkxkqj	9	SFS [S2: (2,1) (3,2) (11,-9)] : #1	0.56
+10	1	kLLALAAkccedfghhijjlnhccwllkhr	9	SFS [S2: (2,1) (3,2) (14,-11)] : #1	0.68
+10	1	kLLALQzkccedfghhijjhwxrcruukhw	7	L(45,14) : #1	0.94
+10	1	kLLALMAkcecdghghijjthcnnxkxnhw	9	SFS [S2: (2,1) (3,2) (17,-12)] : #1	0.92
+10	1	kLLALMAkcecdghghijjthcnnxkxnxj	9	SFS [S2: (2,1) (3,2) (15,-11)] : #1	0.88
+10	1	kLLALAAkccedfghhijjlnhccwllkhn	9	SFS [S2: (2,1) (3,2) (13,-10)] : #1	0.64
+10	1	kLLALMAkcecdghghijjthcnnxkxkxr	9	SFS [S2: (2,1) (3,2) (13,-10)] : #1	0.72
+10	1	kLLALAAkcecdgghhijjhqrwjwppfhn	9	SFS [S2: (2,1) (3,1) (16,-13)] : #1	0.84
+10	1	kLLALAAkacdefghhijjjkaqlnbbmqs	9	SFS [S2: (2,1) (5,2) (9,-7)] : #1	0.56
+10	1	kLLPLAAkcdcffghhijjhsrasjaqshr	9	SFS [S2: (2,1) (7,2) (7,-2)] : #1	0.98
+10	1	kLLPLAAkcdcffghhijjhsrasnpqvhw	9	SFS [S2: (2,1) (7,2) (7,-5)] : #1	0.72
+10	1	kLLPLAAkcdcffghhijjhsrasjaqsqn	9	SFS [S2: (2,1) (7,2) (7,-3)] : #1	0.92
+10	2	kLLLMAAkcdgfghghijjhshegbbseqs	8	SFS [S2: (2,1) (5,2) (5,-1)] : #1	0.00
+10	2	kLLLMAAkcdgfghghijjhshegbbstxn	8	SFS [S2: (2,1) (3,2) (5,4)] : #3	0.00
+10	2	kLLLMAAkcdgfghghijjhshegbbsexk	8	SFS [S2: (2,1) (5,3) (5,-1)] : #1	0.00
+10	2	kLLLMAAkcdgfghghijjhshegbbsthw	8	SFS [S2: (2,1) (2,1) (5,9)] : #2	0.00
+10	2	kLLLMAAkcdgfghghijjhshegbbstxj	8	SFS [S2: (2,1) (3,1) (5,4)] : #2	0.00
+10	2	kLLLMAAkcdgfghghijjhshegbbsexr	8	SFS [S2: (2,1) (4,3) (5,-1)] : #1	0.00
+10	2	kLLLMAAkcdgfghghijjhshegbbsthj	7	L(43,9) : #1	0.00
+10	1	kLLALMAkbdedgghhijjdwqscbdpoqs	9	SFS [S2: (2,1) (5,2) (9,-7)] : #1	0.54
+10	1	kLLALMAkbdedgghhijjdwqscbdpjxn	9	SFS [S2: (2,1) (5,2) (13,-8)] : #1	0.86
+10	1	kLLALMAkbdedgghhijjdwqscbdpoxr	9	SFS [S2: (2,1) (5,2) (10,-7)] : #1	0.62
+10	1	kLLLwQAkcddfghghijjpkresunajxk	9	SFS [S2: (2,1) (5,2) (9,-7)] : #1	0.44
+10	1	kLLLwQAkcddfghghijjpkresunajqw	9	SFS [S2: (2,1) (5,2) (10,-7)] : #1	0.58
+10	1	kLLAzQzkbdedfghhijjdwqsjbltnhr	9	SFS [S2: (2,1) (5,2) (9,-7)] : #1	0.42
+10	1	kLLLMQzkcddffghhijjpkrekslasqw	9	SFS [S2: (2,1) (5,2) (10,-7)] : #1	0.66
+10	1	kLLLPPAkbdehfgihhjjdwuhgjuosqj	9	SFS [S2: (2,1) (3,2) (11,-9)] : #1	0.52
+10	1	kLLALAAkbeddfghhijjxxrosnmmfhw	9	SFS [S2: (2,1) (3,2) (11,-9)] : #1	0.54
+10	1	kLLLMPAkcdgfgiihijjhshagxpsdqj	7	L(45,14) : #1	0.92
+10	1	kLLLPPAkbdehfgihhjjdwuhgjuosxk	9	SFS [S2: (2,1) (3,2) (14,-11)] : #1	0.42
+10	1	kLLLMPAkcdgfgiihijjhshagxpsdqn	7	L(42,13) : #1	0.98
+10	1	kLLLPPAkbdehfgihhjjdwuhgjuosxr	9	SFS [S2: (2,1) (3,2) (13,-10)] : #1	0.56
+10	1	kLLALAAkbeddfghhijjxxrosnmmfxj	9	SFS [S2: (2,1) (3,2) (13,-10)] : #1	0.60
+10	1	kLLLMPMkcdefgghijijhslagcsuhjr	9	SFS [S2: (2,1) (5,3) (9,-7)] : #1	0.78
+10	1	kLLLMAAkcdefhgfhijjqruhwfrjpqs	9	SFS [S2: (2,1) (4,3) (9,-7)] : #1	0.66
+10	1	kLLLMAAkcdefhgfhijjqruawfjjpqs	9	SFS [S2: (2,1) (5,2) (9,-7)] : #1	0.66
+10	1	kLLLMAAkcdefhgfhijjqruawfjjpxk	9	SFS [S2: (2,1) (5,2) (11,-8)] : #1	0.64
+10	1	kLLLMAAkcdefhgfhijjqruhwfrjpxr	9	SFS [S2: (2,1) (4,3) (10,-7)] : #1	0.80
+10	1	kLLLMPMkcdefgghijijhslagcsdhrr	9	SFS [S2: (2,1) (5,2) (9,-7)] : #1	0.54
+10	1	kLLLMPMkcdefgghijijhslagcsuhkr	9	SFS [S2: (2,1) (4,3) (9,-7)] : #1	0.68
+10	1	kLLPLMPkcdcffhihijjhsrashdqfss	7	L(38,9) : #1	0.98
+10	1	kLLPLLQkcdcffijhjijqsjasalabso	9	SFS [S2: (2,1) (3,1) (17,-14)] : #1	0.96
+10	1	kLLLMMPkcdefhgihjijqruawfqjijr	9	SFS [S2: (2,1) (7,2) (8,-5)] : #1	0.60
+10	1	kLLLMPAkcdefgghihjjhslagcsuwxk	9	SFS [S2: (2,1) (7,2) (8,-3)] : #1	0.92
+10	1	kLLLMPAkcdefgghihjjhslagcsdwhw	9	SFS [S2: (2,1) (7,2) (7,-5)] : #1	0.48
+10	1	kLLLMPAkcdefgghihjjhslagcsuwqw	9	SFS [S2: (2,1) (5,4) (7,-5)] : #1	0.94
+10	1	kLLLMMPkcdefhgihjijqruhwfhjpjj	9	SFS [S2: (2,1) (7,2) (7,-3)] : #1	0.92
+10	1	kLLLMPAkcdefgghihjjhslagcsuwxr	9	SFS [S2: (2,1) (7,2) (7,-3)] : #1	0.88
+10	1	kLLLMMPkcdefhgihjijqruawfqjijk	9	SFS [S2: (2,1) (7,2) (7,-4)] : #1	0.86
+10	1	kLLLAPAkcdgffghhijjhshatsqashr	9	SFS [S2: (2,1) (7,2) (7,-2)] : #1	0.90
+10	1	kLLLAMAkcdgffghhijjhshatviakqw	9	SFS [S2: (2,1) (5,4) (7,-5)] : #1	0.84
+10	1	kLLLAMAkcdgffghhijjhshatviakxr	9	SFS [S2: (2,1) (7,2) (7,-3)] : #1	0.94
+10	1	kLLLPAAkbcgeffhhijjtsmtgbbfmxn	7	SFS [S2: (2,1) (2,1) (3,7)] : #2	0.80
+10	1	kLLLAAAkbceggfhhijjtspaqsaljqj	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (5,3)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	1	kLLLAAAkbcgegfhhijjtsmiusadjqj	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (5,2)], m = [ -1,1 | 1,0 ] : #2	0.00
+10	1	kLLLAAAkbceggfhhijjtspaqsaljhr	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (5,2)], m = [ -1,1 | 1,0 ] : #2	0.00
+10	1	kLLLPAAkbcgeffhhijjtsmijswfuqj	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (5,2)], m = [ -1,1 | 0,1 ] : #5	0.54
+10	1	kLLLAAAkbcgegfhhijjtsmiusadjhr	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (5,3)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	1	kLLLAAAkbceggfhhijjtspaqsaljqn	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,3)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	1	kLLLAAAkbcgegfhhijjtsmiusadjqn	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,1)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	1	kLLLPAAkbcgeffhhijjtsmtgkbfmhs	7	SFS [S2: (2,1) (3,1) (3,5)] : #5	0.88
+10	1	kLLLAAAkbceggfhhijjtspaqsaljhn	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,1)], m = [ -1,1 | 1,0 ] : #2	0.00
+10	1	kLLLPAAkbcgeffhhijjtsmijswfuqn	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,1)], m = [ -1,1 | 0,1 ] : #6	0.54
+10	1	kLLLAAAkbcgegfhhijjtsmiusadjhn	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,3)], m = [ -1,1 | 1,0 ] : #2	0.00
+10	1	kLLzwPQkcdceghijijjqsjqbpeacov	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (5,3)], m = [ -1,1 | 1,0 ] : #2	0.00
+10	1	kLLzwPQkcdceghijijjhsrqoxaafbo	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (5,2)], m = [ -1,1 | 0,1 ] : #6	0.44
+10	1	kLLzwPQkcdceghijijjhsrqbpeacov	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (5,2)], m = [ -1,1 | 1,0 ] : #2	0.00
+10	1	kLLzwPQkcdceghijijjqsnqbpeacov	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,3)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	1	kLLzwPQkcdceghijijjhsnqoxaafbo	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,1)], m = [ -1,1 | 0,1 ] : #5	0.46
+10	1	kLLzwPQkcdceghijijjhsnqbpeacov	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,1)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	1	kLLLAAAkcedefghhijjplrxxslpgqs	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (5,2)], m = [ -1,1 | 1,0 ] : #1	0.86
+10	1	kLLLAAAkcedefghhijjplrxxslpgqw	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,1)], m = [ -1,1 | 1,0 ] : #1	0.90
+10	1	kLLLMAAkbdfffghhijjdwmigrcjpqs	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 2,1 | 1,1 ] : #1	0.00
+10	1	kLLLLQAkcefggfhhijjtpxlgrgcwqj	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 2,1 | 1,1 ] : #6	0.00
+10	1	kLLLMAAkbdfffghhijjdwmigrcjixn	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (5,3)], m = [ -1,1 | 1,0 ] : #2	0.00
+10	1	kLLLMAAkbdfffghhijjdwiigrcjixn	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (5,3)], m = [ -1,1 | 1,0 ] : #2	0.00
+10	1	kLLLMMAkcedegghhijjptrxgwnrxxn	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (5,2)], m = [ -1,1 | 0,1 ] : #5	0.52
+10	1	kLLLLQAkcefggfhhijjlpxlgrgcrhw	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (5,3)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	1	kLLLLQAkcefggfhhijjtpxlgrgcrhw	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (5,3)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	1	kLLLMAAkbdfffhghijjdwmigwokihw	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (5,2)], m = [ -1,1 | 0,1 ] : #5	0.42
+10	1	kLLLMAAkbdfffghhijjdwmigrcjpxk	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #6	0.00
+10	1	kLLLLQAkcefggfhhijjtpxlgrgcwhr	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #6	0.00
+10	1	kLLLMAAkbdfffghhijjdwmigrcjihw	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (5,2)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	1	kLLLMAAkbdfffghhijjdwiigrcjihw	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (5,2)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	1	kLLLMMAkcedegghhijjptrxgwnrxhw	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (5,3)], m = [ -1,1 | 0,1 ] : #6	0.58
+10	1	kLLLLQAkcefggfhhijjlpxlgrgcrxn	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (5,2)], m = [ -1,1 | 1,0 ] : #2	0.00
+10	1	kLLLLQAkcefggfhhijjtpxlgrgcrxn	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (5,2)], m = [ -1,1 | 1,0 ] : #2	0.00
+10	1	kLLLMAAkbdfffghhijjdwmigrcjixj	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,3)], m = [ -1,1 | 1,0 ] : #2	0.00
+10	1	kLLLMAAkbdfffghhijjdwiigrcjixj	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,3)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	1	kLLLLQAkcefggfhhijjlpxlgrgcrhj	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,3)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	1	kLLLLQAkcefggfhhijjtpxlgrgcrhj	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,3)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	1	kLLLMAAkbdfffhghijjdwmigwokihs	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,1)], m = [ -1,1 | 0,1 ] : #5	0.50
+10	1	kLLLMAAkbdfffhghijjdwiigwokihs	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,3)], m = [ -1,1 | 0,1 ] : #6	0.50
+10	1	kLLLMAAkbdfffghhijjdwmigrcjpxr	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #5	0.00
+10	1	kLLLLQAkcefggfhhijjtpxlgrgcwhk	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #6	0.00
+10	1	kLLLMAAkbdfffghhijjdwmigrcjihs	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,1)], m = [ -1,1 | 1,0 ] : #2	0.00
+10	1	kLLLMAAkbdfffghhijjdwiigrcjihs	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,1)], m = [ -1,1 | 1,0 ] : #2	0.00
+10	1	kLLLLQAkcefggfhhijjlpxlgrgcrxj	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,1)], m = [ -1,1 | 1,0 ] : #2	0.00
+10	1	kLLLLQAkcefggfhhijjtpxlgrgcrxj	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,1)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	1	kLLLMAAkbdfffhghijjdwiigwokixj	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,1)], m = [ -1,1 | 0,1 ] : #6	0.60
+10	1	kLLLLQAkccfgfghhijjlnagsbnjnxk	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (5,2)], m = [ -1,1 | 1,0 ] : #2	0.76
+10	1	kLLPvPQkcdcfijijhjihsrapudiqrc	9	SFS [S2: (3,1) (3,1) (9,-7)] : #1	0.38
+10	1	kLLzwPQkcdcehihijjjqsjqmipmass	9	SFS [S2: (3,1) (3,1) (13,-8)] : #1	0.60
+10	1	kLLPvPQkcdcfijijhjiqsnapudiqrc	9	SFS [S2: (3,1) (3,1) (10,-7)] : #1	0.50
+10	1	kLLzPzQkcdchfgiijjjhsrwobeueqg	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (5,2)], m = [ -1,1 | 1,0 ] : #1	0.88
+10	1	kLLvQAAkcdfggghhijjtcalkjjcqxr	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,3)], m = [ -1,1 | 0,1 ] : #6	1.00
+10	2	kLLLAPAkbegfgihiijjxxmmmxbixqj	9	SFS [S2: (3,1) (4,1) (8,-5)] : #1	0.00
+10	2	kLLLAPAkbegfgihiijjxximmxbixqj	9	SFS [S2: (3,2) (4,1) (8,-5)] : #1	0.00
+10	2	kLLLAPAkbegfgihiijjxximmxrixqj	9	SFS [S2: (3,2) (4,1) (8,-3)] : #1	0.00
+10	2	kLLLAPAkbegfgihiijjxxmmmxrixqj	9	SFS [S2: (3,1) (4,1) (8,-3)] : #1	0.00
+10	2	kLLLAPAkbegfgihiijjxxmmmxbixhr	9	SFS [S2: (3,1) (4,1) (7,-5)] : #1	0.00
+10	2	kLLLAPAkbegfgihiijjxximmxbixhr	9	SFS [S2: (3,2) (4,1) (7,-5)] : #1	0.00
+10	2	kLLLAPAkbegfgihiijjxximmxrixxk	9	SFS [S2: (3,2) (4,1) (7,-2)] : #1	0.00
+10	2	kLLLAPAkbegfgihiijjxxmmmxrixxk	9	SFS [S2: (3,1) (4,1) (7,-2)] : #1	0.00
+10	2	kLLLAPAkbegfgihiijjxxmmmxbixqn	9	SFS [S2: (3,1) (4,1) (7,-4)] : #1	0.00
+10	2	kLLLAPAkbegfgihiijjxximmxbixqn	9	SFS [S2: (3,2) (4,1) (7,-4)] : #1	0.00
+10	2	kLLLAPAkbegfgihiijjxximmxrixqw	9	SFS [S2: (3,2) (4,1) (7,-3)] : #1	0.00
+10	2	kLLLAPAkbegfgihiijjxxmmmxrixqw	9	SFS [S2: (3,1) (4,1) (7,-3)] : #1	0.00
+10	2	kLLLAPAkbegfgihiijjxxmmmxbixhk	9	SFS [S2: (3,1) (4,1) (5,-4)] : #1	0.00
+10	2	kLLLAPAkbegfgihiijjxximmxbixhk	9	SFS [S2: (3,2) (4,1) (5,-4)] : #1	0.00
+10	2	kLLLAPAkbegfgihiijjxximmxrixxr	9	SFS [S2: (3,2) (4,1) (5,-1)] : #1	0.00
+10	2	kLLLAPAkbegfgihiijjxxmmmxrixxr	9	SFS [S2: (3,1) (4,1) (5,-1)] : #1	0.00
+10	1	kLLzPLQkcdchgihjjjihsrwshrmamj	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (5,2)], m = [ -1,1 | 1,0 ] : #1	0.94
+10	1	kLLvQPAkcdfhghhgijjhsdhgvvnpqj	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ 1,-1 | 0,1 ] : #8	0.98
+10	1	kLLvQPAkcdfhghhgijjhsdhgvvneqn	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,3)], m = [ -1,1 | 1,0 ] : #2	0.68
+10	1	kLLzPPPkcdchgihijjjqsjwspnmdlc	9	SFS [S2: (3,1) (3,1) (13,-8)] : #1	0.64
+10	1	kLLzLPQkcdcgghijijjqsjsvghudtj	9	SFS [S2: (3,1) (3,1) (11,-8)] : #1	0.44
+10	1	kLLzPPPkcdchgihijjjhsrwspnmdlc	9	SFS [S2: (3,1) (3,1) (12,-7)] : #1	0.74
+10	1	kLLzPzQkcdchggijjijhsrwsvladhf	7	SFS [S2: (2,1) (2,1) (3,8)] : #3	0.96
+10	1	kLLzPPPkcdchgihijjjqsnwspnmdlc	9	SFS [S2: (3,1) (3,1) (11,-7)] : #1	0.64
+10	1	kLLzPPPkcdchgihijjjhsnwspnmdlc	9	SFS [S2: (3,1) (3,1) (9,-5)] : #1	0.52
+10	1	kLLLPMAkbcgfhfihhjjtsmmobqbfhr	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (8,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	1	kLLLPMAkbcgfhfihhjjtsmmobxbfhw	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (8,5)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	1	kLLLPMAkbcgfhfihhjjtsmmobqbfqj	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (7,2)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	1	kLLLPMAkbcgfhfihhjjtsmmobxbfxn	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (7,5)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	1	kLLLPMAkbcgfhfihhjjtsmmobqbfhn	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (7,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	1	kLLLPMAkbcgfhfihhjjtsmmobxbfhj	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (7,4)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	1	kLLLPMAkbcgfhfihhjjtsmmobqbfqn	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,1)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	1	kLLLPMAkbcgfhfihhjjtsmmobxbfxj	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,4)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaxhxwxaxk	9	SFS [S2: (2,1) (3,2) (5,6)] : #3	0.00
+10	2	kLLvQPAkbeghfifiijjxxaahxjxaxn	8	SFS [S2: (2,1) (3,2) (5,4)] : #2	0.00
+10	2	kLLvQPAkbeghfifiijjxxaxxxnxaxk	9	SFS [S2: (2,1) (2,1) (5,11)] : #3	0.00
+10	2	kLLvQPAkbeghfifiijjxxaaaxkxaxn	8	SFS [S2: (2,1) (2,1) (5,9)] : #3	0.00
+10	2	kLLvQPAkbeghfifiijjxxaxaxkxaxk	7	SFS [S2: (2,1) (2,1) (5,1)] : #2	0.00
+10	2	kLLvQPAkbeghfifiijjxxaaxxnxaxn	6	SFS [S2: (2,1) (2,1) (5,-1)] : #2	0.00
+10	2	kLLvQPAkbeghfifiijjxxahhxwxaqj	9	SFS [S2: (3,2) (5,1) (5,-2)] : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxahhxjxahr	9	SFS [S2: (3,1) (5,1) (5,-3)] : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxahxxnxaqj	9	SFS [S2: (2,1) (5,1) (5,3)] : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxahaxkxahr	8	SFS [S2: (2,1) (5,3) (5,-1)] : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxahaxkxaqj	8	SFS [S2: (2,1) (5,2) (5,-1)] : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxahxxnxahr	9	SFS [S2: (2,1) (5,1) (5,2)] : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaxhxwxaqj	9	SFS [S2: (3,2) (3,2) (5,1)] : #2	0.00
+10	2	kLLvQPAkbeghfifiijjxxaahxjxahw	8	SFS [S2: (3,2) (3,2) (5,-1)] : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaxxxnxaqj	9	SFS [S2: (2,1) (3,2) (5,6)] : #2	0.00
+10	2	kLLvQPAkbeghfifiijjxxaaaxkxahw	8	SFS [S2: (2,1) (3,2) (5,4)] : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaxaxkxaqj	7	SFS [S2: (2,1) (3,2) (5,-4)] : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaaxxnxahw	7		0.00
+10	2	kLLvQPAkbeghfifiijjxxaxhxwxaxr	8	L(58,11) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaahxjxaxj	7	L(52,11) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaxxxnxaxr	8	L(47,9) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaaaxkxaxj	7	L(43,9) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaxaxkxaxr	6	L(27,5) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaaxxnxaxj	5	L(23,5) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxahhxwxaqn	9	SFS [S2: (3,2) (4,3) (5,-4)] : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxahhxjxahn	9	SFS [S2: (3,1) (4,1) (5,-4)] : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxahxxnxaqn	9	SFS [S2: (2,1) (4,3) (5,1)] : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxahaxkxahn	8	SFS [S2: (2,1) (4,3) (5,-1)] : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxahaxkxaqn	8	SFS [S2: (2,1) (4,1) (5,-1)] : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxahxxnxahn	9	SFS [S2: (2,1) (4,1) (5,1)] : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaxhxwxaqw	9	SFS [S2: (3,1) (3,2) (5,1)] : #2	0.00
+10	2	kLLvQPAkbeghfifiijjxxaahxjxahj	8	SFS [S2: (3,1) (3,2) (5,-1)] : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaxxxnxaqw	9	SFS [S2: (2,1) (3,1) (5,6)] : #2	0.00
+10	2	kLLvQPAkbeghfifiijjxxaaaxkxahj	8	SFS [S2: (2,1) (3,1) (5,4)] : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaxaxkxaqw	7		0.00
+10	2	kLLvQPAkbeghfifiijjxxaaxxnxahj	7	SFS [S2: (2,1) (3,2) (5,-4)] : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaxhxjxaxk	9	SFS [S2: (2,1) (3,1) (5,6)] : #3	0.00
+10	2	kLLvQPAkbeghfifiijjxxaahxwxaxn	8	SFS [S2: (2,1) (3,1) (5,4)] : #2	0.00
+10	2	kLLvQPAkbeghfifiijjxxaxxxjxaxk	8	L(47,9) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaaaxrxaxn	7	L(43,9) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaxaxrxaxk	2	L(3,1) : #2	0.00
+10	2	kLLvQPAkbeghfifiijjxxaaxxjxaxn	4	L(7,1) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxahhxjxaqj	9	SFS [S2: (3,1) (5,1) (5,-2)] : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxahhxwxahr	9	SFS [S2: (3,2) (5,1) (5,-3)] : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxahxxjxaqj	8	L(70,13) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxahaxrxahr	7	L(60,13) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxahaxrxaqj	7	L(55,12) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxahxxjxahr	8	L(65,12) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaxhxjxaqj	9	SFS [S2: (3,1) (3,2) (5,1)] : #3	0.00
+10	2	kLLvQPAkbeghfifiijjxxaahxwxahw	8	SFS [S2: (3,1) (3,2) (5,-1)] : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaxxxjxaqj	8	L(58,11) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaaaxrxahw	7	L(52,11) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaxaxrxaqj	5	L(17,4) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaaxxjxahw	6	L(23,4) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaxhxjxaxr	8	L(53,10) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaahxwxaxj	7	L(47,10) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaxxxjxaxr	8	L(31,5) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaaaxrxaxj	7	L(29,5) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaxaxrxaxr	3	L(6,1) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaaxxjxaxj	1	L(4,1) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxahhxjxaqn	9	SFS [S2: (3,1) (4,3) (5,-4)] : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxahhxwxahn	9	SFS [S2: (3,2) (4,1) (5,-4)] : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxahxxjxaqn	8	L(59,11) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxahaxrxahn	7	L(51,11) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxahaxrxaqn	7	L(41,9) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxahxxjxahn	8	L(49,9) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaxhxjxaqw	9	SFS [S2: (3,1) (3,1) (5,1)] : #2	0.00
+10	2	kLLvQPAkbeghfifiijjxxaahxwxahj	8	SFS [S2: (3,1) (3,1) (5,-1)] : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaxxxjxaqw	8	L(53,10) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaaaxrxahj	7	L(47,10) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaxaxrxaqw	5	L(22,5) : #1	0.00
+10	2	kLLvQPAkbeghfifiijjxxaaxxjxahj	6	L(28,5) : #1	0.00
+10	2	kLLvQAMkbeghfffijijhhhxagbhxrk	9	SFS [S2: (2,1) (4,1) (5,7)] : #3	0.00
+10	2	kLLvQAMkbeghfffijijhhhhagbhhrr	9	SFS [S2: (2,1) (2,1) (4,13)] : #4	0.00
+10	2	kLLvQAMkbeghfffijijhhxxagbqxjk	9	SFS [S2: (4,1) (5,2) (5,-2)] : #1	0.00
+10	2	kLLvQAMkbeghfffijijhhhxagbqxjk	9	SFS [S2: (3,2) (4,1) (5,2)] : #3	0.00
+10	2	kLLvQAMkbeghfffijijhhhxagbhqrj	9	SFS [S2: (2,1) (4,1) (5,8)] : #3	0.00
+10	2	kLLvQAMkbeghfffijijhhhhagbhqrj	9	SFS [S2: (2,1) (3,2) (4,9)] : #5	0.00
+10	2	kLLvQAMkbeghfffijijhhxxagbqqjj	9	SFS [S2: (4,1) (5,3) (5,-2)] : #1	0.00
+10	2	kLLvQAMkbeghfffijijhhxxagbxxkk	9	SFS [S2: (4,1) (5,2) (5,-3)] : #1	0.00
+10	2	kLLvQAMkbeghfffijijhhhxagbqqjj	9	SFS [S2: (3,2) (4,1) (5,3)] : #3	0.00
+10	2	kLLvQAMkbeghfffijijhhhhagbqqjj	9	SFS [S2: (3,2) (3,2) (4,5)] : #3	0.00
+10	2	kLLvQAMkbeghfffijijhhhxagbhxkk	8	L(73,17) : #1	0.00
+10	2	kLLvQAMkbeghfffijijhhhhagbhhkr	8	L(46,11) : #1	0.00
+10	2	kLLvQAMkbeghfffijijhhxxagbqxwk	9	SFS [S2: (4,1) (4,3) (5,-3)] : #1	0.00
+10	2	kLLvQAMkbeghfffijijhhxxagbqxjr	9	SFS [S2: (4,1) (4,1) (5,-2)] : #1	0.00
+10	2	kLLvQAMkbeghfffijijhhhxagbhqrw	9	SFS [S2: (2,1) (4,1) (4,7)] : #3	0.00
+10	2	kLLvQAMkbeghfffijijhhhxagbhxrr	9	SFS [S2: (2,1) (4,1) (4,5)] : #2	0.00
+10	2	kLLvQAMkbeghfffijijhhhxagbqxnk	9	SFS [S2: (3,1) (4,1) (5,2)] : #3	0.00
+10	2	kLLvQAMkbeghfffijijhhhhagbhqrn	9	SFS [S2: (2,1) (3,1) (4,9)] : #5	0.00
+10	2	kLLvQAMkbeghfffijijhhhxagbhqkj	8	L(77,18) : #1	0.00
+10	2	kLLvQAMkbeghfffijijhhhhagbhqkj	8	L(59,14) : #1	0.00
+10	2	kLLvQAMkbeghfffijijhhxxagbqqjw	9	SFS [S2: (4,1) (4,3) (5,-2)] : #1	0.00
+10	2	kLLvQAMkbeghfffijijhhxxagbxxkr	9	SFS [S2: (4,1) (4,1) (5,-3)] : #1	0.00
+10	2	kLLvQAMkbeghfffijijhhhxagbqqjw	9	SFS [S2: (3,2) (4,1) (4,3)] : #3	0.00
+10	2	kLLvQAMkbeghfffijijhhhxagbqxjr	9	SFS [S2: (3,2) (4,1) (4,1)] : #2	0.00
+10	2	kLLvQAMkbeghfffijijhhhxagbqqnj	9	SFS [S2: (3,1) (4,1) (5,3)] : #3	0.00
+10	2	kLLvQAMkbeghfffijijhhhhagbqqjn	9	SFS [S2: (3,1) (3,2) (4,5)] : #4	0.00
+10	2	kLLvQAMkbeghfffijijhhhxagbhxkr	8	L(56,13) : #1	0.00
+10	2	kLLvQAMkbeghfffijijhhhhagbhhkn	8	L(29,4) : #1	0.00
+10	2	kLLvQAMkbeghfffijijhhxxagbqxwr	9	SFS [S2: (4,1) (4,1) (4,-1)] : #1	0.00
+10	2	kLLvQAMkbeghfffijijhhhxagbqxnr	9	SFS [S2: (3,1) (4,1) (4,1)] : #2	0.00
+10	2	kLLvQAMkbeghfffijijhhhxagbhqkw	8	L(64,15) : #1	0.00
+10	2	kLLvQAMkbeghfffijijhhhhagbhqkn	8	L(55,13) : #1	0.00
+10	2	kLLvQAMkbeghfffijijhhxxagbqqww	9	SFS [S2: (4,1) (4,3) (4,-1)] : #1	0.00
+10	2	kLLvQAMkbeghfffijijhhxxagbxxrr	9	SFS [S2: (4,1) (4,1) (4,-3)] : #1	0.00
+10	2	kLLvQAMkbeghfffijijhhhxagbqqnw	9	SFS [S2: (3,1) (4,1) (4,3)] : #3	0.00
+10	2	kLLvQAMkbeghfffijijhhhhagbqqnn	9	SFS [S2: (3,1) (3,1) (4,5)] : #3	0.00
+10	1	kLvLQMAkbdhgghhgijjxnxxvvccqhr	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (5,2)], m = [ -1,1 | 1,0 ] : #1	0.80
+10	1	kLLvQQzkcdfeghghijjhsqaggrghhr	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (5,2)], m = [ -1,1 | 1,0 ] : #2	0.00
+10	1	kLLvQQzkcdfeghghijjhsqaggrghqj	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (5,3)], m = [ -1,1 | 1,0 ] : #2	0.00
+10	1	kLvLQMAkbdhgghhgijjxnxxvvccqhn	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,1)], m = [ -1,1 | 1,0 ] : #2	0.62
+10	1	kLLvQQzkcdfeghghijjhsqaggrghhn	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,1)], m = [ -1,1 | 1,0 ] : #2	0.00
+10	1	kLLvQQzkcdfeghghijjhsqaggrghqn	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,3)], m = [ -1,1 | 1,0 ] : #2	0.00
+10	1	kLLLMAAkbcefghghijjtsudbjbomqj	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (5,2)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	1	kLLLMAAkbcfehgghijjtshhjjfoahr	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (5,3)], m = [ -1,1 | 0,1 ] : #5	0.56
+10	1	kLLLMAAkbcefghghijjtsudbjbomhr	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (5,3)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	1	kLLLMAAkbcefghghijjtsudbjbomqn	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,1)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	1	kLLLMAAkbcefghghijjtsudbjbomhn	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,3)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	2	kLLLPMAkcdgefhghijjhshhosofqxk	9	SFS [S2: (3,1) (4,1) (7,-5)] : #1	0.00
+10	2	kLLLPMAkcdgefhghijjhshhosofaqj	9	SFS [S2: (3,1) (4,1) (8,-3)] : #1	0.00
+10	2	kLLLPMAkcdgefhghijjhshhosofqqs	9	SFS [S2: (3,1) (4,1) (8,-5)] : #1	0.00
+10	2	kLLLPMAkcdgefhghijjhshhosofahr	9	SFS [S2: (3,1) (4,1) (7,-2)] : #1	0.00
+10	2	kLLLPMAkcdgefhghijjhshhosofqxr	9	SFS [S2: (3,1) (4,1) (5,-4)] : #1	0.00
+10	2	kLLLPMAkcdgefhghijjhshhosofaqn	9	SFS [S2: (3,1) (4,1) (7,-3)] : #1	0.00
+10	2	kLLLPMAkcdgefhghijjhshhosofqqw	9	SFS [S2: (3,1) (4,1) (7,-4)] : #1	0.00
+10	2	kLLLPMAkcdgefhghijjhshhosofahn	9	SFS [S2: (3,1) (4,1) (5,-1)] : #1	0.00
+10	1	kLLvAQAkbehgghihgjjxxqqvnrwrxk	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (5,2)], m = [ -1,1 | 1,0 ] : #2	0.78
+10	1	kLLvAQAkbehgghihgjjxxqqvnrwrqw	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,3)], m = [ -1,1 | 1,0 ] : #2	0.88
+10	1	kLvzAAQkccfehgijjijhrhqnvaaqav	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (5,2)], m = [ -1,1 | 0,1 ] : #5	0.98
+10	1	kLLzPPPkcdfghihjjjipgmurxvmlek	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (5,2)], m = [ -1,1 | 0,1 ] : #6	0.94
+10	1	kLLzPPPkcdfghihjjjipgmurxvmler	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,1)], m = [ -1,1 | 0,1 ] : #5	0.92
+10	1	kLvPMLQkccgfhjihijjhnahwtxvhlw	9	Hyp_1.26370924 : #1	0.48
+10	2	kLvzAAQkccfehihjijjhnhqwqvtxmr	9	Hyp_1.26370924 : #1	0.00
+10	1	kLvLAQAkcfeghfghijjpuuugjjroqj	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (5,3)], m = [ -1,1 | 0,1 ] : #6	0.60
+10	1	kLvLAQAkcfeghfghijjpuuugjjroqw	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,3)], m = [ -1,1 | 0,1 ] : #5	0.52
+10	1	kLvPLPQkccgihhjiihjhnawjsarvvw	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,1)], m = [ -1,1 | 0,1 ] : #5	0.90
+10	2	kLLLLQAkcdgghfiiijjhshgjjfswqj	9	SFS [S2: (3,1) (4,1) (7,-2)] : #1	0.00
+10	2	kLLLLAQkcdghhgijiijhshoswohbjw	9	SFS [S2: (3,1) (4,1) (8,-5)] : #1	0.00
+10	2	kLLLLQAkcdgghfiiijjhshgjjfswhr	9	SFS [S2: (3,1) (4,1) (8,-3)] : #1	0.00
+10	2	kLLLLAQkcdghhgijiijhshoswoxbjn	9	SFS [S2: (3,1) (4,1) (7,-5)] : #1	0.00
+10	2	kLLLLQAkcdgghfiiijjhshgjjfswqn	9	SFS [S2: (3,1) (4,1) (5,-1)] : #1	0.00
+10	2	kLLLLAQkcdghhgijiijhshoswohbjj	9	SFS [S2: (3,1) (4,1) (7,-4)] : #1	0.00
+10	2	kLLLLQAkcdgghfiiijjhshgjjfswhn	9	SFS [S2: (3,1) (4,1) (7,-3)] : #1	0.00
+10	2	kLLLLAQkcdghhgijiijhshoswoxbjj	9	SFS [S2: (3,1) (4,1) (5,-4)] : #1	0.00
+10	1	kLAMzLAkbccdefihijjemkehhpnpgn	9	SFS [S2: (2,1) (2,1) (11,2)] : #1	0.98
+10	2	kLLALAMkaceefhgijjjnkuxprrhhgb	9	SFS [S2: (2,1) (2,1) (3,1) (4,-3)] : #1	0.00
+10	2	kLLALAMkaceefhgijjjnkuxpwwhhgb	9	SFS [S2: (2,1) (2,1) (3,1) (4,-5)] : #5	0.00
+10	2	kLLALAMkaceefghijjjnkuxxnnhhgb	8	SFS [S2: (2,1) (3,1) (4,5)] : #6	0.00
+10	2	kLLALAMkaceefhgijjjnkuxlsshhgb	7	SFS [S2: (2,1) (3,2) (4,1)] : #1	0.00
+10	2	kLLALMMkaceeggihjjjnkuxakqchck	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,1)], m = [ 0,1 | 1,0 ] : #1	0.00
+10	2	kLLALMMkaceeggihjjjnkuxakxnxvc	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,1)], m = [ 0,1 | 1,0 ] : #1	0.00
+10	2	kLLALPMkaceegighjjjnkuxaqckhck	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #2	0.00
+10	2	kLLALPMkaceeggihjjjnkuxanxkxvc	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #2	0.00
+10	2	kLLALMMkaceeggihjjjnkuxlsxjxvc	8	SFS [S2: (2,1) (3,1) (9,-4)] : #1	0.00
+10	2	kLLALPMkaceeggihjjjnkuxtrxwxvc	8	SFS [S2: (2,1) (3,1) (5,4)] : #2	0.00
+10	2	kLLALAMkbddcfhgijjjdwjjcuuqqof	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,1)], m = [ -1,1 | 1,0 ] : #2	0.00
+10	2	kLLALAMkbddcfhgijjjdwjjcllqqfo	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,1)], m = [ -1,1 | 0,1 ] : #6	0.00
+10	2	kLLALAMkbddcfhgijjjdwjjguuqqof	8	SFS [S2: (2,1) (3,1) (9,-5)] : #1	0.00
+10	2	kLLALAMkbddcfhgijjjdwjjollqqfo	7	SFS [S2: (2,1) (3,2) (5,-1)] : #1	0.00
+10	2	kLLALAMkaceefhgijjjjkuxprrhhgb	9	SFS [S2: (2,1) (2,1) (3,2) (4,-3)] : #1	0.00
+10	2	kLLALAMkaceefhgijjjjkuxpwwhhgb	9	SFS [S2: (2,1) (2,1) (3,1) (4,-7)] : #5	0.00
+10	2	kLLALAMkaceefghijjjjkuxxnnhhgb	8	SFS [S2: (2,1) (3,2) (4,5)] : #5	0.00
+10	2	kLLALAMkaceefhgijjjjkuxlsshhgb	7	SFS [S2: (2,1) (3,1) (4,1)] : #3	0.00
+10	2	kLLALMMkaceeggihjjjjkuxakqchck	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,1)], m = [ 0,1 | 1,0 ] : #1	0.00
+10	2	kLLALMMkaceeggihjjjjkuxakxnxvc	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,1)], m = [ 0,1 | 1,0 ] : #1	0.00
+10	2	kLLALPMkaceegighjjjjkuxaqckhck	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #2	0.00
+10	2	kLLALPMkaceeggihjjjjkuxanxkxvc	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	2	kLLALMMkaceeggihjjjjkuxlsxjxvc	8	SFS [S2: (2,1) (3,2) (9,-4)] : #1	0.00
+10	2	kLLALPMkaceeggihjjjjkuxtrxwxvc	8	SFS [S2: (2,1) (3,2) (5,4)] : #2	0.00
+10	2	kLLALAMkbddcfhgijjjdwjncuuqqof	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,1)], m = [ -1,1 | 1,0 ] : #2	0.00
+10	2	kLLALAMkbddcfhgijjjdwjncllqqfo	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,3)], m = [ -1,1 | 0,1 ] : #2	0.00
+10	2	kLLALAMkbddcfhgijjjdwjnguuqqof	8	SFS [S2: (2,1) (3,2) (9,-5)] : #1	0.00
+10	2	kLLALAMkbddcfhgijjjdwjnollqqfo	7	SFS [S2: (2,1) (3,1) (5,-1)] : #1	0.00
+10	2	kLLAwAMkacddfhgijjjjkaitnnqqof	9	SFS [S2: (2,1) (2,1) (2,1) (4,1)] : #1	0.00
+10	2	kLLAwAMkacddfhgijjjjkaixnnqqof	8	SFS [S2: (2,1) (2,1) (4,9)] : #6	0.00
+10	2	kLLAzAMkacddfhgijjjjkaiukkxxvc	8	SFS [S2: (2,1) (2,1) (9,5)] : #2	0.00
+10	2	kLLAzAMkacddfhgijjjjkaipnnxxvc	8	SFS [S2: (2,1) (2,1) (5,9)] : #2	0.00
+10	2	kLLALAMkacddfhgijjjjkailkkhhgb	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,1)], m = [ 0,-1 | 1,0 ] : #2	0.00
+10	2	kLLALAMkacddfhgijjjjkaixkkhhgb	8	SFS [S2: (2,1) (2,1) (9,4)] : #2	0.00
+10	2	kLLAMzMkacdefghijjjnkxxxxxxxxa	9	SFS [S2: (2,1) (2,1) (7,1)] : #1	0.00
+10	2	kLLAMzMkacdefghijjjnbxxxxxxxxa	8	L(37,5) : #1	0.00
+10	2	kLLLAAMkbedgfhfijjjxxwahxjxxxa	8	L(31,4) : #1	0.00
+10	2	kLLLAAMkbedgfhfijjjxxwahxwxxxa	8	L(38,5) : #1	0.00
+10	2	kLLAMzMkacdefghijjjjkxxxxxxxxa	8	L(37,5) : #1	0.00
+10	2	kLLAMzMkacdefghijjjjkaaxxxxxxa	7	L(33,5) : #1	0.00
+10	2	kLLAMzMkacdefghijjjjbxxxxxxxxa	8	L(29,4) : #1	0.00
+10	1	kLLAMLAkbcedfghiijjtsajhxcvfhw	9	SFS [S2: (2,1) (5,3) (9,-7)] : #1	0.58
+10	1	kLLMMLMkacdefghiijjjkankqjjkxr	7	L(42,11) : #1	0.96
+10	1	kLLALAMkacdehghiijjnkqxhwnapws	9	SFS [S2: (2,1) (4,3) (9,-7)] : #1	0.68
+10	1	kLLALAMkacdehghiijjjkqxhwnapws	9	SFS [S2: (2,1) (5,3) (9,-7)] : #1	0.68
+10	1	kLLALAPkacdehhgiijjjkaqhvnahkr	9	SFS [S2: (2,1) (5,2) (11,-8)] : #1	0.68
+10	1	kLLALAPkacdehhgiijjjkaqhvnahnj	9	SFS [S2: (2,1) (5,2) (9,-7)] : #1	0.42
+10	1	kLLAwPAkacdefghiijjnkqxqvkqqvk	9	SFS [S2: (2,1) (4,3) (10,-7)] : #1	0.90
+10	1	kLLALAPkacdehhgiijjjkaqhvnahkn	9	SFS [S2: (2,1) (5,2) (10,-7)] : #1	0.72
+10	1	kLLALLQkbcedhgjiiijtsajxjaajfs	2	L(7,2) : #1	0.98
+10	1	kLLLMAMkcdgfefhijjjhshassshhwr	9	SFS [S2: (2,1) (2,1) (9,-8)] : #1	0.78
+10	1	kLLAwMAkccedfghiijjlnhcqesrrek	9	SFS [S2: (2,1) (3,2) (14,-11)] : #1	0.54
+10	1	kLLAwMMkccedfghiijjlnxkxxjffxw	7	L(48,17) : #1	0.92
+10	1	kLLALMPkccedhghiijjlnhchwiafwj	9	SFS [S2: (2,1) (3,2) (11,-9)] : #1	0.42
+10	1	kLLALLQkcecdhgihijjthcnhkaernj	9	SFS [S2: (2,1) (3,2) (11,-9)] : #1	0.38
+10	1	kLLALMPkccedhghiijjlnhchwiafrr	9	SFS [S2: (2,1) (3,2) (13,-10)] : #1	0.70
+10	1	kLLALLQkcecdhgihijjthcnhkaerkk	9	SFS [S2: (2,1) (3,2) (13,-10)] : #1	0.64
+10	2	kLLMwAMkacdfehgijjjjkacvqqqqof	9	SFS [RP2/n2: (2,1) (4,5)] : #5	0.00
+10	1	kLLMwAMkacdfehgijjjjkacvaaqqfo	8	SFS [RP2/n2: (2,1) (4,3)] : #2	1.00
+10	2	kLLMwAMkacdefhgijjjjkankqqhhgb	8	SFS [S2: (2,1) (5,2) (5,-1)] : #1	0.00
+10	2	kLLMwAMkacdefhgijjjjkqvkxxhhgb	8	SFS [S2: (2,1) (5,3) (5,-1)] : #1	0.00
+10	2	kLLPLAMkaceefghijjjnkxvvqqhhgb	9	SFS [RP2/n2: (3,1) (4,1)] : #2	0.00
+10	2	kLLPLAMkaceefghijjjnkxvvxxhhgb	9	SFS [RP2/n2: (3,1) (4,-1)] : #2	0.00
+10	2	kLLvAAQkbeghgghiijjxxaxvcsffxj	8	SFS [S2: (2,1) (4,3) (5,-1)] : #1	0.00
+10	2	kLLvAQPkbeghgghiijjxxaxvcbwwar	8	SFS [S2: (2,1) (4,1) (5,-1)] : #1	0.00
+10	2	kLLMwAMkacdefhgijjjnkqvkxxhhgb	8	SFS [S2: (2,1) (4,3) (5,-1)] : #1	0.00
+10	2	kLLPLAMkaceefghijjjjkxvvqqhhgb	9	SFS [RP2/n2: (3,2) (4,1)] : #2	0.00
+10	2	kLLPLAMkaceefghijjjjkxvvxxhhgb	9	SFS [RP2/n2: (3,1) (4,-3)] : #6	0.00
+10	2	kLLvAAQkbeghgghiijjxxaxvcsffxn	8	SFS [S2: (2,1) (5,3) (5,-1)] : #1	0.00
+10	2	kLLvAQPkbeghgghiijjxxaxvcbwwak	8	SFS [S2: (2,1) (5,2) (5,-1)] : #1	0.00
+10	1	kLLAwMAkbdedfghiijjdwqsuxwggqs	9	SFS [S2: (2,1) (5,2) (9,-7)] : #1	0.30
+10	2	kLLLMMPkcdgfhfijjjihshmgwahahn	8	SFS [S2: (2,1) (3,2) (6,-1)] : #1	0.00
+10	2	kLLLMMPkcdgfhfijjjihshmgwhhahw	7	L(40,7) : #1	0.00
+10	2	kLLLMMPkcdgfhfijjjihshmgwhhahj	8	SFS [S2: (2,1) (2,1) (6,5)] : #2	0.00
+10	1	kLLAzPAkbcedghgiijjtsajsljijls	9	SFS [S2: (2,1) (7,2) (7,-5)] : #1	0.38
+10	1	kLLALMPkccdefhhiijjlnnakattrcn	9	SFS [S2: (2,1) (7,2) (7,-5)] : #1	0.42
+10	1	kLLAzPAkbcedghgiijjtsajsljijdn	9	SFS [S2: (2,1) (7,2) (8,-5)] : #1	0.68
+10	1	kLLALMPkccdefhhiijjlnnakattrnw	9	SFS [S2: (2,1) (7,2) (8,-5)] : #1	0.62
+10	1	kLLPzPPkacefehhiijjjkxwntbksuw	9	SFS [S2: (2,1) (8,3) (8,-5)] : #1	0.92
+10	1	kLLMLMAkacdeghgiijjjkantlmfjln	9	SFS [S2: (2,1) (7,2) (7,-5)] : #1	0.40
+10	1	kLLMLMAkacdeghgiijjjkantlmfjdj	9	SFS [S2: (2,1) (7,2) (8,-5)] : #1	0.84
+10	1	kLLMLAAkbcefgghiijjtsamosvamvn	9	SFS [S2: (2,1) (7,2) (7,-5)] : #1	0.32
+10	1	kLLMLAAkbcefgghiijjtsamosvamnw	9	SFS [S2: (2,1) (7,2) (7,-4)] : #1	0.68
+10	1	kLLMLMPkacdeghijijjjkantllqjex	9	SFS [S2: (2,1) (7,2) (7,-5)] : #1	0.46
+10	1	kLLMLzQkcdedghhiijjpkhrndmhgjj	9	SFS [S2: (2,1) (7,2) (7,-4)] : #1	0.62
+10	1	kLLMLwQkacdeghihijjjkantlsbjkr	9	SFS [S2: (2,1) (7,2) (7,-5)] : #1	0.44
+10	1	kLLMLwQkacdeghihijjjkantlsbjnk	9	SFS [S2: (2,1) (7,2) (7,-4)] : #1	0.74
+10	1	kLLzPLQkaceehgihijjjkxnpegnokr	9	SFS [S2: (2,1) (8,3) (8,-5)] : #1	0.88
+10	1	kLLMLwQkacdeghihijjjkantlsbjnj	9	SFS [S2: (2,1) (7,2) (8,-5)] : #1	0.70
+10	1	kLLMLwQkacdeghjjiijjkantlkcjrk	9	SFS [S2: (2,1) (7,2) (7,-5)] : #1	0.40
+10	1	kLLMzMMkcdedfhihijjpkhrrplhfok	9	SFS [S2: (2,1) (7,2) (7,-4)] : #1	0.66
+10	1	kLLLMwQkcdgfefjjiijhshawshdlqr	9	SFS [S2: (2,1) (3,2) (11,-9)] : #1	0.36
+10	1	kLLALLQkbeddhghjjijhhokhwmavkw	9	SFS [S2: (2,1) (3,2) (11,-9)] : #1	0.32
+10	1	kLLLMwQkcdgffejjiijhshajjhdlqr	9	SFS [S2: (2,1) (3,2) (13,-10)] : #1	0.50
+10	1	kLLLMwQkcdgffejjiijhshajnhdlqr	9	SFS [S2: (2,1) (3,2) (14,-11)] : #1	0.60
+10	1	kLLALLQkbeddhghjjijhhokhwmavjr	9	SFS [S2: (2,1) (3,2) (14,-11)] : #1	0.68
+10	1	kLLALwQkbdedhgjhjjidwqsqblmkkj	9	SFS [S2: (2,1) (5,2) (9,-7)] : #1	0.44
+10	1	kLLALAMkbdedhghiijjdwqsqbxlnrk	9	SFS [S2: (2,1) (5,2) (11,-8)] : #1	0.70
+10	1	kLLLMLQkcdgfhfhjjjiqrqhwrgxhrk	9	SFS [S2: (2,1) (4,3) (9,-7)] : #1	0.70
+10	1	kLLLMLQkcdgfhfhjjijqrqawjgxhww	9	SFS [S2: (2,1) (5,2) (10,-7)] : #1	0.58
+10	1	kLLLMLQkcdgfhfhjjijqrqhwrgxhsw	9	SFS [S2: (2,1) (4,3) (11,-8)] : #1	0.88
+10	1	kLLLMLQkcdgfhfhjjijqrqawjgxhsw	9	SFS [S2: (2,1) (5,2) (11,-8)] : #1	0.54
+10	1	kLLLMMMkcdgfefhiijjhshawsvddor	9	SFS [S2: (2,1) (5,2) (9,-7)] : #1	0.42
+10	1	kLLLMLQkcdgfhfhjjjiqrqhwngxhrk	9	SFS [S2: (2,1) (5,3) (9,-7)] : #1	0.54
+10	1	kLLLMLQkcdgfgjhjhijhshagmsxwsw	7	L(49,20) : #1	0.98
+10	2	kLLLLQMkbeffggihijjxxhxvckvnaj	8	SFS [S2: (2,1) (5,2) (5,-1)] : #1	0.00
+10	2	kLLLLQMkbeffggihijjxxhxvckvnxn	8	SFS [S2: (2,1) (4,3) (5,-1)] : #1	0.00
+10	2	kLLLLQMkbeffggihijjxxhxvckvnxr	8	SFS [S2: (2,1) (5,3) (5,-1)] : #1	0.00
+10	1	kLLLwQMkcddfgiihijjpkreshqajjw	9	SFS [S2: (2,1) (5,2) (11,-8)] : #1	0.50
+10	1	kLLLAMMkbdffegihijjdwmidkxanxr	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 2,1 | 1,1 ] : #1	0.54
+10	1	kLLLPzQkcddgfihhijjpkrgkascakr	7	SFS [S2: (2,1) (2,1) (3,8)] : #2	0.50
+10	1	kLLLPzQkcddgfihhijjpkrgkacoakr	7	SFS [S2: (2,1) (2,1) (3,8)] : #5	0.62
+10	1	kLLLPzQkcddgfihhijjpkrgkascanj	7	SFS [S2: (2,1) (3,2) (3,5)] : #2	0.68
+10	1	kLLLAzQkbdffehhiijjdwmidaxxnnj	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 2,1 | 1,1 ] : #1	0.00
+10	1	kLLLALQkcedeghhiijjptrxplatcws	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 2,1 | 1,1 ] : #6	0.00
+10	1	kLLLAzQkbdffehhiijjdwmidaxxnkk	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #1	0.00
+10	1	kLLLALQkcedeghhiijjptrxplatcrr	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #1	0.00
+10	1	kLLLAzQkbdffehhiijjdwmidaxxnkr	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #1	0.00
+10	1	kLLLALQkcedeghhiijjptrxplatcrn	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #1	0.00
+10	1	kLLPwMAkcdeffghiijjhsxxajllwhw	9	SFS [S2: (2,1) (3,1) (16,-13)] : #1	1.00
+10	1	kLLMvMQkacdeighjjijjkanamkkjks	9	SFS [S2: (3,1) (3,1) (9,-7)] : #1	0.18
+10	1	kLLLLQPkbcgffiihjijtsmgjwbfmkk	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 2,1 | 1,1 ] : #5	0.00
+10	1	kLLLLQPkbcgiffihjijtsmkbkkfmkk	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 2,1 | 1,1 ] : #6	0.00
+10	1	kLLLLQPkbcgfifihjijtsmgjbffmkk	7	SFS [S2: (2,1) (2,1) (3,7)] : #2	0.64
+10	1	kLLLLQAkbceiigihhjjtsdjvwcrrhs	7	SFS [S2: (2,1) (2,1) (3,8)] : #2	0.56
+10	1	kLLLLQPkbcgffiihjijtsmgjwbfukw	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #6	0.00
+10	1	kLLLLQPkbcgiffihjijtsmkbkkfukw	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #6	0.00
+10	1	kLLLLQPkbcgfifihjijtsmgjbffukw	7	SFS [S2: (2,1) (3,1) (3,4)] : #4	0.90
+10	1	kLLLLQPkbcgffiihjijtsmgjwbfukj	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #6	0.00
+10	1	kLLLLQPkbcgiffihjijtsmkbkkfukj	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #2	0.00
+10	1	kLLLPPPkccffghhiijjlndegbnqxbk	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #6	0.88
+10	1	kLLLALQkcdgffhjjjiihshatqpijss	9	SFS [S2: (2,1) (4,3) (9,-7)] : #1	0.62
+10	1	kLLLALQkcdgffhiiijjhshatiluvnr	9	SFS [S2: (2,1) (5,2) (9,-7)] : #1	0.36
+10	1	kLLAvQMkbeediihhijjhhakhtksmqj	6	L(35,8) : #1	1.00
+10	1	kLLAvQMkbeediihhijjhhakhtksmqk	7	SFS [S2: (2,1) (3,2) (4,1)] : #1	0.94
+10	1	kLLwPMAkacdfgghiijjjkajulmfvmw	7	SFS [S2: (2,1) (2,1) (3,7)] : #3	0.58
+10	2	kLLPLPAkacefhiiihjjjkxgutpgsqj	7	SFS [S2: (3,1) (3,1) (3,2)] : #1	0.00
+10	1	kLLPLPAkacefhiiihjjnkxgutpgsak	7	SFS [S2: (2,1) (3,1) (3,4)] : #3	0.74
+10	2	kLLPLPAkacefhiiihjjjkxgulpgsqj	7	SFS [S2: (3,1) (3,2) (3,2)] : #2	0.00
+10	2	kLLPLPAkacefhiiihjjjkxgutlgsqj	7	SFS [S2: (3,1) (3,2) (3,2)] : #1	0.00
+10	2	kLLPLPMkacefgiihijjjkxraaxkoxn	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (3,1) (3,1)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	2	kLLPLPAkacefhiiihjjjkxruaxrsqj	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (3,1) (3,2)], m = [ -1,1 | 0,1 ] : #5	0.00
+10	2	kLLPLPMkacefgiihijjjkxwaptkfxn	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (3,2) (3,2)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	2	kLLPLPAkacefhiiihjjjkxgutpgsqw	7	SFS [S2: (3,1) (3,2) (3,2)] : #2	0.00
+10	2	kLLPLPAkacefhiiihjjjkxgulpgsqw	7	SFS [S2: (3,2) (3,2) (3,2)] : #1	0.00
+10	1	kLLPLPAkacefhiiihjjjkxgulpgsak	7	SFS [S2: (2,1) (3,2) (3,5)] : #1	0.70
+10	2	kLLPLPAkacefhiiihjjjkxruaxrsqw	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (3,2) (3,2)], m = [ -1,1 | 0,1 ] : #3	0.00
+10	2	kLLPLPMkacefgiihijjjkxraaxkoxr	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (3,1) (3,2)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	2	kLLPLPAkacefhiiihjjnkxgutpgsqj	7	SFS [S2: (3,1) (3,1) (3,1)] : #1	0.00
+10	2	kLLPLPAkacefhiiihjjnkxgulpgsqj	7	SFS [S2: (3,1) (3,1) (3,2)] : #2	0.00
+10	2	kLLPLPAkacefhiiihjjnkxruaxrsqj	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (3,1) (3,1)], m = [ -1,1 | 0,1 ] : #3	0.00
+10	2	kLLPLPMkacefgiihijjnkxraaxkoxn	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (3,1) (3,2)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	1	kLLLLMQkcdgfihjhiijhshnrraobrr	9		0.00
+10	2	kLLLLMQkcdgfihjhiijhshnrvxwbnk	9		0.00
+10	2	kLLLLMQkcdgfihjhiijhshnrrxobrk	8	SFS [S2: (3,2) (4,1) (4,-1)] : #1	0.00
+10	2	kLLLLMQkcdgfihjhiijhshnrvxwbnj	8	SFS [S2: (3,1) (4,1) (5,-2)] : #1	0.00
+10	2	kLLLLMQkcdgfihjhiijhshnrrxobrj	9		0.00
+10	2	kLLzwQMkacefhgiijijnkxvhaavhnn	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (3,1) (3,2)], m = [ -1,1 | 0,1 ] : #5	0.00
+10	2	kLLzwQMkacefhgihijjnkxflaefnlj	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (3,1) (3,1)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	2	kLLzwQMkacefhgiijijjkxvhaavhnn	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (3,2) (3,2)], m = [ -1,1 | 0,1 ] : #3	0.00
+10	2	kLLzwQMkacefhgihijjjkxflaefnlj	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (3,1) (3,2)], m = [ -1,1 | 1,0 ] : #2	0.00
+10	2	kLLzwQMkacefhgiijijnkxvhaavhnr	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (3,1) (3,1)], m = [ -1,1 | 0,1 ] : #3	0.00
+10	2	kLLzwQMkacefhgihijjnkxflaefnlw	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (3,1) (3,2)], m = [ -1,1 | 1,0 ] : #2	0.00
+10	2	kLLzwQMkacefhgiijijjkxvhaavhnr	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (3,1) (3,2)], m = [ -1,1 | 0,1 ] : #6	0.00
+10	2	kLLzwQMkacefhgihijjjkxflaefnlw	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (3,2) (3,2)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	1	kLLLAPAkbdfgeighijjdwepdtrufxk	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,2)], m = [ 1,1 | 0,1 ] : #1	0.86
+10	1	kLLPLLQkacefhgijjijjkqglqorvrg	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,2)], m = [ -1,2 | 0,1 ] : #1	0.58
+10	2	kLLLLQMkbeffghgiijjxxexvcrsnxn	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,1)], m = [ -1,1 | 0,1 ] : #6	0.00
+10	2	kLLLLQMkbeffgighijjxxexvorbsqs	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #2	0.00
+10	2	kLLLLQMkcegefghiijjqpqqrcgosqs	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #2	0.00
+10	2	kLLLLQMkbeffghgiijjxxexvcrsnxr	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,3)], m = [ -1,1 | 0,1 ] : #5	0.00
+10	2	kLLLLQMkbeffgighijjxxexvorbsqw	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	2	kLLLLQMkcegefghiijjqpqqrcgosqw	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	1	kLLLvQQkbcgfijihhijtsmjwqbbfkw	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,2)], m = [ 1,1 | 0,1 ] : #1	0.00
+10	1	kLLLLMQkbcgifijhhijtsmkbkqbfkj	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,3)], m = [ 1,1 | 0,1 ] : #1	0.00
+10	1	kLLLvQQkbcgfijihhijtsmjwabbfkj	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,3)], m = [ 1,1 | 0,1 ] : #2	0.00
+10	1	kLLLLMQkbcgifijhhijtsmkbkqbfkw	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,3)], m = [ 1,1 | 0,1 ] : #1	0.00
+10	1	kLLLvQQkbcgfijihhijtsmjwabbfkn	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,3)], m = [ 1,1 | 0,1 ] : #2	0.00
+10	1	kLLLLMQkbcgifijhhijtsmkbkxbfkn	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,2)], m = [ 1,1 | 0,1 ] : #1	0.00
+10	1	kLLzLPQkaceijijhgijnkxupaxsnsk	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (3,1) (3,2)], m = [ -1,1 | 1,0 ] : #2	0.76
+10	1	kLLzLPQkaceijijhgijjkxupaxsnsk	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (3,2) (3,2)], m = [ -1,1 | 1,0 ] : #1	0.80
+10	1	kLLwPPAkacdggighijjjkaupqmmklw	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 2,1 | 1,1 ] : #6	0.00
+10	2	kLLzLQAkaceiggghijjnkxuaatlsqw	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (3,1) (3,2)], m = [ -1,1 | 1,0 ] : #2	0.00
+10	1	kLLwPPAkacdggighijjjkaupqmmkuj	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #5	0.00
+10	2	kLLzLQAkaceiggghijjnkxuaallsqw	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (3,1) (3,2)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	2	kLLzLQAkacehgggiijjjkxaaalxkxn	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (3,1) (3,1)], m = [ -1,1 | 0,1 ] : #3	0.00
+10	2	kLLzLQAkacehgggiijjjkxaaatxkxn	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (3,2) (3,2)], m = [ -1,1 | 0,1 ] : #3	0.00
+10	2	kLLzLQAkaceiggghijjjkxuaallsqj	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (3,1) (3,2)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	2	kLLzLQAkaceiggghijjjkxuaatlsqj	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (3,1) (3,2)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	1	kLLwzQAkacdggighijjjkaxluamoxj	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #5	0.00
+10	2	kLLzLQAkacehggigijjjkxauaiikxn	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (3,2) (3,2)], m = [ -1,1 | 0,1 ] : #3	0.00
+10	2	kLLzLQAkacehggigijjjkxauaimkxn	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (3,1) (3,1)], m = [ -1,1 | 0,1 ] : #3	0.00
+10	3	kLLzLQAkaceiggghijjjkxuaatlsqw	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (3,2) (3,2)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	1	kLLwPPAkacdggighijjjkaupqmmkuk	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #1	0.00
+10	2	kLLzLQAkaceiggghijjjkxuaallsqw	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (3,2) (3,2)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	2	kLLzLQAkacehgggiijjjkxaaalxkxr	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (3,1) (3,2)], m = [ -1,1 | 0,1 ] : #6	0.00
+10	1	kLLwzQAkacdggighijjjkaxluamoxk	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #5	0.00
+10	2	kLLzLQAkacehggigijjjkxauaiikxr	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (3,1) (3,2)], m = [ -1,1 | 0,1 ] : #5	0.00
+10	2	kLLzLQAkaceiggghijjnkxuaatlsqj	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (3,1) (3,1)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	2	kLLzLQAkaceiggghijjnkxuaallsqj	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (3,1) (3,1)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	2	kLLzLQAkacehgggiijjnkxaaalxkxn	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (3,1) (3,2)], m = [ -1,1 | 0,1 ] : #6	0.00
+10	2	kLLzLQAkacehggigijjnkxauaiikxn	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (3,1) (3,2)], m = [ -1,1 | 0,1 ] : #6	0.00
+10	1	kLLzLPQkacehjijigijnkxaalxnnks	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (3,1) (3,2)], m = [ -1,1 | 1,0 ] : #2	0.84
+10	1	kLLLLPQkbdefghgjijjdwugjrktjtd	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 2,1 | 1,1 ] : #6	0.00
+10	1	kLLLPPMkcddffgihijjpkrokoloawj	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 2,1 | 1,1 ] : #6	0.00
+10	1	kLLLPMMkcddgffihijjpkrgknioukr	7	SFS [S2: (2,1) (3,1) (3,4)] : #1	0.72
+10	1	kLLLLPQkbceigihhhjjtsdjwcrrflr	7	SFS [S2: (2,1) (3,1) (3,5)] : #5	0.74
+10	1	kLLLLPQkbdefghgjijjdwugsrstjtd	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #1	0.00
+10	1	kLLLPMMkcddffghiijjpkrnkwruank	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ 1,-1 | 0,1 ] : #9	1.00
+10	1	kLLLPPMkcddffgihijjpkrowoloarr	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,1)], m = [ 1,1 | 0,1 ] : #8	0.94
+10	1	kLLLPPMkcddffgihijjpkrokoloarr	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #2	0.00
+10	1	kLLLPMMkcddgffihijjpkrgknioukk	7	SFS [S2: (2,1) (3,1) (3,5)] : #5	0.74
+10	1	kLLLLPQkbceigihhhjjtsdjwcrrfln	7	SFS [S2: (2,1) (3,2) (3,5)] : #1	0.80
+10	1	kLLLLPQkbdefghgjijjdwugsrwtjtd	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #5	0.00
+10	1	kLLLPPMkcddffgihijjpkrokoloark	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #5	0.00
+10	1	kLLLLAQkbdefiggjjijdwugcjkqmjm	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 2,1 | 1,1 ] : #1	0.48
+10	1	kLLLPPPkccgegihiijjlniinmjuhij	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ 1,-1 | 0,1 ] : #9	0.84
+10	1	kLLLzQPkbcgffhihjijtsmajkafmnk	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,3)], m = [ 1,1 | 0,1 ] : #2	0.00
+10	1	kLLLPMPkbcgfhfihjijtsmmobqfmwk	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,3)], m = [ 1,1 | 0,1 ] : #1	0.00
+10	1	kLLLLQAkacfighhhijjjkganiuqxnr	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,2)], m = [ 1,1 | 0,1 ] : #1	0.00
+10	1	kLLLLAQkacfighhiijjnkganiqxmbr	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	1	kLLLzQPkbcgffhihjijtsmajkafunw	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (5,2)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	1	kLLLPMPkbcgfhfihjijtsmmobqfuww	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,1)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	1	kLLLLQAkacfighhhijjjkganiuqxkk	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (5,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	1	kLLLzMQkccfeghihjijlnaaknxkxkn	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,1)], m = [ -1,1 | 0,1 ] : #5	0.92
+10	1	kLLLzMQkccfeghihjijlnaaknakxjn	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (5,3)], m = [ -1,1 | 0,1 ] : #5	0.76
+10	1	kLLLLAQkacfighhiijjnkganiqxmbk	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #2	0.00
+10	1	kLLLzQPkbcgffhihjijtsmajkafunj	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (5,2)], m = [ 0,1 | 1,1 ] : #2	0.00
+10	1	kLLLPMPkbcgfhfihjijtsmmobqfuwj	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,1)], m = [ 0,1 | 1,1 ] : #2	0.00
+10	1	kLLLLQAkacfighhhijjjkganiuqxkj	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (5,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	1	kLLLzMQkccfeghihjijlnaaknxkxkr	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,3)], m = [ -1,1 | 0,1 ] : #6	0.80
+10	1	kLLLzMQkccfeghihjijlnaaknakxjr	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (5,2)], m = [ -1,1 | 0,1 ] : #5	0.86
+10	1	kLLLLAQkacfighhiijjjkganiqxmgs	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,2)], m = [ 1,1 | 0,1 ] : #2	0.00
+10	1	kLLLzQPkbcgffhihjijtsmajkafmjk	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,3)], m = [ 1,1 | 0,1 ] : #1	0.00
+10	1	kLLLPMPkbcgfhfihjijtsmmobqfmjk	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,3)], m = [ 1,1 | 0,1 ] : #1	0.00
+10	1	kLLLLAQkacfighhiijjjkganiqxmbr	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (5,3)], m = [ 0,1 | 1,1 ] : #2	0.00
+10	1	kLLLzQPkbcgffhihjijtsmajkafujw	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,1)], m = [ 0,1 | 1,1 ] : #2	0.00
+10	1	kLLLPMPkbcgfhfihjijtsmmobqfujw	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (5,2)], m = [ 0,1 | 1,1 ] : #2	0.00
+10	1	kLLLLQAkacfighhhijjnkganiuqxkk	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #2	0.00
+10	1	kLLLzMQkccfeghihjijlnaaknxkxrn	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (5,2)], m = [ -1,1 | 0,1 ] : #6	0.70
+10	1	kLLLLAQkacfighhiijjjkganiqxmbk	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (5,3)], m = [ 0,1 | 1,1 ] : #2	0.00
+10	1	kLLLzQPkbcgffhihjijtsmajkafujj	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,1)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	1	kLLLPMPkbcgfhfihjijtsmmobqfujj	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (5,2)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	1	kLLLLQAkacfighhhijjnkganiuqxkj	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	1	kLLLLQAkacfgihhhijjnkgjiiuqekk	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,3)], m = [ -1,1 | 0,1 ] : #5	0.84
+10	1	kLLLPPPkccefgihihjjlnxxgtkqngs	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,1)], m = [ 1,1 | 0,1 ] : #2	1.00
+10	1	kLLLMLQkbcfghighijjtsiacukktwr	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,1)], m = [ 1,1 | 0,1 ] : #5	0.72
+10	1	kLLLMPMkcceffhihijjlnxicstnqnj	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,1)], m = [ -1,1 | 0,1 ] : #1	0.00
+10	1	kLLLMLQkbcfghighijjtsiacukktwn	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ 1,-1 | 0,1 ] : #9	0.74
+10	1	kLLLMPMkcceffhihijjlnxicstnqnw	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ -1,1 | 0,1 ] : #1	0.00
+10	1	kLLLwMQkbcfghighijjtsiajtkkinr	9		0.98
+10	1	kLLLwAQkcceffhhiijjlnmijbnutgn	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,1)], m = [ 1,1 | 0,1 ] : #8	0.80
+10	2	kLLLLMQkcdgfhgjiiijhshnskxbkwk	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	2	kLLLLMQkcdggfjihiijhshgwhsnkww	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #2	0.00
+10	2	kLLLLMQkcdggfjhiiijhshgwhcbkww	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,1)], m = [ -1,1 | 0,1 ] : #6	0.00
+10	2	kLLLLMQkcdgfhgjiiijhshnskxbkwj	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #2	0.00
+10	2	kLLLLMQkcdggfjihiijhshgwhsnkwj	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	2	kLLLLMQkcdggfjhiiijhshgwhcbkwj	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,3)], m = [ -1,1 | 0,1 ] : #5	0.00
+10	1	kLLwvQQkacdgjihjijijkalaxmcnvn	9	SFS [S2: (2,1) (4,1) (9,-7)] : #4	1.00
+10	1	kLLzLPQkacegijhihjjnkxlitiosbg	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,1)], m = [ 1,1 | 0,1 ] : #8	0.82
+10	2	kLLLAAMkacfdgfhijjjjkgjokuxhum	8	SFS [S2: (3,2) (3,2) (5,-1)] : #1	0.00
+10	2	kLLLAAMkacdfgfhijjjjkwrokuxhum	7		0.00
+10	2	kLLLAAMkacdfgfhijjjjkrwokuxhum	8	SFS [S2: (2,1) (3,2) (5,4)] : #2	0.00
+10	2	kLLLLMQkcdgihfhiijjhshgsrkgbuw	7	L(52,11) : #1	0.00
+10	2	kLLLLMQkcdgihhfiijjhshgsvjgbuw	5	L(23,5) : #1	0.00
+10	2	kLLLLMQkcdgihfhiijjhshgsjngbuw	7	L(43,9) : #1	0.00
+10	2	kLLLAAMkacfdgfhijjjnkgjokuxhum	8	SFS [S2: (3,1) (3,2) (5,-1)] : #1	0.00
+10	2	kLLLAAMkacdfgfhijjjnkwrokuxhum	7	SFS [S2: (2,1) (3,2) (5,-4)] : #1	0.00
+10	2	kLLLAAMkacdfgfhijjjnkrwokuxhum	8	SFS [S2: (2,1) (3,1) (5,4)] : #1	0.00
+10	2	kLLLLMQkcdgihfhiijjhshgsrkgbuj	8	SFS [S2: (2,1) (3,2) (5,4)] : #3	0.00
+10	2	kLLLLMQkcdgihhfiijjhshgsvjgbuj	6	SFS [S2: (2,1) (2,1) (5,-1)] : #2	0.00
+10	2	kLLLLMQkcdgihfhiijjhshgsjngbuj	8	SFS [S2: (2,1) (2,1) (5,9)] : #2	0.00
+10	2	kLLLAAMkacfdgfhijjjjkgnokuxhum	8	SFS [S2: (3,1) (3,2) (5,-1)] : #1	0.00
+10	2	kLLLAAMkacdfgfhijjjjksrokuxhum	6	L(23,4) : #1	0.00
+10	2	kLLLAAMkacdfgfhijjjjknwokuxhum	7	L(52,11) : #1	0.00
+10	2	kLLLLMQkcdgihfhiijjhshgsnkgbuw	7	L(47,10) : #1	0.00
+10	2	kLLLLMQkcdgihhfiijjhshgsvwgbuw	1	L(4,1) : #1	0.00
+10	2	kLLLLMQkcdgihfhiijjhshgskngbuw	7	L(29,5) : #1	0.00
+10	2	kLLLAAMkacfdgfhijjjnkgnokuxhum	8	SFS [S2: (3,1) (3,1) (5,-1)] : #1	0.00
+10	2	kLLLAAMkacdfgfhijjjnksrokuxhum	6	L(28,5) : #1	0.00
+10	2	kLLLAAMkacdfgfhijjjnknwokuxhum	7	L(47,10) : #1	0.00
+10	2	kLLLLMQkcdgihfhiijjhshgsnkgbuj	8	SFS [S2: (2,1) (3,1) (5,4)] : #3	0.00
+10	2	kLLLLMQkcdgihhfiijjhshgsvwgbuj	4	L(7,1) : #1	0.00
+10	2	kLLLLMQkcdgihfhiijjhshgskngbuj	7	L(43,9) : #1	0.00
+10	2	kLLLAMMkaceggfihjjjjkkcknxqxqh	8	SFS [S2: (2,1) (5,2) (5,-1)] : #1	0.00
+10	2	kLLLLQPkbeffhhihijjxxhxvckcvhk	8	SFS [S2: (2,1) (4,3) (5,-1)] : #1	0.00
+10	2	kLLLAMMkaceggfihjjjnkkcknxqxqh	8	SFS [S2: (2,1) (4,1) (5,-1)] : #1	0.00
+10	2	kLLLLQPkbeffhhihijjxxhxvckcvhr	8	SFS [S2: (2,1) (5,3) (5,-1)] : #1	0.00
+10	1	kLLLAPMkacfegihhjijjkgskeiijnn	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ 1,-1 | 0,1 ] : #6	0.96
+10	2	kLLLMLQkcdgfghjhjijhshdgnqbusw	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,3)], m = [ -1,1 | 0,1 ] : #5	0.00
+10	2	kLLLMLQkcdgfghjhjjihshdgnqburr	7	SFS [S2: (2,1) (4,3) (5,-3)] : #1	0.00
+10	2	kLLLMLQkcdgfghjhjijhshdgnqbuww	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,1)], m = [ -1,1 | 0,1 ] : #5	0.00
+10	2	kLLLMLQkcdgfghjhjjihshdgnqburk	8	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,1)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	1	kLLLLQMkacfhhggijjjnkgxafgdjsf	9	Hyp_1.26370924 : #1	0.56
+10	1	kLLLMLQkacefgihhijjjkvfjeemokw	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (3,2)], m = [ 1,1 | 0,1 ] : #2	0.96
+10	1	kLLLLAQkacgghhhiijjnkcjapdxmfw	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,1)], m = [ 1,1 | 0,1 ] : #8	0.98
+10	2	kLLLAAMkacfggghijjjnkgokohqhtp	9	SFS [S2: (3,1) (4,1) (5,-4)] : #1	0.00
+10	2	kLLLAAMkacfggghijjjnkgwkohqhtp	9	SFS [S2: (3,2) (4,1) (5,-4)] : #1	0.00
+10	2	kLLLAPPkbegfgihjhjjxximmxrujos	9	SFS [S2: (3,2) (4,3) (5,-4)] : #1	0.00
+10	2	kLLLAPPkbegfgihjhjjxxmmmxrujos	9	SFS [S2: (3,1) (4,3) (5,-4)] : #1	0.00
+10	2	kLLLAAMkacfggghijjjjkgokohqhtp	9	SFS [S2: (3,1) (5,1) (5,-3)] : #1	0.00
+10	2	kLLLAAMkacfggghijjjjkgwkohqhtp	9	SFS [S2: (3,2) (5,1) (5,-3)] : #1	0.00
+10	2	kLLLAPPkbegfgihjhjjxximmxrukos	9	SFS [S2: (3,2) (5,1) (5,-2)] : #1	0.00
+10	2	kLLLAPPkbegfgihjhjjxxmmmxrukos	9	SFS [S2: (3,1) (5,1) (5,-2)] : #1	0.00
+10	2	kLLLMAMkcdgfghfiijjhshigkrqqjn	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,1)], m = [ 1,1 | 0,1 ] : #2	0.00
+10	2	kLLLMAMkcdgfghfiijjhshigkrqqss	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	2	kLLLMAMkcdgfghfiijjhshigkrqqsw	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #2	0.00
+10	1	kLLLLQPkacfgifhijijjkgjikamkgn	7	SFS [S2: (2,1) (2,1) (4,5)] : #2	1.00
+10	2	kLLLLMQkcdfihigihjjhsxbswnbnuj	9	SFS [S2: (3,1) (4,1) (7,-5)] : #1	0.00
+10	2	kLLLLMQkcdfihigihjjhsxbswnbnmr	9	SFS [S2: (3,1) (4,1) (7,-4)] : #1	0.00
+10	2	kLLLLMQkcdfihigihjjhsxbswnbnuw	9	SFS [S2: (3,1) (4,1) (5,-4)] : #1	0.00
+10	2	kLLLLMQkcdfihigihjjhsxbswnbnmn	9	SFS [S2: (3,1) (4,1) (8,-5)] : #1	0.00
+10	2	kLLLPPPkacfhgfijjjinkgqfkuhcks	9	SFS [S2: (4,1) (4,1) (4,-1)] : #1	0.00
+10	2	kLLLPPPkacfhgfijjjijkgqfklhckj	9	SFS [S2: (4,1) (4,1) (5,-3)] : #1	0.00
+10	2	kLLLPzQkacfggijhhjjjkwkjhqiwvk	9	SFS [S2: (4,1) (4,3) (5,-2)] : #1	0.00
+10	2	kLLLPPPkacfhgfijjjijkgqfklhckn	9	SFS [S2: (4,1) (5,2) (5,-3)] : #1	0.00
+10	2	kLLLPzQkacfggijhhjjjkwkjhqisvk	9	SFS [S2: (4,1) (5,3) (5,-2)] : #1	0.00
+10	2	kLLLPPPkacfhgfijjjinkgqfkuhckw	9	SFS [S2: (4,1) (4,1) (5,-2)] : #1	0.00
+10	2	kLLLPPPkacfhgfijjjinkgqfklhckj	9	SFS [S2: (4,1) (4,1) (4,-3)] : #1	0.00
+10	2	kLLLPPPkacfhgfijjjijkgqfkuhcks	9	SFS [S2: (4,1) (4,3) (5,-3)] : #1	0.00
+10	2	kLLLPzQkacfggijhhjjnkwkjhqiwvk	9	SFS [S2: (4,1) (4,3) (4,-1)] : #1	0.00
+10	2	kLLLPPPkacfhgfijjjijkgqfkuhckw	9	SFS [S2: (4,1) (5,2) (5,-2)] : #1	0.00
+10	1	kLLLvQQkacfgfihjijjnkgckdxxfvb	9	Hyp_1.26370924 : #1	0.52
+10	1	kLLLPLQkacfghjijhijjkgkutadmcj	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,2)], m = [ -1,2 | 0,1 ] : #1	0.80
+10	1	kLLLPLQkacfghijjhijnkgkdupilcs	9	Hyp_1.26370924 : #1	0.56
+10	1	kLLLPPAkcddhfiihijjpkrgkalgipj	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,3)], m = [ 1,1 | 0,1 ] : #1	0.00
+10	1	kLLLPPAkcddhfiihijjpkrgkalgipw	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,3)], m = [ 1,1 | 0,1 ] : #1	0.00
+10	1	kLLLPPAkcddhfiihijjpkrgkalgiek	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,2)], m = [ 1,1 | 0,1 ] : #2	0.00
+10	1	kLLLPPMkcddgfiihijjpkrgkalcapj	7	SFS [S2: (2,1) (2,1) (5,7)] : #2	0.96
+10	2	kLLLLMQkacfgijjhiijnkgjitpemgn	9	Hyp_1.26370924 : #1	0.00
+10	1	kLLLLMQkacfgijjhijinkgjxtllmgr	9	Hyp_1.26370924 : #1	0.44
+10	1	kLLLLQPkacfighhjijjnkglwiuadwj	9	Hyp_1.26370924 : #1	0.50
+10	1	kLLvMMQkacfgihjihjjnknjtatphrn	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,3)], m = [ -1,2 | 0,1 ] : #1	0.84
+10	1	kLLvMMQkacfgihjihjjjknjtatphrn	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,3)], m = [ -1,2 | 0,1 ] : #1	0.86
+10	2	kLLvQPPkbeghfifjhjjxxahxxnxwvc	9	SFS [S2: (2,1) (3,2) (6,1)] : #1	0.00
+10	2	kLLvQPPkbeghfifjhjjxxaahxjxnvc	8	SFS [S2: (2,1) (3,2) (6,-1)] : #1	0.00
+10	2	kLLvQPPkbeghfifjhjjxxaxxxnxkvc	9	SFS [S2: (2,1) (2,1) (6,7)] : #1	0.00
+10	2	kLLvQPPkbeghfifjhjjxxaaaxkxnvc	8	SFS [S2: (2,1) (2,1) (6,5)] : #2	0.00
+10	2	kLLvQPPkbeghfifjhjjxxaaxxnxnvc	6	SFS [S2: (2,1) (2,1) (6,-5)] : #1	0.00
+10	2	kLLvQPPkbeghfifjhjjxxahhxjxwvc	9	SFS [S2: (3,1) (3,2) (6,-5)] : #1	0.00
+10	2	kLLvQPPkbeghfifjhjjxxahxxjxwvc	8	L(51,8) : #1	0.00
+10	2	kLLvQPPkbeghfifjhjjxxaahxjxrvc	7	L(45,8) : #1	0.00
+10	2	kLLvQPPkbeghfifjhjjxxahxxnxjvc	9	SFS [S2: (2,1) (3,1) (6,1)] : #1	0.00
+10	2	kLLvQPPkbeghfifjhjjxxaahxwxnvc	8	SFS [S2: (2,1) (3,1) (6,-1)] : #1	0.00
+10	2	kLLvQPPkbeghfifjhjjxxaxxxjxkvc	8	L(44,7) : #1	0.00
+10	2	kLLvQPPkbeghfifjhjjxxaaaxkxrvc	7	L(40,7) : #1	0.00
+10	2	kLLvQPPkbeghfifjhjjxxaaxxnxrvc	5	L(16,3) : #1	0.00
+10	2	kLLvQPPkbeghfifjhjjxxaaxxjxnvc	6	L(20,3) : #1	0.00
+10	2	kLLvQPPkbeghfifjhjjxxahhxwxwvc	9	SFS [S2: (3,2) (3,2) (6,-5)] : #1	0.00
+10	2	kLLvQPPkbeghfifjhjjxxahxxjxjvc	8	L(45,7) : #1	0.00
+10	2	kLLvQPPkbeghfifjhjjxxaahxwxrvc	7	L(39,7) : #1	0.00
+10	2	kLLvQPPkbeghfifjhjjxxaxxxjxjvc	8	L(31,5) : #1	0.00
+10	2	kLLvQPPkbeghfifjhjjxxaaaxrxrvc	7	L(29,5) : #1	0.00
+10	1	kLLvAQPkbefhggiijijxxqavcrghwr	8		0.86
+10	1	kLAwvQPkbccdhigjhjjemkeahhqkqa	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (3,1) (3,1)], m = [ 1,1 | 1,0 ] : #1	1.00
+10	2	kLvQzPAkadfeghihijjnxqxxhavvxk	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (3,2) (3,2)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	2	kLvQzPAkadfeghihijjjxqxxhavvxj	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (3,1) (3,1)], m = [ -1,1 | 1,0 ] : #1	0.00
+10	1	kLvQLMPkadfehgiiijjnxqxaahgbxn	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (3,2) (3,2)], m = [ -1,1 | 1,0 ] : #1	0.64
+10	2	kLvQzPAkadfeghihijjjxqxxhavvxk	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (3,1) (3,2)], m = [ -1,1 | 1,0 ] : #2	0.00
+10	2	kLLLAPAkbedgfhiihjjhhwhhahhaxj	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	1	kLLLAPAkbedgfhiihjjhhwhhahhaak	8	SFS [S2: (2,1) (4,1) (7,-5)] : #3	0.88
+10	2	kLLLAPAkbedgfhiihjjhhwhhahhaar	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,1)], m = [ 1,1 | 0,1 ] : #5	0.00
+10	2	kLLLAPAkcdgfehihijjhshqaqaaahr	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	2	kLLLAPAkcdgfehihijjhshqaqaaahn	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #2	0.00
+10	2	kLLLAPAkbedgfhiihjjhhwhhahhaxk	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #2	0.00
+10	2	kLLLPwQkcdgefhjjjiihshhosipqqn	9	SFS [S2: (3,1) (5,1) (5,-3)] : #1	0.00
+10	2	kLLLPwQkcdgefhjjjiihshhosipqaj	9	SFS [S2: (3,1) (4,3) (5,-4)] : #1	0.00
+10	2	kLLLPwQkcdgefhjjjiihshhosipqqj	9	SFS [S2: (3,1) (4,1) (5,-4)] : #1	0.00
+10	2	kLLLPwQkcdgefhjjjiihshhosipqaw	9	SFS [S2: (3,1) (5,1) (5,-2)] : #1	0.00
+10	2	kLLvMPQkbefgjjhjhiihhqqhasxjfn	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,1)], m = [ 0,1 | 1,0 ] : #1	0.00
+10	2	kLLvMPQkbefgjjhjhiihhqqhasxjfr	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,1)], m = [ 0,1 | 1,0 ] : #1	0.00
+10	2	kLLvAPQkbehgjifijijxxqqxrjbxgq	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	2	kLLvAPQkbehgjifijijxxqqxrnbxgq	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	2	kLLLLPQkcdgghhfijjjhshgkvwbptm	9		0.00
+10	2	kLLLLPQkcdgghfhijjjhshgkjnbptm	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,3)], m = [ -1,1 | 0,1 ] : #5	0.00
+10	2	kLLLLPQkcdgghhfijjjhshgkvjbptm	7	SFS [S2: (2,1) (4,1) (5,-3)] : #2	0.00
+10	2	kLLLLPQkcdgghfhijjjhshgkknbptm	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,1)], m = [ -1,1 | 0,1 ] : #5	0.00
+10	1	kLvAwPQkadfgihijijjnaqgmxmuxos	9	Hyp_1.26370924 : #1	0.72
+10	2	kLLLAPMkbefgfhiijijhhmhibapqlk	9	SFS [D: (2,1) (3,2)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #2	0.00
+10	2	kLLLAPMkbefgfhiijijhhmhibapalw	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,1)], m = [ 1,1 | 0,1 ] : #6	0.00
+10	2	kLLLAPMkbefgfhiijijhhmhibapqlj	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (4,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	2	kLAvPMMkbccfhgigjjjlpklluqsqof	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,1)], m = [ 0,1 | 1,-1 ] : #1	0.00
+10	2	kLAvPMMkbccfhgigjjjlpkuulqjqfo	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,1)], m = [ 0,-1 | 1,0 ] : #1	0.00
+10	2	kLAvPAMkbccfhgfijjjlpklmmnxxvc	8	SFS [RP2/n2: (2,1) (4,1)] : #1	0.00
+10	2	kLAvPAMkbcchgffijjjemkttekxxvc	8	SFS [S2: (2,1) (2,1) (2,1) (4,-3)] : #1	0.00
+10	2	kLAvPAMkbccfhgfijjjlpkmllkxxvc	9	SFS [RP2/n2: (2,1) (4,5)] : #1	0.00
+10	2	kLAvPAMkbcchgffijjjemkeetnxxvc	9	SFS [S2: (2,1) (2,1) (2,1) (4,1)] : #3	0.00
+10	2	kLAvPMMkbccfhgigjjjlpkllmqrqof	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (3,1) (4,1)], m = [ 0,1 | 1,0 ] : #1	0.00
+10	2	kLAvPMMkbccfhgigjjjlpkuumqnqfo	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (3,2) (4,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	2	kLAvPAMkbccfhgfijjjlpkummjxxvc	9	SFS [RP2/n2: (3,1) (4,-3)] : #4	0.00
+10	2	kLAvPAMkbcchgffijjjemkttiwxxvc	9	SFS [S2: (2,1) (2,1) (3,1) (4,-7)] : #8	0.00
+10	2	kLAvPAMkbccfhgfijjjlpkullwxxvc	9	SFS [RP2/n2: (3,1) (4,1)] : #1	0.00
+10	2	kLAvPAMkbcchgffijjjemkeeijxxvc	9	SFS [S2: (2,1) (2,1) (3,1) (4,-3)] : #3	0.00
+10	2	kLAvPMMkbccfhgigjjjlpkuumqrqfo	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (3,1) (4,3)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	2	kLAvPMMkbccfhgigjjjlpkllmqnqof	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (3,2) (4,1)], m = [ 0,1 | 1,0 ] : #1	0.00
+10	2	kLAvPAMkbccfhgfijjjlpkulljxxvc	9	SFS [RP2/n2: (3,2) (4,1)] : #1	0.00
+10	2	kLAvPAMkbcchgffijjjemkeeiwxxvc	9	SFS [S2: (2,1) (2,1) (3,2) (4,-3)] : #3	0.00
+10	2	kLAvPAMkbccfhgfijjjlpkummwxxvc	9	SFS [RP2/n2: (3,1) (4,-1)] : #3	0.00
+10	2	kLAvPAMkbcchgffijjjemkttijxxvc	9	SFS [S2: (2,1) (2,1) (3,1) (4,-5)] : #7	0.00
+10	2	kLAvPMMkbccfhgigjjjlpklluqwqof	8	SFS [S2: (2,1) (2,1) (13,-4)] : #2	0.00
+10	2	kLAvPMMkbccfhgigjjjlpkuulqnqfo	8	SFS [S2: (2,1) (2,1) (9,4)] : #1	0.00
+10	2	kLAvPAMkbccfhgfijjjlpklmmjxxvc	7	SFS [S2: (2,1) (2,1) (9,-5)] : #3	0.00
+10	2	kLAvPAMkbcchgffijjjemktterxxvc	7	SFS [S2: (2,1) (2,1) (4,5)] : #2	0.00
+10	2	kLAvPAMkbccfhgfijjjlpkmllrxxvc	8	SFS [S2: (2,1) (2,1) (13,-9)] : #2	0.00
+10	2	kLAvPAMkbcchgffijjjemkeetjxxvc	8	SFS [S2: (2,1) (2,1) (4,9)] : #2	0.00
+10	2	kLvPAPAkafegghihijjjqxgvthteiw	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (3,2) (3,2)], m = [ -1,1 | 0,1 ] : #3	0.00
+10	2	kLvPAPAkafegghihijjjqxgfthteiw	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (3,1) (3,1)], m = [ -1,1 | 0,1 ] : #3	0.00
+10	2	kLvPAPAkafegghihijjjqxgfthteij	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (3,1) (3,2)], m = [ -1,1 | 0,1 ] : #5	0.00
+10	1	kLLvLQQkbcjfijijihhtskbkknfsjw	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ 1,-1 | 0,1 ] : #9	0.82
+10	1	kLvPvQQkafehijihijjnqxxxahaxhr	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,1)], m = [ -1,1 | 0,1 ] : #2	0.98
+10	1	kLvALMQkadfhhijjhijnaquppadmtj	9	Hyp_1.26370924 : #1	0.64
+10	2	kLLLLAQkcegeihijjhjqhqqvnkxhkx	9	SFS [S2: (3,1) (5,1) (5,-2)] : #1	0.00
+10	2	kLLLLAQkcegeihijjhjqhqqvvkxhwx	9	SFS [S2: (3,1) (4,1) (5,-4)] : #1	0.00
+10	2	kLLLLAQkcegeihijjhjqhqqvnkxhrx	9	SFS [S2: (3,1) (4,3) (5,-4)] : #1	0.00
+10	2	kLLLLAQkcegeihijjhjqhqqvvkxhjx	9	SFS [S2: (3,1) (5,1) (5,-3)] : #1	0.00
+10	2	kLLLLAQkcdgghfjihjjhshgjjhwjdl	9	SFS [S2: (4,1) (4,1) (5,-2)] : #1	0.00
+10	2	kLLLLAQkcdgghfjihjjhshgfjhwrdl	9	SFS [S2: (4,1) (4,1) (4,-3)] : #1	0.00
+10	2	kLLLLAQkcdgghfjihjjhshgjjhwwdl	9	SFS [S2: (4,1) (4,1) (4,-1)] : #1	0.00
+10	2	kLLLLAQkcdgghfjihjjhshgfjhwkdl	9	SFS [S2: (4,1) (4,1) (5,-3)] : #1	0.00
+10	1	kLvLAMQkaeghfhihjjjjxgboklwxno	9	Hyp_1.26370924 : #1	0.46
+10	1	kLvLLQQkcfgehjiihjjlltsrwkvwjr	9	Hyp_1.26370924 : #1	0.52
+10	2	kLAwLAMkbccdfhgijjjemkenxxxxvc	9	SFS [S2: (2,1) (2,1) (2,1) (4,1)] : #4	0.00
+10	2	kLAwLAMkbccdfhgijjjemkefxxxxvc	8	SFS [S2: (2,1) (2,1) (4,9)] : #4	0.00
+10	2	kLAwLAMkcbcdfhgijjjuijpnxxqqof	8	SFS [S2: (2,1) (2,1) (9,5)] : #1	0.00
+10	2	kLAwLAMkcbcdfhgijjjuijpwhhqqfo	8	SFS [S2: (2,1) (2,1) (5,9)] : #4	0.00
+10	2	kLAwLAMkbccdfhgijjjlpkujqqqqof	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,1)], m = [ 0,-1 | 1,0 ] : #4	0.00
+10	2	kLAwLAMkbccdfhgijjjlpkuvqqqqof	8	SFS [S2: (2,1) (2,1) (9,4)] : #1	0.00
+10	2	kLAwLAMkbccdfghijjjlpklkxxxxvc	9	SFS [RP2/n2: (2,1) (4,5)] : #3	0.00
+10	2	kLAwLAMkbccdfghijjjlpklbxxxxvc	8	SFS [S2: (2,1) (2,1) (13,-9)] : #2	0.00
+10	2	kLAwwAMkbccdfhgijjjlpklsqqhhgb	8	SFS [S2: (2,1) (2,1) (14,-5)] : #2	0.00
+10	2	kLAwwAMkbccdfhgijjjlpklnxxhhgb	8	SFS [S2: (2,1) (2,1) (14,-9)] : #1	0.00
+10	2	kLAwLAMkcbcdfghijjjuijikxxxxvc	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,1)], m = [ 0,1 | 1,-1 ] : #2	0.00
+10	2	kLAwLAMkcbcdfghijjjuijibxxxxvc	8	SFS [S2: (2,1) (2,1) (13,-4)] : #2	0.00
+10	2	kLALPzMkbccegfhijjjemkbiiqqqqa	9	SFS [RP2/n2: (2,1) (5,1)] : #1	0.00
+10	2	kLALPzMkbccegfhijjjemkbttqqqqa	9	SFS [RP2/n2: (2,1) (5,-4)] : #4	0.00
+10	2	kLALPzMkbccegfhijjjemkviiqqqqa	8	SFS [S2: (2,1) (2,1) (11,-6)] : #3	0.00
+10	2	kLALPzMkbccegfhijjjemkottqqqqa	7	SFS [S2: (2,1) (2,1) (6,-1)] : #2	0.00
+10	2	kLALPzMkbccefghijjjlpkkumhxhld	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,4)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	2	kLALPzMkbccefghijjjlpkkuuqqqqa	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,4)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	2	kLALPzMkbccefghijjjlpkkmlhxhld	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,1)], m = [ 0,1 | 1,0 ] : #1	0.00
+10	2	kLALPzMkbccefghijjjlpkkllqqqqa	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,1)], m = [ 0,1 | 1,0 ] : #1	0.00
+10	2	kLALPzMkbccefghijjjlpkfuuqqqqa	8	SFS [S2: (2,1) (2,1) (6,5)] : #2	0.00
+10	2	kLALPzMkbccefghijjjlpkrllqqqqa	8	SFS [S2: (2,1) (2,1) (11,-5)] : #1	0.00
+10	2	kLAvQzMkbccefghijjjlpksuuhhhah	9	SFS [S2: (2,1) (2,1) (2,1) (5,-4)] : #1	0.00
+10	2	kLAvQzMkbccefghijjjlpksmmhhhah	9	SFS [S2: (2,1) (2,1) (2,1) (5,-9)] : #2	0.00
+10	2	kLAvQzMkbccefghijjjlpkcuuhhhah	8	SFS [S2: (2,1) (2,1) (5,6)] : #1	0.00
+10	2	kLAvQzMkbccefghijjjlpkrmmhhhah	7	SFS [S2: (2,1) (2,1) (5,1)] : #1	0.00
+10	1	kLAvwMQkbccehjhhijjlpkswqwskxh	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (3,1) (3,1)], m = [ -1,2 | 0,1 ] : #2	0.92
+10	1	kLAvLQPkbccgfhijijjemkeivshstl	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (3,1) (3,1)], m = [ -1,2 | -1,1 ] : #2	0.86
+10	1	kLAvLPQkbcchjjiiihjlpklgrbwrnr	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (3,1) (3,1)], m = [ -1,2 | -1,1 ] : #2	0.90
+10	1	kLAvLPQkbccgiijihjjemkeojsonfo	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (3,1) (3,1)], m = [ 1,1 | 1,0 ] : #1	0.80
+10	2	kLLAMzMkccedfghijjjlnxkxxxxxvc	8	L(26,3) : #1	0.00
+10	2	kLLAMzMkccedfghijjjhwxrxxxxxvc	8	L(25,3) : #1	0.00
+10	2	kLLLQzMkbefgffhijjjxxhaqxxxxxa	9	SFS [S2: (2,1) (2,1) (8,-1)] : #2	0.00
+10	2	kLLLMAMkbefghggijjjxxqaqvcqqfo	8	SFS [S2: (2,1) (3,1) (5,1)] : #1	0.00
+10	2	kLLLMAMkbefghggijjjhhqaqwrqqfo	9	SFS [S2: (2,1) (3,1) (7,-1)] : #2	0.00
+10	2	kLLLMAMkbefghggijjjxxhahvchhrw	9	SFS [S2: (2,1) (5,1) (5,-1)] : #2	0.00
+10	2	kLLPMzMkccdfeghijjjqjsqqqqqqfo	9	SFS [S2: (2,1) (2,1) (13,-7)] : #3	0.00
+10	2	kLLPMzMkccdfeghijjjqjsaaqqqqfo	8	SFS [S2: (2,1) (2,1) (11,-5)] : #1	0.00
+10	2	kLLAMzMkbdedfghijjjdwxsmxxxxvc	7	L(33,5) : #1	0.00
+10	2	kLLLQzMkbefgfghijjjhhihiihuhah	9	SFS [S2: (3,1) (3,2) (6,-5)] : #1	0.00
+10	2	kLLLQzMkbefgfghijjjhhmhiihuhah	9	SFS [S2: (3,2) (3,2) (6,-5)] : #1	0.00
+10	2	kLLLMzQkbefghijiijjxxqaqxqxaqa	9		0.00
+10	2	kLLLMzQkbefghijiijjhhqaqhqxqqa	9	SFS [S2: (2,1) (4,1) (6,-1)] : #2	0.00
+10	2	kLLvQPMkbeghfiiijjjhhhhahahhqx	9	SFS [S2: (2,1) (2,1) (16,-11)] : #4	0.00
+10	2	kLLvQPMkbeghfiiijjjhhaaahahhxq	8	SFS [S2: (2,1) (2,1) (14,-9)] : #2	0.00
+10	2	kLLAPzMkbcdegfhijjjtsohoohhhah	9	SFS [RP2/n2: (2,1) (5,1)] : #2	0.00
+10	2	kLLAPzMkbcdegfhijjjtsohsshhhah	9	SFS [RP2/n2: (2,1) (5,-4)] : #2	0.00
+10	2	kLLAPzMkcdcegfhijjjhsrpssqqqqa	8	SFS [S2: (2,1) (3,1) (9,-4)] : #2	0.00
+10	2	kLLAPzMkbcedgfhijjjtsajooxxxxa	8	SFS [S2: (2,1) (3,2) (6,-1)] : #1	0.00
+10	2	kLLAPzMkbcedgfhijjjtoaojjxxxxa	8	SFS [S2: (2,1) (3,1) (6,-1)] : #1	0.00
+10	2	kLLAPzMkbcedgfhijjjloaojjxxxxa	8	SFS [S2: (2,1) (3,2) (6,-1)] : #1	0.00
+10	2	kLLAPzMkcdcegfhijjjhsrpjjqqqqa	9	SFS [S2: (2,1) (3,1) (11,-6)] : #3	0.00
+10	2	kLLLLQMkcdgihfhhjjjhshgsjcnhah	8	SFS [S2: (2,1) (2,1) (11,-5)] : #2	0.00
+10	2	kLLLLPQkbeffjihjjiixxhxxkvxasn	8	SFS [S2: (2,1) (3,2) (6,-1)] : #1	0.00
+10	2	kLLAMzMkcdeefghijjjlkhaxcxxxxa	8	SFS [S2: (2,1) (3,2) (6,-1)] : #1	0.00
+10	2	kLLAMzMkcdeefghijjjtkhaxcxxxxa	8	SFS [S2: (2,1) (3,1) (6,-1)] : #1	0.00
+10	1	kLLALLQkbeddhgjjiijhhokhwtaojw	9	SFS [S2: (2,1) (3,2) (11,-9)] : #1	0.36
+10	1	kLLLAMPkcdgffhhjijjhshatlqhjos	9	SFS [S2: (2,1) (3,2) (11,-9)] : #1	0.36
+10	2	kLLLAAPkcegfehhjijjhqhdxnnhxwr	9	SFS [S2: (3,1) (3,2) (6,-5)] : #1	0.00
+10	2	kLLLPAPkcdgefhhjijjhshhosvhqos	9	SFS [S2: (3,1) (3,2) (6,-5)] : #1	0.00
+10	2	kLLvQPMkbehgfihgjjjxxqqxxwrhvc	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,4)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	2	kLLvQPMkbehgfighjjjxxqqxxwrhvc	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,1)], m = [ 0,1 | 1,0 ] : #1	0.00
+10	2	kLLAzAMkcdcdfhgijjjqcckrhhxxvc	8	SFS [S2: (2,1) (2,1) (14,-9)] : #3	0.00
+10	2	kLLAzAMkcdcdfhgijjjqccksqqxxvc	8	SFS [S2: (2,1) (2,1) (14,-5)] : #1	0.00
+10	2	kLLAwAMkcdcdfhgijjjqcckvhhhhgb	8	SFS [S2: (2,1) (2,1) (13,-9)] : #2	0.00
+10	2	kLLALAMkcdcdfhgijjjqcckvqqqqof	8	SFS [S2: (2,1) (2,1) (13,-4)] : #2	0.00
+10	2	kLLAwAMkcdcdfhgijjjqcckwhhhhgb	9	SFS [RP2/n2: (2,1) (4,5)] : #4	0.00
+10	2	kLLALAMkcdcdfhgijjjqcckjqqqqof	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,1)], m = [ 0,1 | 1,-1 ] : #2	0.00
+10	2	kLLALPMkbcedhihhjjjtsajxxiixvc	8	SFS [S2: (2,1) (5,2) (5,-1)] : #1	0.00
+10	2	kLLvQAMkbeghfffijjjhhhhagbhhwr	9	SFS [S2: (2,1) (2,1) (17,-13)] : #5	0.00
+10	2	kLLPwAMkccdfeghijjjlnciihhhhgb	8	SFS [S2: (2,1) (3,2) (9,-5)] : #1	0.00
+10	2	kLLvQAPkbeghfffijjjhhhhagbqqjs	9	SFS [S2: (2,1) (3,1) (13,-9)] : #3	0.00
+10	2	kLLPwAMkccdfehgijjjlnkaaxxxxvc	6	L(35,8) : #1	0.00
+10	2	kLLPwAMkccdfehgijjjhwraaxxxxvc	6	L(31,7) : #1	0.00
+10	2	kLLLwQPkcdgghihjhjjhshqjqjqsfo	9	SFS [S2: (2,1) (4,1) (9,-5)] : #3	0.00
+10	2	kLLMwAMkccdfeghijjjlnnmdaaqqof	9	SFS [RP2/n2: (2,1) (4,5)] : #6	0.00
+10	2	kLLMwAMkcddefhgijjjqrjuiddxxvc	8	SFS [S2: (2,1) (3,2) (9,-5)] : #1	0.00
+10	2	kLLvAQPkbeghggiijjjxxaxvcrwhqa	9	SFS [S2: (2,1) (3,1) (13,-9)] : #5	0.00
+10	1	kLLAwAMkcddefghijjjhcrahhhhhgb	5	L(19,4) : #1	0.86
+10	2	kLLAwAMkcddefghijjjhrjahhhhhgb	6	L(35,8) : #1	0.00
+10	2	kLLPLAMkbcfffhgijjjtohmgjjxxvc	8	SFS [S2: (2,1) (3,1) (9,-5)] : #2	0.00
+10	2	kLLPLAMkbcfffhgijjjlohmgjjxxvc	8	SFS [S2: (2,1) (3,2) (9,-5)] : #1	0.00
+10	2	kLLvLQQkbefffhijjijhhagbrkjnwr	9	SFS [S2: (2,1) (3,1) (13,-9)] : #4	0.00
+10	2	kLLLLAQkcdggigjijjihshgbbqsdmj	8	SFS [S2: (2,1) (3,1) (9,-4)] : #2	0.00
+10	2	kLLLLMQkcdgihjjhiijhshgshxngbu	8	SFS [S2: (2,1) (2,1) (14,-9)] : #2	0.00
+10	2	kLLLAAMkbdeefhgijjjdwiipashxpi	6	L(35,8) : #1	0.00
+10	2	kLLLAAMkbdeefhgijjjdkiipashxpi	6	L(31,7) : #1	0.00
+10	2	kLLLAAMkbdeefhgijjjejqqpdshhqx	6	L(35,8) : #1	0.00
+10	2	kLLLLPQkcdgihhjjiijhshgbvqigbp	5	L(17,4) : #1	0.00
+10	2	kLLLLPQkcdgihhjjiijhshgbsqugbp	6	L(37,8) : #1	0.00
+10	2	kLLLLMQkcdgifhjiijjhshgvwagbiu	6	L(35,8) : #1	0.00
+10	2	kLLLLAQkcdggigjhijjhshgbbufvmq	6	L(37,8) : #1	0.00
+10	2	kLLLLAQkcdggigjhijjhshgbbufvaq	6	L(32,7) : #1	0.00
+10	2	kLLLAMMkbddgfgihjjjewrxvgqphpt	6	L(37,8) : #1	0.00
+10	1	kLLLLPQkcdgggihijjjhshgbccrpla	8		0.90
+10	2	kLLLAAMkcdgffghijjjhshatrqiqqa	8	SFS [S2: (2,1) (5,2) (5,-1)] : #1	0.00
+10	2	kLLLLAQkbefhghjihjjhhqewfqfkqa	8	SFS [S2: (3,1) (3,2) (5,-1)] : #1	0.00
+10	2	kLLLLAQkbefhghjihjjhhqdwcqfwqa	8	SFS [S2: (3,1) (3,1) (5,-1)] : #1	0.00
+10	2	kLLvAQPkbeghffijijjhhhugbbmgmp	7	SFS [S2: (2,1) (3,2) (4,1)] : #1	0.00
+10	2	kLLvAQPkbeghffijijjhhhugbbigmp	6	L(35,8) : #1	0.00
+10	2	kLLvLQQkbefgghjiijjxxxvcfrvnfw	7	SFS [S2: (2,1) (3,2) (5,-1)] : #1	0.00
+10	1	kLLALMMkccedhgiijjjpwxrxriacvr	7	L(37,13) : #1	0.74
+10	1	kLLALMMkbcedhggijjjtsajxvjqxml	9	SFS [S2: (2,1) (3,2) (11,-9)] : #1	0.32
+10	2	kLLLMMMkcdgegfihjjjhshmgjhwxsf	9	SFS [S2: (3,2) (4,1) (5,-4)] : #1	0.00
+10	2	kLLLMMMkcdgegfihjjjhshqgjhwxsf	9	SFS [S2: (3,1) (4,1) (5,-4)] : #1	0.00
+10	2	kLLLLQMkcdghfiihjjjhshwwnnchqh	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,1)], m = [ 0,1 | 1,0 ] : #1	0.00
+10	2	kLLLAAMkcdfgehgijjjqcedqqjeqqa	7	SFS [S2: (2,1) (3,2) (5,-1)] : #1	0.00
+10	2	kLLLwAQkbedgiihjjjihhnhhafaqxh	7	SFS [S2: (2,1) (3,2) (4,1)] : #2	0.00
+10	2	kLLLwPQkcdgffjiijjihshirxahthh	7	SFS [S2: (2,1) (3,2) (5,-1)] : #1	0.00
+10	2	kLLLwPQkcdgffjiijjihshirxahtmh	9	SFS [RP2/n2: (2,1) (5,-4)] : #6	0.00
+10	2	kLLLLPQkbeffjiijhijxxexxcbxfva	7	SFS [S2: (2,1) (3,2) (4,1)] : #2	0.00
+10	2	kLLLLAQkbdfggijiijjdwqwscqckqa	9	SFS [RP2/n2: (2,1) (5,-4)] : #1	0.00
+10	2	kLLLLAQkbdfgigjiijjdwqwwvqrkqa	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,4)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	2	kLLLvQQkcdgfhihjjijhshwkncahwh	9	SFS [S2: (2,1) (2,1) (2,1) (5,-9)] : #2	0.00
+10	2	kLLLLAQkcdgfhihjjijhshnsjjdmwm	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,1)], m = [ 0,1 | 1,0 ] : #1	0.00
+10	1	kLLLwMQkcdgffhiijjjhshassahetf	6	L(9,1) : #1	0.92
+10	2	kLLLAzQkbefgfijhjijhhmhihprlhg	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,4)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	1	kLLLAPPkcegfehijijjhthaeblhthg	7	SFS [S2: (2,1) (4,1) (5,-2)] : #2	0.64
+10	2	kLLLAwQkbedgfhijjijxxnxxxaavcn	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,4)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	2	kLLLAPPkcdgfehijjijhshhhqqhgfb	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,1)], m = [ 0,1 | 1,0 ] : #1	0.00
+10	2	kLLLAPPkcdgfehijjijhshqaqahgjg	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,4)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	2	kLLLLMQkcegefhjjiijqpqqrgiensi	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,4)], m = [ 0,1 | 1,1 ] : #1	0.00
+10	2	kLLLLPQkbeffjgjiiijxxexxrxssna	9	SFS [RP2/n2: (2,1) (5,-4)] : #4	0.00
+10	2	kLLvMPQkbegfjhihijjxxxxxkkkkhq	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,1)], m = [ 0,1 | 1,0 ] : #1	0.00
+10	1	kLLAMLPkccedfghijjjlnhcqhnnxix	9	SFS [S2: (2,1) (3,2) (11,-9)] : #1	0.32
+10	1	kLLAMLPkcecdfghjijjpqrrhqctjtd	9	SFS [S2: (2,1) (3,2) (11,-9)] : #1	0.30
+10	1	kLLLMzQkcdgegijhjijhshmgmlwtxf	9		0.00
+10	1	kLLLMzQkcdgegijhjijhshqgmlwtxf	9		0.88
+10	2	kLLLLAQkcdgghigijjjhshgfjwsxaq	9	SFS [S2: (3,1) (4,1) (5,-4)] : #1	0.00
+10	1	kLLLMwQkcdgegfiijjjhshmgjiqlqj	9		0.00
+10	2	kLLLMMPkbedgfhhjijjhhwhgbfqxof	7	SFS [S2: (3,1) (3,1) (3,1)] : #1	0.00
+10	2	kLLLMMPkbedgfhhjijjhhnhgbfqxof	7	SFS [S2: (3,1) (3,1) (3,2)] : #2	0.00
+10	1	kLLLMzQkcdgfhgjhijjhshasshsqos	9		0.88
+10	1	kLLLLAQkcdgghijhijjhchgvvurbai	5	L(19,4) : #1	0.82
+10	2	kLLLLPQkcdghiigjhjjhshwjwwpwph	9	SFS [S2: (3,1) (4,1) (5,-4)] : #1	0.00
+10	1	kLLLAzQkcdgffghijjjhshatwdrnns	9	SFS [S2: (2,1) (5,2) (9,-7)] : #1	0.38
+10	2	kLLLPLQkcdgefjhiijjqkqqkqcuqef	9	SFS [S2: (3,1) (4,1) (5,-4)] : #1	0.00
+10	2	kLLLLMQkcdgghihijjjhshgcfksumu	7	SFS [S2: (2,1) (3,2) (5,-1)] : #1	0.00
+10	2	kLLLLPQkcdghijiihjjhshwgenswhp	9	SFS [S2: (3,1) (5,1) (5,-3)] : #1	0.00
+10	2	kLLLLPQkcdghijiihjjhshwgegswhp	9	SFS [S2: (3,1) (4,1) (5,-4)] : #1	0.00
+10	2	kLLLMLQkcdgfgihjijjhshdgtsuuuv	9		0.00
+10	1	kLLLMMPkcdgfghijijjhshqgceiiig	9	Hyp_1.26370924 : #1	0.86
+10	1	kLLLLMQkcdgghhijjijhshggvftuna	7	SFS [S2: (2,1) (4,1) (5,-2)] : #2	0.70
+10	2	kLLLLQMkcdggihhijjjhshgkkvoxex	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,1)], m = [ -1,2 | 0,1 ] : #4	0.00
+10	1	kLLLAwQkcdgffhijijjhshatlppjrr	9	SFS [S2: (2,1) (5,2) (9,-7)] : #1	0.38
+10	1	kLLLAwQkcdgffhhijjjhshattalrrk	8	SFS [S2: (3,1) (3,2) (7,-5)] : #1	1.00
+10	1	kLLLwMQkcdgefhijijjhshmjsaapaj	7	SFS [S2: (2,1) (4,1) (4,-1)] : #2	0.92
+10	2	kLLvQLQkbeghfijjiijhhhahahhaqq	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,1)], m = [ -1,2 | 0,1 ] : #4	0.00
+10	1	kLLLPPPkcddffiihjjjpkrokxpoxtg	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 2,1 | 1,1 ] : #6	0.00
+10	1	kLLLLQPkcddffiihjjjpkrkwaaoxtn	7	SFS [S2: (2,1) (2,1) (3,8)] : #2	0.50
+10	1	kLLALLQkbcedhiihjjjtsajxipppwk	9	SFS [S2: (2,1) (5,2) (9,-7)] : #1	0.44
+10	1	kLLAPLPkbcedgfiijjjtsajsshwsrr	9	SFS [S2: (2,1) (7,2) (7,-5)] : #1	0.36
+10	1	kLLAzPPkbcedghijijjtsajsliqjfv	9	SFS [S2: (2,1) (7,2) (7,-5)] : #1	0.50
+10	1	kLLAvPQkbcedgghijjjtsajrjtjgjg	7	SFS [S2: (2,1) (2,1) (3,8)] : #1	0.46
+10	1	kLLAvPQkbcedjgjijiitsajdjdqgsk	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 2,1 | 1,1 ] : #5	0.00
+10	1	kLLAvPQkbcedjgjiiijtsajdjdujgn	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 2,1 | 1,1 ] : #6	0.00
+10	1	kLLAvPQkbcedhgijijjtsajpjihjfj	9	SFS [S2: (3,1) (3,1) (9,-7)] : #1	0.20
+10	1	kLLLALQkcedeghjjiijptrxplmdjcw	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 2,1 | 1,1 ] : #6	0.62
+10	1	kLLLAAPkbdggehhijjjdwxpdhalssk	7	SFS [S2: (2,1) (2,1) (3,7)] : #1	0.52
+10	1	kLLLAPPkcedegihjjijptrxpulhgcf	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 2,1 | 1,1 ] : #1	0.00
+10	1	kLLLLMQkbcgffjhhijjtsmgjqbfkxq	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 2,1 | 1,1 ] : #5	0.00
+10	1	kLLLPPPkccffgihijjjlndegmnqepg	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ 2,1 | 1,1 ] : #6	0.00
+10	1	kLLLLPQkbcgffjhhijjtsmkbxbfket	7	SFS [S2: (2,1) (2,1) (3,8)] : #3	0.52
+10	1	kLLLLPQkbcgffjhhijjtsmgbxbfket	7	SFS [S2: (2,1) (2,1) (3,7)] : #1	0.58
+10	1	kLLMvPQkcdedghjijijpkhrciplgsb	8	SFS [S2: (3,1) (3,2) (7,-5)] : #1	0.92
+10	1	kLLMvAQkbcefihjihjjtsamxjqprin	9	SFS [S2: (3,1) (3,1) (9,-7)] : #1	0.24
+10	1	kLLLPLQkcedghggijjjpqrpcwrqajc	9	SFS [S2: (2,1) (7,2) (7,-5)] : #1	0.54
+10	1	kLLLzPQkcedgjggiijjpqrphwrmhhn	9	SFS [S2: (2,1) (7,2) (7,-5)] : #1	0.42
+10	1	kLLLPLQkcedgfijjiijptrpnadmxqa	9	SFS [S2: (2,1) (7,2) (7,-5)] : #1	0.40
+10	1	kLLLvQQkcddgihjihjjpkrsmbpaodf	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,2)], m = [ -1,2 | 0,1 ] : #1	0.58
+10	1	kLLLLQPkcedfhghijjjptrnwkwoqxt	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,2)], m = [ 1,1 | 0,1 ] : #1	0.00
+10	1	kLLLLMQkbcgfhjjijiitsmgnxpbisr	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (5,2)], m = [ 1,1 | 0,1 ] : #1	0.00
+10	1	kLLvMMQkcdfhiijhjhjhsafkftfina	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ -2,3 | -1,2 ] : #1	0.44
+10	1	kLLLPLQkbdehfgijjijdwuhgfqtxmf	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ -2,3 | -1,2 ] : #1	0.42
+10	1	kLLLzAQkbcgehigjjijloutoqnaxtv	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (3,2)], m = [ -2,3 | -1,2 ] : #1	0.38
+10	1	kLLLLMQkcdfghijjjiihsxgswtxpkw	9	Hyp_1.26370924 : #1	0.76
+10	1	kLLLLPQkbdefghhijjjdwmgkosghih	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,1)], m = [ -1,1 | 0,1 ] : #3	0.76
+10	1	kLLLMAPkbcgffghijjjtsmigowexjn	9	SFS [S2: (2,1) (7,2) (7,-5)] : #1	0.40
+10	1	kLLLMPPkccefgigjjijlnmigmcdalc	9	SFS [S2: (2,1) (7,2) (7,-5)] : #1	0.36
+10	1	kLLLLAQkccfgihhjijjlnagssnajxl	9	SFS [A: (2,1)] / [ 1,-2 | 0,-1 ] : #1	0.90
+10	1	kLLLLPQkbdgfhjghijjdwmgjpwwnlm	9	Hyp_1.26370924 : #1	0.00
+10	1	kLLPvMQkcdefihjijijhsaxxsxeatq	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,1)], m = [ 0,1 | 1,0 ] : #1	0.96
+10	1	kLLzAzQkcdefgihjijjhsxaqpqmrcc	9		0.96
+10	1	kLLzMwQkcdfgfhihjjjhsdenragtno	9	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,1)], m = [ -1,2 | 0,1 ] : #3	0.90
+10	1	kLLvPPQkcdhghjhgijjhshgvevnnph	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,2)], m = [ 0,1 | 1,0 ] : #2	1.00
+10	1	kLLvPPQkcdhghjhgijjhshgvxvnfpl	8	SFS [D: (2,1) (3,1)] U/m SFS [D: (2,1) (3,1)], m = [ 0,1 | 1,0 ] : #1	0.94
+10	2	kLLvLQQkcdghjijjhiihsgbgvnswkv	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,1)], m = [ 1,1 | 0,1 ] : #1	0.00
+10	1	kLLvMMQkcdfghgihjjjhsagbwsniah	9	SFS [S2: (2,1) (4,1) (7,-6)] : #2	0.90
+10	1	kLLvMMQkcdegfjihijjhsmgjhwnwxd	9	SFS [S2: (2,1) (5,2) (6,-5)] : #3	0.88
+10	2	kLLvMMQkcdegfjihjijhsmgjhknagd	7	SFS [S2: (3,1) (3,1) (4,-1)] : #1	0.00
+10	2	kLLvMMQkcdegfjihjijhsmgjhwnagd	7	SFS [S2: (3,1) (3,1) (5,-2)] : #1	0.00
+10	1	kLLvMMQkcdffhiihjjjqrajrjgneea	9		0.98
+10	1	kLLvMAQkcdfgifjhjijhsigkrendgl	9	Hyp_1.26370924 : #1	0.94
+10	1	kLvLMMQkbdhghjhijijhwhgkhkgtne	8	SFS [S2: (2,1) (4,1) (7,-5)] : #4	0.92
+10	2	kLLvLQQkcdghjigjijihsgbgvwskcv	9	SFS [D: (2,1) (2,1)] U/m SFS [D: (2,1) (4,1)], m = [ -1,2 | 0,1 ] : #4	0.00
+10	2	kvLMMzQkcdfehgijjijnwpkigkqabq	8		0.00
+10	1	kvLAwPQkcdfeijhjiijjwajvvcofrb	9	Hyp_0.98136883 : #21	0.96
+10	1	kvLLMMQkddgfihjjiijrwhupgcwwwj	9	SFS [A: (2,1)] / [ -1,2 | 0,1 ] : #1	1.00

@@ -70,15 +70,22 @@ def gen_time(summary, out):
     ax.plot(ns, ys, color=SERIES[0], linewidth=2, marker="o", markersize=5,
             markeredgecolor="white", markeredgewidth=1, zorder=3)
     for n, y in zip(ns, ys):
-        label = f"{y / 60:.0f} min" if y >= 120 else f"{y:.1f} s" if y < 10 else f"{y:.0f} s"
+        label = (f"{y / 3600:.1f} h" if y >= 3600 else f"{y / 60:.0f} min" if y >= 120
+                 else f"{y:.1f} s" if y < 10 else f"{y:.0f} s")
+        if rows[str(n)].get("chunks"):
+            label += "*"
         ax.annotate(label, (n, y), xytext=(0, 7), textcoords="offset points",
                     ha="center", color=INK_2, fontsize=8)
     ax.set_yscale("log")
-    ax.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(
-        lambda v, _: f"{v / 60:g} min" if v >= 60 else f"{v:g} s"))
+    ticks = [(0.1, "0.1 s"), (1, "1 s"), (10, "10 s"), (60, "1 min"), (600, "10 min"),
+             (3600, "1 h"), (4 * 3600, "4 h")]
+    ticks = [t for t in ticks if min(ys) / 3 <= t[0] <= max(ys) * 1.2]
+    ax.yaxis.set_major_locator(matplotlib.ticker.FixedLocator([t[0] for t in ticks]))
+    ax.yaxis.set_minor_locator(matplotlib.ticker.NullLocator())
+    ax.yaxis.set_major_formatter(matplotlib.ticker.FixedFormatter([t[1] for t in ticks]))
     ax.set_xticks(ns)
     ax.set_xlabel("n (tetrahedra)")
-    ax.set_ylabel(f"tricensus wall time\n({summary['run']['params']['workers']} threads)")
+    ax.set_ylabel(f"tricensus time\n({summary['run']['params']['workers']} threads)")
     ax.margins(y=0.3)
     fig.tight_layout()
     fig.savefig(out / "generation_time.svg")

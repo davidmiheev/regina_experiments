@@ -1,0 +1,61 @@
+run: results/e02_tricensus_regeneration/20261020T084518Z  (Regina 7.4.1, git 21e61de52f684c73ec141f4c915ed66117818c5f)
+sizes analysed: n = 1..10
+
+  n  pairings  generated    gen s  census   simplify       exh1       exh2       exh3         S3   nonprime unresolved  missing
+  1         1          4      0.0       4          0          0          0          0          0          0          0        0
+  2         2         11      0.0      10          1          0          0          0          0          0          0        0
+  3         4          7      0.0       7          0          0          0          0          0          0          0        0
+  4        10         17      0.0      15          2          0          0          0          0          0          0        0
+  5        28         50      0.0      40          9          0          1          0          0          0          0        0
+  6        97        168      0.1     115         50          0          3          0          0          0          0        0
+  7       359        564      1.4     309        241          3         11          0          0          0          0        0
+  8      1635       2380     19.1     945       1378         15         42          0          0          0          0        0
+  9      8296      10763    381.6    3031       7461         88        182          0          1          0          0        0
+ 10     48432      52475   9780.9   10244      41079        461        687          1          1          2          0        0
+
+verdict: census reproduced exactly for n <= 10: True  (14720 of 14720 census triangulations generated, 0 missing, 0 unresolved)
+non-minimal triangulations certified: 51719; greedy simplify() was enough for 50221 (97.1%), exhaustive search needed for 1494 (heights: {'exhaustive:2': 926, 'exhaustive:1': 567, 'exhaustive:3': 1})
+
+growth factor from n-1 to n:
+  n=4: time x2.7, generated x2.4, census x2.1
+  n=5: time x2.0, generated x2.9, census x2.7
+  n=6: time x4.5, generated x3.4, census x2.9
+  n=7: time x10.3, generated x3.4, census x2.7
+  n=8: time x14.0, generated x4.2, census x3.1
+  n=9: time x19.9, generated x4.5, census x3.2
+  n=10: time x25.6, generated x4.9, census x3.4
+
+non-minimal triangulations by manifold (after simplifying; 3209 did not reach a census triangulation):
+     420  SFS [S2: (2,1) (3,2) (5,-3)]
+     405  SFS [S2: (2,1) (3,1) (3,-1)]
+     380  L(19,7)
+     380  SFS [S2: (2,1) (3,1) (3,2)]
+     372  L(18,5)
+     324  L(11,3)
+     320  SFS [S2: (2,1) (3,2) (3,-1)]
+     317  L(7,2)
+     316  S3
+     315  SFS [S2: (2,1) (3,2) (5,-2)]
+
+classification time per triangulation (mean ms):
+  n=1: lookup 2.60
+  n=2: lookup 1.94, simplify 0.02
+  n=3: lookup 1.81
+  n=4: lookup 2.09, simplify 0.01
+  n=5: exhaustive1 0.01, exhaustive2 0.03, lookup 1.89, simplify 0.01
+  n=6: exhaustive1 0.01, exhaustive2 0.06, lookup 2.16, simplify 0.02
+  n=7: exhaustive1 0.02, exhaustive2 0.10, lookup 2.19, simplify 0.04
+  n=8: exhaustive1 0.05, exhaustive2 0.17, lookup 2.31, simplify 0.07
+  n=9: exhaustive1 0.10, exhaustive2 0.37, lookup 2.32, simplify 0.10
+  n=10: exhaustive1 0.12, exhaustive2 0.44, exhaustive3 0.01, lookup 2.46, simplify 0.15
+
+simplify() reliability (20261022T131708Z: 51719 non-minimal triangulations x 50 independent calls)
+  n  non-min  local min   always  sometimes  never  P(one call fails)
+  2        1          0        1          0      0             0.0000
+  4        2          0        2          0      0             0.0000
+  5       10          0        9          0      1             0.1000
+  6       53          0       46          4      3             0.0589
+  7      255          0      231         13     11             0.0484
+  8     1435          0     1285        103     47             0.0406
+  9     7732          0     7055        466    211             0.0349
+ 10    42231          0    39095       2327    809             0.0265
