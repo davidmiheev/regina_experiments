@@ -122,6 +122,9 @@ def main() -> None:
                 run_dir.relative_to(RESULTS.parents[1])) if run_dir.is_absolute() else "")]
         retry_dir = max(cands) if cands else None
     retry_rows, p_hard = {}, {}
+    if retry_dir and not (retry_dir / "records.jsonl").exists():
+        print(f"(no retry data at {retry_dir}; skipping the simplify() reliability section)")
+        retry_dir = None
     if retry_dir:
         rr = [json.loads(line) for line in open(retry_dir / "records.jsonl")]
         trials = rr[0]["trials"]
