@@ -11,6 +11,7 @@ experiment has a writeup in Markdown and PDF:
 | E00 smoke test | [md](experiments/e00_smoke/writeup.md) · [pdf](experiments/e00_smoke/writeup.pdf) |
 | E01 Turaev–Viro invariants on the closed census | [md](experiments/e01_closed_census_invariants/writeup.md) · [pdf](experiments/e01_closed_census_invariants/writeup.pdf) |
 | E02 Regenerating the closed census with tricensus | [md](experiments/e02_tricensus_regeneration/writeup.md) · [pdf](experiments/e02_tricensus_regeneration/writeup.pdf) |
+| E06 Angle structures and geometry in the hyperbolic censuses | [md](experiments/e06_hyperbolic_angle_structures/writeup.md) · [pdf](experiments/e06_hyperbolic_angle_structures/writeup.pdf) |
 
 ## Setup (Ubuntu 24.04 / 25.04 / 25.10)
 
@@ -43,6 +44,7 @@ experiments/
   e00_smoke/              known-answer checks of every Regina feature we use
   e01_closed_census_invariants/   run.py, analyze.py, figures.py, writeup.{md,pdf}
   e02_tricensus_regeneration/     run.py, retry.py, analyze.py, figures.py, writeup.{md,pdf}
+  e06_hyperbolic_angle_structures/ run.py, analyze.py, figures.py, writeup.{md,pdf}
 src/rexp/                 shared helpers (on PYTHONPATH via the Makefile)
   census.py               iter_census("closed-or" | "cusped-hyp-or" | "knots" | ...)
   runlog.py               Run(...) context manager and timed()
@@ -80,9 +82,9 @@ PDF.
 |------|----------|--------:|
 | `closed-or` | closed orientable prime minimal, ≤ 10 tet (4,979 manifolds) | 14,720 |
 | `closed-nor` | closed non-orientable P²-irreducible minimal | 4,672 |
-| `closed-hyp` | Hodgson–Weeks closed hyperbolic | 3,018 |
-| `cusped-hyp-or` | cusped hyperbolic orientable, ≤ 9 tet | 9,596 |
-| `cusped-hyp-nor` | cusped hyperbolic non-orientable, ≤ 9 tet | 4,257 |
+| `closed-hyp` | Hodgson–Weeks closed hyperbolic (3,000 orientable + 18 non-orientable) | 3,018 |
+| `cusped-hyp-or` | cusped hyperbolic orientable, ≤ 7 tet (4,815 manifolds) | 9,596 |
+| `cusped-hyp-nor` | cusped hyperbolic non-orientable, ≤ 7 tet (1,259 manifolds) | 4,257 |
 | `knots` | prime knots and links | 59,937 |
 | `virtual` | virtual knots (Green) | 92,798 |
 
