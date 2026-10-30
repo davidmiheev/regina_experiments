@@ -5,8 +5,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "if [ \"$CLAUDE_CODE_REMOTE\" = \"true\" ]; then \"$CLAUDE_PROJECT_DIR\"/scripts/install-regina-ubuntu.sh; fi",
-            "timeout": 600
+            "command": "if [ \"$CLAUDE_CODE_REMOTE\" = \"true\" ]; then \"$CLAUDE_PROJECT_DIR\"/scripts/session-setup.sh; fi",
+            "timeout": 900
           }
         ]
       }

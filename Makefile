@@ -3,10 +3,11 @@ PY := $(shell scripts/find-python.sh 2>/dev/null || echo python3)
 export PYTHONPATH := $(CURDIR)/src
 ARGS ?=
 
-.PHONY: help install install-writeup-deps env smoke test e01 e01-analyze e01-export e02 e02-retry e02-export e06 e06-export writeups clean-results
+.PHONY: help install engine install-writeup-deps env smoke test e01 e01-analyze e01-export e02 e02-retry e02-export e06 e06-export writeups clean-results
 
 help:
 	@echo "make install       install Regina from the official Ubuntu apt repo (needs sudo)"
+	@echo "make engine        set up the mtengine submodule and its venv (MCP server in .mcp.json)"
 	@echo "make install-writeup-deps  pandoc + matplotlib for figures and PDFs"
 	@echo "make env           show which Python/Regina will be used"
 	@echo "make smoke         E00: quick known-answer checks of the Regina features we use"
@@ -24,6 +25,11 @@ help:
 
 install:
 	scripts/install-regina-ubuntu.sh
+
+engine:
+	git submodule update --init engine
+	cd engine && python3 -m venv .venv && .venv/bin/pip install -q -e .
+	engine/.venv/bin/mte versions
 
 install-writeup-deps:
 	scripts/install-writeup-deps.sh

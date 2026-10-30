@@ -35,6 +35,30 @@ works, and the Makefile uses it automatically. To use a venv, create it from
 that interpreter with `--system-site-packages`. Regina also ships
 `regina-python`, a wrapper that pre-imports the module.
 
+## mtengine (computation engine)
+
+Regina is called through [mtengine](https://github.com/davidmiheev/mtengine), a git
+submodule at `engine/`. mtengine runs Regina in its own process and caches every
+result together with its provenance (Regina version, input hash, timing). The same
+functions are available three ways: the Python API, the `mte` command line, and an
+MCP server.
+
+```sh
+make engine          # git submodule update --init engine + engine/.venv
+engine/.venv/bin/mte list
+```
+
+- **In experiment scripts:** `from rexp.engine import mte, value`. This needs no
+  venv, because mtengine's API uses only the standard library.
+- **In Claude Code:** `.mcp.json` registers the `mtengine` MCP server
+  (`engine/.venv/bin/mtengine-mcp`), so sessions in this repository get its tools.
+- **Run metadata:** `meta.json` records the engine version and submodule commit
+  (`engine`).
+
+The submodule is pinned to mtengine's `claude/add-regina-backend` branch
+([davidmiheev/mtengine#1](https://github.com/davidmiheev/mtengine/pull/1)) until that
+PR is merged.
+
 ## Layout
 
 ```
@@ -44,10 +68,13 @@ experiments/
   e00_smoke/              known-answer checks of every Regina feature we use
   e01_closed_census_invariants/   run.py, analyze.py, figures.py, writeup.{md,pdf}
   e02_tricensus_regeneration/     run.py, retry.py, analyze.py, figures.py, writeup.{md,pdf}
+  e03_scramble_simplify/          run.py, analyze.py, figures.py, writeup.{md,pdf} (via mtengine)
   e06_hyperbolic_angle_structures/ run.py, analyze.py, figures.py, writeup.{md,pdf}
+engine/                   mtengine submodule (Regina backend, MCP server)
 src/rexp/                 shared helpers (on PYTHONPATH via the Makefile)
   census.py               iter_census("closed-or" | "cusped-hyp-or" | "knots" | ...)
   runlog.py               Run(...) context manager and timed()
+  engine.py               mte (mtengine API) and value()
 tests/                    unittest suite for rexp + smoke
 scripts/                  install, interpreter discovery, writeup build
 docs/writeup.css          print stylesheet for the PDF writeups
@@ -90,7 +117,8 @@ PDF.
 
 ## Cloud sessions
 
-`.claude/settings.json` has a SessionStart hook that runs the install script
-in Claude Code cloud sessions. The script exits immediately if Regina is
-already installed. CI (`.github/workflows/ci.yml`) installs Regina on
+`.claude/settings.json` has a SessionStart hook that runs
+`scripts/session-setup.sh` in Claude Code cloud sessions. It installs Regina,
+initialises the engine submodule and builds its venv, and it skips any step that
+is already done. CI (`.github/workflows/ci.yml`) installs Regina on
 `ubuntu-24.04` and runs `make test`.
