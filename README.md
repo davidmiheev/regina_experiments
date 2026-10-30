@@ -11,6 +11,7 @@ experiment has a writeup in Markdown and PDF:
 | E00 smoke test | [md](experiments/e00_smoke/writeup.md) · [pdf](experiments/e00_smoke/writeup.pdf) |
 | E01 Turaev–Viro invariants on the closed census | [md](experiments/e01_closed_census_invariants/writeup.md) · [pdf](experiments/e01_closed_census_invariants/writeup.pdf) |
 | E02 Regenerating the closed census with tricensus | [md](experiments/e02_tricensus_regeneration/writeup.md) · [pdf](experiments/e02_tricensus_regeneration/writeup.pdf) |
+| E03 Scramble, then simplify | [md](experiments/e03_scramble_simplify/writeup.md) · [pdf](experiments/e03_scramble_simplify/writeup.pdf) |
 | E06 Angle structures and geometry in the hyperbolic censuses | [md](experiments/e06_hyperbolic_angle_structures/writeup.md) · [pdf](experiments/e06_hyperbolic_angle_structures/writeup.pdf) |
 
 ## Setup (Ubuntu 24.04 / 25.04 / 25.10)

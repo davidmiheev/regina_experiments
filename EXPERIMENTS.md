@@ -13,7 +13,7 @@ Status: ✅ done · 🟡 started · ⬜ not started
 | E00 | Smoke test of every feature we rely on | ✅ | — | — |
 | E01 | How well cheap invariants separate the closed census | ✅ | S | E00 |
 | E02 | Regenerate the census with `tricensus` and diff it against the shipped data | ✅ | S | E00 |
-| E03 | Scramble, then simplify: when does greedy simplification fail? | ⬜ | M | E00, E02 |
+| E03 | Scramble, then simplify: when does greedy simplification fail? | ✅ | M | E00, E02 |
 | E04 | Pachner-graph connectivity between minimal triangulations | ⬜ | M | E02 |
 | E05 | Normal-surface statistics across the census | ⬜ | M | E01 |
 | E06 | Cusped hyperbolic census: angle structures vs geometry | ✅ | S | E00 |
@@ -22,8 +22,8 @@ Status: ✅ done · 🟡 started · ⬜ not started
 | E09 | 4-manifolds: small census, invariants, simplification | ⬜ | M | E02 |
 | E10 | How Turaev–Viro runtime scales with treewidth | ⬜ | M | E01 |
 
-**Suggested next:** E03 and E07, the first two that study algorithm
-behaviour rather than reproduce known data.
+**Suggested next:** E07 (knot census, via mtengine's `link_invariants`),
+then E04 (Pachner graph around E03's hard manifolds).
 
 ---
 
@@ -92,19 +92,24 @@ volume or census lookup resolve?*
 
 ## Tier 2: algorithm behaviour (the actual experiments)
 
-### E03 · Scramble, then simplify ⬜
-*If we start from a minimal triangulation and apply k random Pachner moves,
-how often does `simplify()` return to minimal size? When it fails, how much
-height does `simplifyExhaustive(h)` need?*
-- **Method:** for census manifolds (S³, lens spaces, Poincaré, Weeks, …),
-  do k ∈ {10, 50, 200, 1000} random `pachner()` 2-3 moves and some 1-4 moves.
-  Then run `simplify()` and record the final size, then escalate through
-  `simplifyExhaustive(height=1..4)`. Also time `isSphere()` and `summands()`
-  on the scrambled S³ and connected sums.
-- **Output:** success rate against (k, manifold). Keep the "stuck"
-  triangulations as a benchmark set in `data/`.
-- **Why:** gives us hard instances and tests how robust the recognition
-  pipelines are.
+### E03 · Scramble, then simplify ✅
+*If we scramble a minimal triangulation with k random Pachner moves, how often
+does `simplify()` fail to get back, and how much exhaustive search is needed?*
+- **Done** through mtengine (the first experiment to use it). Writeup:
+  `experiments/e03_scramble_simplify/writeup.pdf`.
+- **Headline:**
+  - 9,180 scrambles of 51 manifolds all return to minimal size.
+  - One `simplify()` call fails 2.3% of the time and the best of 5 fails
+    0.9%; exhaustive search needs at most height 2.
+  - Random 4-4 mixing triples the failure rate.
+  - Some manifolds are repeatedly hard (lens, graph, hyperbolic); torus
+    bundles and S³ never are.
+  - Random walks do not create harder instances than E02's natural hard set.
+- **Follow-ups:**
+  - Why the hard manifolds are hard: E04, the Pachner graph near their
+    minimal triangulations.
+  - Deliberately constructed hard instances, to see whether height 3 is ever
+    needed.
 
 ### E04 · Pachner-graph connectivity ⬜
 *For each census manifold, are all its minimal triangulations connected by

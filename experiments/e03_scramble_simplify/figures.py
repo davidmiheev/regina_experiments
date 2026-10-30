@@ -47,7 +47,8 @@ def failure(summary, out):
     ax.xaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: f"{v:g}"))
     ax.xaxis.set_minor_locator(matplotlib.ticker.NullLocator())
     ax.set_xlim(ks[0] / 1.3, ks[-1] * 1.6)
-    ax.set_ylim(0, None)
+    top = max(100 * v for row in tab.values() for v in row.values())
+    ax.set_ylim(0, top * 1.45)   # headroom for the legend
     ax.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: f"{v:g}%"))
     ax.set_xlabel("random moves applied to the minimal triangulation (k)")
     ax.set_ylabel("one simplify() call\nfails to get back")
