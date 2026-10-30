@@ -11,6 +11,8 @@ experiment has a writeup in Markdown and PDF:
 | E00 smoke test | [md](experiments/e00_smoke/writeup.md) · [pdf](experiments/e00_smoke/writeup.pdf) |
 | E01 Turaev–Viro invariants on the closed census | [md](experiments/e01_closed_census_invariants/writeup.md) · [pdf](experiments/e01_closed_census_invariants/writeup.pdf) |
 | E02 Regenerating the closed census with tricensus | [md](experiments/e02_tricensus_regeneration/writeup.md) · [pdf](experiments/e02_tricensus_regeneration/writeup.pdf) |
+| E03 Scramble, then simplify | [md](experiments/e03_scramble_simplify/writeup.md) · [pdf](experiments/e03_scramble_simplify/writeup.pdf) |
+| E06 Angle structures and geometry in the hyperbolic censuses | [md](experiments/e06_hyperbolic_angle_structures/writeup.md) · [pdf](experiments/e06_hyperbolic_angle_structures/writeup.pdf) |
 
 ## Setup (Ubuntu 24.04 / 25.04 / 25.10)
 
@@ -34,6 +36,30 @@ works, and the Makefile uses it automatically. To use a venv, create it from
 that interpreter with `--system-site-packages`. Regina also ships
 `regina-python`, a wrapper that pre-imports the module.
 
+## mtengine (computation engine)
+
+Regina is called through [mtengine](https://github.com/davidmiheev/mtengine), a git
+submodule at `engine/`. mtengine runs Regina in its own process and caches every
+result together with its provenance (Regina version, input hash, timing). The same
+functions are available three ways: the Python API, the `mte` command line, and an
+MCP server.
+
+```sh
+make engine          # git submodule update --init engine + engine/.venv
+engine/.venv/bin/mte list
+```
+
+- **In experiment scripts:** `from rexp.engine import mte, value`. This needs no
+  venv, because mtengine's API uses only the standard library.
+- **In Claude Code:** `.mcp.json` registers the `mtengine` MCP server
+  (`engine/.venv/bin/mtengine-mcp`), so sessions in this repository get its tools.
+- **Run metadata:** `meta.json` records the engine version and submodule commit
+  (`engine`).
+
+The submodule is pinned to mtengine's `claude/add-regina-backend` branch
+([davidmiheev/mtengine#1](https://github.com/davidmiheev/mtengine/pull/1)) until that
+PR is merged.
+
 ## Layout
 
 ```
@@ -43,9 +69,13 @@ experiments/
   e00_smoke/              known-answer checks of every Regina feature we use
   e01_closed_census_invariants/   run.py, analyze.py, figures.py, writeup.{md,pdf}
   e02_tricensus_regeneration/     run.py, retry.py, analyze.py, figures.py, writeup.{md,pdf}
+  e03_scramble_simplify/          run.py, analyze.py, figures.py, writeup.{md,pdf} (via mtengine)
+  e06_hyperbolic_angle_structures/ run.py, analyze.py, figures.py, writeup.{md,pdf}
+engine/                   mtengine submodule (Regina backend, MCP server)
 src/rexp/                 shared helpers (on PYTHONPATH via the Makefile)
   census.py               iter_census("closed-or" | "cusped-hyp-or" | "knots" | ...)
   runlog.py               Run(...) context manager and timed()
+  engine.py               mte (mtengine API) and value()
 tests/                    unittest suite for rexp + smoke
 scripts/                  install, interpreter discovery, writeup build
 docs/writeup.css          print stylesheet for the PDF writeups
@@ -80,15 +110,16 @@ PDF.
 |------|----------|--------:|
 | `closed-or` | closed orientable prime minimal, ≤ 10 tet (4,979 manifolds) | 14,720 |
 | `closed-nor` | closed non-orientable P²-irreducible minimal | 4,672 |
-| `closed-hyp` | Hodgson–Weeks closed hyperbolic | 3,018 |
-| `cusped-hyp-or` | cusped hyperbolic orientable, ≤ 9 tet | 9,596 |
-| `cusped-hyp-nor` | cusped hyperbolic non-orientable, ≤ 9 tet | 4,257 |
+| `closed-hyp` | Hodgson–Weeks closed hyperbolic (3,000 orientable + 18 non-orientable) | 3,018 |
+| `cusped-hyp-or` | cusped hyperbolic orientable, ≤ 7 tet (4,815 manifolds) | 9,596 |
+| `cusped-hyp-nor` | cusped hyperbolic non-orientable, ≤ 7 tet (1,259 manifolds) | 4,257 |
 | `knots` | prime knots and links | 59,937 |
 | `virtual` | virtual knots (Green) | 92,798 |
 
 ## Cloud sessions
 
-`.claude/settings.json` has a SessionStart hook that runs the install script
-in Claude Code cloud sessions. The script exits immediately if Regina is
-already installed. CI (`.github/workflows/ci.yml`) installs Regina on
+`.claude/settings.json` has a SessionStart hook that runs
+`scripts/session-setup.sh` in Claude Code cloud sessions. It installs Regina,
+initialises the engine submodule and builds its venv, and it skips any step that
+is already done. CI (`.github/workflows/ci.yml`) installs Regina on
 `ubuntu-24.04` and runs `make test`.

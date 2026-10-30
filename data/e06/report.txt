@@ -1,0 +1,53 @@
+run: /home/user/regina_experiments/results/e06_hyperbolic_angle_structures/20261029T200717Z  (Regina 7.4.1, git 7b52527adf19695f7f2403774349d5a7cab6578a, 35.163 s)
+
+=== cusped-hyp-or: 9596 triangulations of 4815 manifolds, n = 2..7, cusps {1: 9035, 2: 540, 3: 21}
+strict angle structure x SnapPea solution:
+  no strict / Nongeometric             19
+  strict / Geometric                 9413
+  strict / Nongeometric               164
+sanity: geometric but no strict angle structure: 0 (must be 0); LP vs enumeration disagreements: 0
+  n   tris  geometric  strict,nongeo  no strict   taut  mean vertices
+  2      2          2              0          0      2            5.0
+  3     10         10              0          0     10            8.6
+  4     75         75              0          0     75           15.4
+  5    360        359              1          0    360           27.7
+  6   1736       1710             23          3   1735           55.0
+  7   7413       7257            140         16   7387          112.5
+manifolds with no geometric census triangulation: 0; whose #1 triangulation is not geometric: 0
+volume spread across triangulations of one manifold (all solution types): max 1.69e-14
+census order (prefixes {'m': 301, 's': 962, 'v': 3552}): volume decreases between consecutive names 0 times []
+volume / (n * v_tet): max 1.000000000000; attained by ['m003 : #1', 'm004 : #1', 'm202 : #1', 'm203 : #1', 'm206 : #1', 'm207 : #1', 'm410 : #1', 'm412 : #1', 's955 : #1', 's956 : #1', 's957 : #1', 's958 : #1', 's959 : #1', 's960 : #1', 's961 : #1', 'v3551 : #1']
+
+=== cusped-hyp-nor: 4257 triangulations of 1259 manifolds, n = 1..7, cusps {1: 2804, 2: 1336, 3: 115, 4: 2}
+strict angle structure x SnapPea solution:
+  no strict / Nongeometric             15
+  strict / Geometric                 4140
+  strict / Nongeometric               102
+sanity: geometric but no strict angle structure: 0 (must be 0); LP vs enumeration disagreements: 0
+  n   tris  geometric  strict,nongeo  no strict   taut  mean vertices
+  1      1          1              0          0      1            3.0
+  2      3          3              0          0      3            7.3
+  3     11         11              0          0     11            9.3
+  4     60         60              0          0     60           16.7
+  5    179        172              7          0    179           27.6
+  6    801        778             20          3    798           55.5
+  7   3202       3115             75         12   3178          117.4
+manifolds with no geometric census triangulation: 0; whose #1 triangulation is not geometric: 0
+volume spread across triangulations of one manifold (all solution types): max 1.69e-14
+census order (prefixes {'m': 114, 'x': 258, 'y': 887}): volume decreases between consecutive names 0 times []
+volume / (n * v_tet): max 1.000000000000; attained by ['m000 : #1', 'm002 : #1', 'm002 : #2', 'm025 : #1', 'm204 : #1', 'm204 : #2', 'm205 : #1', 'm205 : #2', 'm405 : #1', 'm405 : #2', 'm406 : #1', 'm406 : #2', 'm407 : #1', 'm408 : #1', 'm408 : #2', 'm409 : #1', 'm409 : #2', 'm411 : #1', 'm413 : #1', 'm414 : #1', 'x249 : #1', 'x250 : #1', 'x250 : #2', 'x250 : #3', 'x251 : #1', 'x252 : #1', 'x253 : #1', 'x254 : #1', 'x255 : #1', 'x255 : #2', 'x256 : #1', 'x256 : #2', 'x257 : #1', 'x258 : #1', 'y886 : #1']
+
+=== closed-hyp: 3018 triangulations (n = 9..29)
+SnapPea on the closed triangulation itself, first construction (solution: count, volume = label):
+  Nongeometric     643     643
+  Degenerate      1253       0
+  Geometric       1122    1122
+over 20 independent constructions per triangulation: P(volume correct) = 0.582; correct every time 1470, never 1097, sometimes 451; non-degenerate <=> correct volume: True
+  P(correct) by n: 9: 0.98 (3), 10: 0.69 (20), 11: 0.61 (74), 12: 0.56 (153), 13: 0.59 (361), 14: 0.57 (804), 15: 0.54 (1038), 16: 0.70 (358), 17: 0.64 (92), 18: 0.70 (29), 19: 0.52 (28), 20: 0.56 (16), 21: 0.64 (6), 22: 0.25 (4), 23: 0.60 (5), 24: 0.50 (6), 25: 0.31 (7), 26: 0.50 (4), 27: 0.50 (4), 28: 0.67 (3), 29: 1.00 (3)
+Dehn fillings re-done from the cusped census: 3018 (0 labels name a cusped manifold missing from Regina's cusped census: [] ...)
+  647 base manifolds; labelled volumes reproduced with slopes {'as labelled': 328, 'mirror (-p, q)': 278, 'either': 37, 'other basis change': 4}
+  m010: 10 filling(s), basis changes (a,b,c,d) that fit: [[-1, -1, 0, 1], [1, 1, 0, -1]]
+  s960: 1 filling(s), basis changes (a,b,c,d) that fit: [[-3, -2, -1, -1], [-3, -1, -1, 0], [-1, -1, -3, -2], [-1, -1, 1, 0]]
+  s594: 13 filling(s), basis changes (a,b,c,d) that fit: [[-1, -1, 0, 1], [-1, -1, 1, 0], [1, 1, -1, 0], [1, 1, 0, -1]]
+  s786: 6 filling(s), basis changes (a,b,c,d) that fit: [[-1, -1, 0, 1], [1, 1, 0, -1]]
+  fillings whose labelled volume is reproduced: 3018 of 3018
