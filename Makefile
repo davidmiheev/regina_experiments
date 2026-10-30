@@ -3,7 +3,7 @@ PY := $(shell scripts/find-python.sh 2>/dev/null || echo python3)
 export PYTHONPATH := $(CURDIR)/src
 ARGS ?=
 
-.PHONY: help install engine install-writeup-deps env smoke test e01 e01-analyze e01-export e02 e02-retry e02-export e06 e06-export writeups clean-results
+.PHONY: help install engine install-writeup-deps env smoke test e01 e01-analyze e01-export e02 e02-retry e02-export e03 e03-export e06 e06-export writeups clean-results
 
 help:
 	@echo "make install       install Regina from the official Ubuntu apt repo (needs sudo)"
@@ -18,6 +18,8 @@ help:
 	@echo "make e02 ARGS=...  E02: regenerate the closed census with tricensus (ARGS='--max-n 10')"
 	@echo "make e02-retry ARGS=RUN_DIR  E02b: simplify() reliability on E02's non-minimal triangulations"
 	@echo "make e02-export ARGS=RUN_DIR copy the E02 summary to data/e02 and redraw its figures"
+	@echo "make e03 ARGS=...  E03: scramble, then simplify (via mtengine)"
+	@echo "make e03-export ARGS=RUN_DIR copy the E03 summary to data/e03 and redraw its figures"
 	@echo "make e06           E06: angle structures vs SnapPea on the hyperbolic censuses"
 	@echo "make e06-export ARGS=RUN_DIR copy the E06 summary to data/e06 and redraw its figures"
 	@echo "make writeups      render experiments/*/writeup.md to writeup.pdf"
@@ -63,6 +65,13 @@ e02-retry:
 e02-export:
 	$(PY) experiments/e02_tricensus_regeneration/analyze.py $(ARGS) --export data/e02
 	$(PY) experiments/e02_tricensus_regeneration/figures.py
+
+e03:
+	$(PY) experiments/e03_scramble_simplify/run.py $(ARGS)
+
+e03-export:
+	$(PY) experiments/e03_scramble_simplify/analyze.py $(ARGS) --export data/e03
+	$(PY) experiments/e03_scramble_simplify/figures.py
 
 e06:
 	$(PY) experiments/e06_hyperbolic_angle_structures/run.py $(ARGS)
