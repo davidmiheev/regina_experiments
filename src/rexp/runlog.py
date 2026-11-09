@@ -43,6 +43,15 @@ def _git_sha() -> str | None:
         return None
 
 
+def _engine_version() -> str | None:
+    """mtengine version and commit, if the engine submodule is present."""
+    try:
+        from .engine import engine_version
+        return engine_version()
+    except ImportError:
+        return None
+
+
 # Parameters that may change between an interrupted run and its resumption.
 VOLATILE_PARAMS = {"workers", "resume"}
 
@@ -60,6 +69,7 @@ class Run:
         stamp = _dt.datetime.now(_dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
         session = {
             "regina": regina.versionString(),
+            "engine": _engine_version(),
             "python": sys.version.split()[0],
             "host": platform.node(),
             "git": _git_sha(),

@@ -13,17 +13,17 @@ Status: ✅ done · 🟡 started · ⬜ not started
 | E00 | Smoke test of every feature we rely on | ✅ | — | — |
 | E01 | How well cheap invariants separate the closed census | ✅ | S | E00 |
 | E02 | Regenerate the census with `tricensus` and diff it against the shipped data | ✅ | S | E00 |
-| E03 | Scramble, then simplify: when does greedy simplification fail? | ⬜ | M | E00, E02 |
+| E03 | Scramble, then simplify: when does greedy simplification fail? | ✅ | M | E00, E02 |
 | E04 | Pachner-graph connectivity between minimal triangulations | ⬜ | M | E02 |
 | E05 | Normal-surface statistics across the census | ⬜ | M | E01 |
-| E06 | Cusped hyperbolic census: angle structures vs geometry | ⬜ | S | E00 |
+| E06 | Cusped hyperbolic census: angle structures vs geometry | ✅ | S | E00 |
 | E07 | Knot census: how well polynomials and complements separate knots | ⬜ | S | E00 |
 | E08 | Hard unknot diagrams: simplification vs recognition | ⬜ | M | E07 |
 | E09 | 4-manifolds: small census, invariants, simplification | ⬜ | M | E02 |
 | E10 | How Turaev–Viro runtime scales with treewidth | ⬜ | M | E01 |
 
-**Suggested next:** E06 (quick, and it validates the tooling). Then E03 and E07, the first two that study algorithm
-behaviour rather than reproduce known data.
+**Suggested next:** E07 (knot census, via mtengine's `link_invariants`),
+then E04 (Pachner graph around E03's hard manifolds).
 
 ---
 
@@ -57,17 +57,21 @@ apart, and which groups survive all of them?*
   4-D censuses with the same pipeline. The hard set
   (`data/e02/hard_nonminimal.tsv`) feeds E03.
 
-### E06 · Cusped hyperbolic census: angle structures vs geometry ⬜
-*For every triangulation in the cusped census (≤ 9 tetrahedra), does it admit a
-strict angle structure, and does SnapPea find a geometric solution?*
-- **Method:** call `AngleStructures(t).spansStrict()`, `spansTaut()` and
-  `SnapPeaTriangulation(t).solutionType()` and `.volume()`.
-  Cross-tabulate the results.
-- **Sanity:** volumes must match the census names (m003 ≈ 2.0299, m004 ≈ 2.0299).
-  Every closed-hyp label starts with its volume, so we can check those too.
-- **Interesting output:** census triangulations that are geometric but have no
-  strict angle structure, or the other way round. Also the distribution of
-  volume against tetrahedra.
+### E06 · Cusped hyperbolic census: angle structures vs geometry ✅
+*For every triangulation in the hyperbolic censuses: does it admit a strict
+angle structure, and does SnapPea find a geometric solution?*
+- **Done.** Writeup:
+  `experiments/e06_hyperbolic_angle_structures/writeup.pdf`.
+- **Headline:**
+  - No triangulation is geometric without a strict angle structure. 266
+    have a strict angle structure but are not geometric; 34 have none.
+    Every manifold's first triangulation is geometric.
+  - SnapPea on closed triangulations is random: 58% of attempts succeed,
+    and 36% of triangulations never do.
+  - All 3,018 closed volumes reproduce as Dehn fillings, once Regina's
+    mirror-image triangulations are accounted for.
+- **Follow-ups:** volume maximisation on the 266 strict-but-not-geometric
+  triangulations; the 8–9-tetrahedron cusped census through `tricensus -h`.
 
 ### E07 · Knot census: polynomials vs complements ⬜
 *Over Regina's knot census (~60k prime knots and links), how many collisions
@@ -88,19 +92,24 @@ volume or census lookup resolve?*
 
 ## Tier 2: algorithm behaviour (the actual experiments)
 
-### E03 · Scramble, then simplify ⬜
-*If we start from a minimal triangulation and apply k random Pachner moves,
-how often does `simplify()` return to minimal size? When it fails, how much
-height does `simplifyExhaustive(h)` need?*
-- **Method:** for census manifolds (S³, lens spaces, Poincaré, Weeks, …),
-  do k ∈ {10, 50, 200, 1000} random `pachner()` 2-3 moves and some 1-4 moves.
-  Then run `simplify()` and record the final size, then escalate through
-  `simplifyExhaustive(height=1..4)`. Also time `isSphere()` and `summands()`
-  on the scrambled S³ and connected sums.
-- **Output:** success rate against (k, manifold). Keep the "stuck"
-  triangulations as a benchmark set in `data/`.
-- **Why:** gives us hard instances and tests how robust the recognition
-  pipelines are.
+### E03 · Scramble, then simplify ✅
+*If we scramble a minimal triangulation with k random Pachner moves, how often
+does `simplify()` fail to get back, and how much exhaustive search is needed?*
+- **Done** through mtengine (the first experiment to use it). Writeup:
+  `experiments/e03_scramble_simplify/writeup.pdf`.
+- **Headline:**
+  - 9,180 scrambles of 51 manifolds all return to minimal size.
+  - One `simplify()` call fails 2.3% of the time and the best of 5 fails
+    0.9%; exhaustive search needs at most height 2.
+  - Random 4-4 mixing triples the failure rate.
+  - Some manifolds are repeatedly hard (lens, graph, hyperbolic); torus
+    bundles and S³ never are.
+  - Random walks do not create harder instances than E02's natural hard set.
+- **Follow-ups:**
+  - Why the hard manifolds are hard: E04, the Pachner graph near their
+    minimal triangulations.
+  - Deliberately constructed hard instances, to see whether height 3 is ever
+    needed.
 
 ### E04 · Pachner-graph connectivity ⬜
 *For each census manifold, are all its minimal triangulations connected by

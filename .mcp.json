@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "mtengine": {
+      "command": "engine/.venv/bin/mtengine-mcp"
+    }
+  }
+}
